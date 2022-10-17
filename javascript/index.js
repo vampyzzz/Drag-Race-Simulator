@@ -7541,7 +7541,7 @@ let stephanie = new Queen("Stephanie Prince", 6, 6, 7, 10, 6, 9, 6, "Stephanie")
 let suki = new Queen("Suki Doll", 8, 7, 6, 9, 5, 9, 5, "Suki");
 let synthia = new Queen("Synthia Kiss", 6, 8, 10, 7, 9, 7, 9, "Synthia");
 let can_season2 = [adriana, beth, eve, giametric, icesis, kendall, kimoraA, oceane, pythia, stephanie, suki, synthia];
-//CAN SEASON 2
+//CAN SEASON 3
 let bombae = new Queen("Bombae", 5, 7, 6, 8, 6, 7, 7, "Bombae");
 let chelazon = new Queen("Chelazon Leroux", 4, 9, 4, 7, 5, 7, 6, "Chelazon");
 let gisele = new Queen("Gisèle Lullaby", 6, 10, 8, 11, 10, 12, 9, "Gisele");
@@ -7706,7 +7706,8 @@ let xilhouete = new Queen("Xilhouete", 6, 10, 6, 8, 11, 10, 8, "Xilhouete");
 let drph = [brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
-let international_as = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
+let ukvstw = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
+let canvstw = [anita, icesis, kendall, rajah, rita, silky, stephanie, victoriaS, vanity];
 //all possible queens:
 let allCustomQueens = [];
 if (localStorage.getItem("customQueens") != null)

@@ -14,15 +14,22 @@
         <h1 id="MainTitle">Drag Race Simulator!</h1>
     </div>
     
-    <div id="MainBlock">
-        <p><big>This is you chance to simulate a drag race season with all your favorite contestants!</big></p>
-        <div>
-            <p>How many queens do you want on your cast?</p>
-            <input type="number" min="3" max="20" id="castSize">
-            <button onclick="generateSpace()">Select</button>
+    <div class="mainPart" id="MainBlock">
+        <p><big>This is your chance to simulate a drag race season with all your favorite contestants!</big></p>
+        <div class="search-wrapper">
+            <big><label for="search">Choose your contestants:</label></big>
+            <input type="search" id="search" class="searchInput" placeholder="Search Contestant" data-search>
         </div>
-        <p id="castSelection"></p>
-
+        <div class="drag-cards" data-drag-cards-container></div>
+        <template data-drag-template>
+            <div class="card hide">
+                <div class="data-image" data-image></div>
+                <div class="header" data-header></div>
+            </div>
+        </template>
+        <hr>
+        <big class="hide" id="castBig">Current Cast<br></big>
+        <div id="chosenKweens" class="drag-cards"></div>
         <div>
             <p>Choose your premiere format: </p>
             <select id="premiere-format">
@@ -51,31 +58,40 @@
         </div>
             
         <div>
-            <p>Choose your finale format: </p>
+            <p>Choose your season format: </p>
             <select id="format">
-                <option value="top3">Top 3 Format</option>
-                <option value="top4">Lip-Sync For The Crown</option>
+                <option value="regular">Regular Format</option>
                 <option value="thailand">Thailand's Format</option>
-                <option value="canS2">Lip Sync for the Finale</option>
                 <option value="team">Teams Format</option>
-                <option value="all-stars">Lip-Sync For Your Legacy</option>
-                <option value="jury-allstars">Jury All Stars</option>
-                <option value="international-allstars">UK vs The World</option>
-                <option value="lipsync-assassin">Lip-Sync Assassin Format</option>
+                <option value="all-stars">Lipsync For Your Legacy Format</option>
+                <option value="lipsync-assassin">Lipsync Assassin Format</option>
                 <option value="all-winners">All Winners Format</option>
             </select>
         </div>
 
         <div>
+            <p>Choose your finale format: </p>
+            <select id="finale">
+                <option value="top5">Top 5</option>
+                <option value="top4">Top 4</option>
+                <option value="top3">Top 3</option>
+                <option value="teams">Teams Finale</option>
+                <option value="LFTC">Lip-Sync For The Crown</option>
+                <option value="LFTF">Lip Sync for the Finale</option>
+                <option value="jury">Jury Vote</option>
+            </select>
+        </div>
+        <br>
+        <div><button onclick="startSimulation()">Simulate now!</button></div>
+        <hr>
+        <div>
+            <big>Options: <br></big>
+            <input type="checkbox" id="disableDouble"> Disable double shantays and sashays <br>
+            <input type="checkbox" id="riggory"> Disable Riggory for challenge wins
             <p>Chocolate Bar Twist: </p>
             <input type="checkbox" id="chocolateBar"> Random
             <input type="checkbox" id="chocolateBarChoosable"> Choosable
         </div>
-        <div><button onclick="startSimulation()">Simulate now!</button></div>
-    
-        <input type="checkbox" id="disableDouble">Disable double shantays and sashays
-        <input type="checkbox" id="onlyCustomQueens"> Show Only Custom Queens
-        <input type="checkbox" id="riggory"> Disable Riggory for challenge wins
         <hr>
 
         <big>More options!</big>
@@ -97,16 +113,13 @@
 
     </div>
     <div id="result" style="display: none;"></div>
-    <div style="text-align: center; font-weight: bold;">
-        <p><small>This simulator was created by <a href="https://edssb.github.io/rupauls-drag-race-simulator/index.html" target=_blank>edssb/JustALittleKiller</a></small> and I'm just updating it <a href="https://github.com/MyRainboww/Drag-Race-Simulator#readme" target=_blank>(My GitHub Page)</a>.</p>
-    </div>
     <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.js" integrity="sha512-sn/GHTj+FCxK5wam7k9w4gPPm6zss4Zwl/X9wgrvGMFbnedR8lTUSLdsolDRBRzsX6N+YgG6OWyvn9qaFVXH9w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
     <script>
-    kofiWidgetOverlay.draw('rupaulssimulator', {
+    kofiWidgetOverlay.draw('arainbow4u', {
         'type': 'floating-chat',
-        'floating-chat.donateButton.text': 'Tip edssb',
+        'floating-chat.donateButton.text': 'Tip Rainbow',
         'floating-chat.donateButton.background-color': '#5bc0de',
         'floating-chat.donateButton.text-color': '#323842'
     });

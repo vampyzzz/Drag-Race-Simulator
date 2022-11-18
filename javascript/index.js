@@ -2336,13 +2336,19 @@ function finaleJuryAS() {
     screen.createBold("After the Top 4 had their meetings with the eliminated queens... The eliminated queens vote!!");
     for (let i = 0; i < eliminatedCast.length; i++) {
         voting = [...currentCast];
-        eliminatedCast[i].lipstick = voting[randomNumber(0, voting.length - 1)];
+        eliminatedCast[i].lipstick = bestSister(eliminatedCast[i], voting);
+        if (voting.find(q => { return q.getName() == eliminatedCast[i].lipstick.getName()}) == undefined) {
+            eliminatedCast[i].lipstick = voting[randomNumber(0, voting.length - 1)];
+        }
         eliminatedCast[i].lipstick.votes += 2;
         voting.splice(voting.indexOf(eliminatedCast[i].lipstick), 1);
         screen.createImage(eliminatedCast[i].image , "black");
         screen.createImage(eliminatedCast[i].lipstick.image , "yellow");
         screen.createParagraph(`${eliminatedCast[i].getName()} voted for ${eliminatedCast[i].lipstick.getName()}! As their first option.`);
-        eliminatedCast[i].lipstick = voting[randomNumber(0, voting.length - 1)];
+        eliminatedCast[i].lipstick = bestSister(eliminatedCast[i], voting);
+        if (voting.find(q => { return q.getName() == eliminatedCast[i].lipstick.getName()}) == undefined) {
+            eliminatedCast[i].lipstick = voting[randomNumber(0, voting.length - 1)];
+        }
         eliminatedCast[i].lipstick.votes += 1;
         screen.createImage(eliminatedCast[i].image , "black");
         screen.createImage(eliminatedCast[i].lipstick.image , "silver");
@@ -2363,7 +2369,10 @@ function finaleJuryAS() {
         currentCast[2].votes = 0;
         for (let i = 0; i < eliminatedCast.length; i++) {
             voting = [currentCast[1], currentCast[2]];
-            eliminatedCast[i].lipstick = voting[randomNumber(0, voting.length - 1)];
+            eliminatedCast[i].lipstick = bestSister(eliminatedCast[i], voting);
+            if (voting.find(q => { return q.getName() == eliminatedCast[i].lipstick.getName()}) == undefined) {
+                eliminatedCast[i].lipstick = voting[randomNumber(0, voting.length - 1)];
+            }
             eliminatedCast[i].lipstick.votes += 1;
             screen.createImage(eliminatedCast[i].image , "black");
             screen.createImage(eliminatedCast[i].lipstick.image , "yellow");
@@ -2377,7 +2386,7 @@ function finaleJuryAS() {
         let tiebreaker = voting.sort((a, b) => b.votes - a.votes)[0];
         screen.createBold(`${tiebreaker.getName()} moves into the finale!!`);
         tiebreaker.votes = ogvote;
-        voting[1] = ogvote;
+        voting[1].votes = ogvote;
         queen1 = tiebreaker;
     }
     screen.createBold(`${queen.getName()} and ${queen1.getName()} are the Top 2 of the season!!`);
@@ -2774,6 +2783,7 @@ function contestantProgress() {
             }
             else if (placement.innerHTML == "WIN+RTRN") {
                 placement.setAttribute("style", "font-weight: bold; background-color: forestgreen; color: white;");
+                placement.innerHTML = "<b>WIN<br>+<br> RTRN</b>";
             }
             else if (placement.innerHTML == "SAFE") {
                 placement.setAttribute("style", "background-color: white;");
@@ -2900,6 +2910,18 @@ function contestantProgress() {
             if (winnerQueen.miniEpisode.indexOf((i+1)) != -1) {
                 placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
             }
+            if (winnerQueen.retEp == (i+1) && winnerQueen.retEp - winnerQueen.trackRecord.length <= 0) {
+                placement.innerHTML = "<b>RTRN</b><br>" + "+<br>" + placement.innerHTML;
+                if (placement.innerHTML == "<b>RTRN</b><br>+<br>SAFE") {
+                    placement.setAttribute("style", "background-color: orange;");
+                }
+                if (placement.innerHTML == "<b>RTRN</b><br>+<br>LOW") {
+                    placement.setAttribute("style", "background-color: #ffb18a;");
+                }
+                if (placement.innerHTML == "<b>RTRN</b><br>+<br>HIGH") {
+                    placement.setAttribute("style", "background-color: greenyellow;");
+                }
+            }
             winner.appendChild(placement);
         }
         trackRecords.appendChild(winner);
@@ -3019,6 +3041,7 @@ function contestantProgress() {
                 }
                 else if (placement.innerHTML == "WIN+RTRN") {
                     placement.setAttribute("style", "font-weight: bold; background-color: forestgreen; color:white;");
+                    placement.innerHTML = "<b>WIN<br>+<br> RTRN</b>";
                 }
                 else if (placement.innerHTML == "SAFE") {
                     placement.setAttribute("style", "background-color: white;");
@@ -3144,6 +3167,18 @@ function contestantProgress() {
                 }
                 if (currentCast[i].miniEpisode.indexOf(k+1) != -1) {
                     placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
+                }
+                if (currentCast[i].retEp == (k+1) && currentCast[i].retEp - currentCast[i].trackRecord.length <= 0) {
+                    placement.innerHTML = "<b>RTRN</b><br>" + "+<br>" + placement.innerHTML;
+                    if (placement.innerHTML == "<b>RTRN</b><br>+<br>SAFE") {
+                        placement.setAttribute("style", "background-color: orange;");
+                    }
+                    if (placement.innerHTML == "<b>RTRN</b><br>+<br>LOW") {
+                        placement.setAttribute("style", "background-color: #ffb18a;");
+                    }
+                    if (placement.innerHTML == "<b>RTRN</b><br>+<br>HIGH") {
+                        placement.setAttribute("style", "background-color: greenyellow;");
+                    }
                 }
                 contestant.appendChild(placement);
             }
@@ -3298,6 +3333,7 @@ function contestantProgress() {
             }
             else if (placement.innerHTML == "WIN+RTRN") {
                 placement.setAttribute("style", "font-weight: bold; background-color: forestgreen; color:white;");
+                placement.innerHTML = "<b>WIN<br>+<br> RTRN</b>";
             }
             else if (placement.innerHTML == "SAFE") {
                 placement.setAttribute("style", "background-color: white;");
@@ -3423,6 +3459,18 @@ function contestantProgress() {
             }
             if (eliminatedCast[i].miniEpisode.indexOf((k+1)) != -1) {
                 placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
+            }
+            if (eliminatedCast[i].retEp == (k+1) && eliminatedCast[i].retEp - eliminatedCast[i].trackRecord.length <= 0) {
+                placement.innerHTML = "<b>RTRN</b><br>" + "+<br>" + placement.innerHTML;
+                if (placement.innerHTML == "<b>RTRN</b><br>+<br>SAFE") {
+                    placement.setAttribute("style", "background-color: orange;");
+                }
+                if (placement.innerHTML == "<b>RTRN</b><br>+<br>LOW") {
+                    placement.setAttribute("style", "background-color: #ffb18a;");
+                }
+                if (placement.innerHTML == "<b>RTRN</b><br>+<br>HIGH") {
+                    placement.setAttribute("style", "background-color: greenyellow;");
+                }
             }
             contestant.appendChild(placement);
         }
@@ -4076,6 +4124,14 @@ function startSimulation(challenge = "") {
         else if (team && (smackdown || voteReturn || randomReturn || chocolateBarTwist || s9Premiere || s6Premiere || lalaparuza || queensOfComedy || kittyGirlGroup || conjoinedQueens || s12Premiere || porkchopPremiere || s14Premiere || uk3Premiere || top5 || top4 || top3 || lftc || canFinale || allstars3Finale)) {
             window.alert("The team format isn't supported with any special premiere, returning formats or a different finale that is not Teams Finale, sorry!");
             team = false;
+            top5 = false;
+            top4 = false;
+            top3 = false;
+            teamsF = false;
+            regularFormat = false;
+            thailandFormat = false;
+            lftc = false;
+            canFinale = false;
             smackdown = false;
             voteReturn = false;
             randomReturn = false;
@@ -5879,7 +5935,7 @@ function top2AndBtm() {
         }
     } else {
         for (let i = 0; i < bottomQueens.length; i++) {
-            if (bottomQueens[i].performanceScore >= 0 && bottomQueens[i].performanceScore < 16) {
+            if (bottomQueens[i].performanceScore >= 0 && bottomQueens[i].performanceScore < 16 && bottomQueens.length > 2) {
                 screen.createImage(bottomQueens[i].image, "pink");
                 screen.createParagraph(bottomQueens[i].getName() + ", you are safe.");
                 bottomQueens[i].addToTrackRecord("LOW");
@@ -7236,6 +7292,7 @@ class Queen {
         this.episodesOn = 0;
         this.votes = 0;
         this.rankP = 0;
+        this.retEp = 0;
         this.blocked = false;
         this.QueenDisqOrDept = false;
         this.customqueen = false;
@@ -7913,6 +7970,7 @@ function queenReturns() {
         eliminatedCast.splice(eliminatedCast.indexOf(queen), 1);
         screen.createImage(queen.image, "aquamarine");
         screen.createBold(queen.getName());
+        queen.retEp = episodeCount+1;
         quitarDoubleElim(queen);
     } else {
         let main = document.querySelector("div#MainBlock");
@@ -7961,6 +8019,7 @@ function fijarReturningQueen() {
     newEpisodeB.removeAttribute("hidden");
     currentCast.push(queen);
     eliminatedCast.splice(eliminatedCast.indexOf(queen), 1);
+    queen.retEp = episodeCount+1;
     quitarDoubleElim(queen);
 }
 function quitarDoubleElim(queen) {
@@ -8002,9 +8061,11 @@ function queenReturnsVote() {
     }
     screen.createHorizontalLine();
     let queen = [...eliminatedCast].sort((a, b) => b.votes - a.votes)[0];
+    screen.createImage(queen.image);
     screen.createBold(`${queen.getName()} returns to the competition!`);
     currentCast.push(queen);
     eliminatedCast.splice(eliminatedCast.indexOf(queen), 1);
+    queen.retEp = episodeCount+1
     quitarDoubleElim(queen);
 }
 function lipsyncSmackdown() {
@@ -8850,7 +8911,7 @@ function topKittyWinLipsync(sittingOnASecret) {
         screen.createHorizontalLine();
         screen.createBold("Now... Which queen have you both chosen to bring back to the competition?");
         for (let i = 0; i < 2; i++) {
-            top2[i].lipstick = bestSister(sittingOnASecret);
+            top2[i].lipstick = bestSister(top2[i], sittingOnASecret);
             if (sittingOnASecret.find(q => { return q.getName() == top2[i].lipstick.getName()}) == undefined) {
                 top2[i].lipstick = sittingOnASecret[randomNumber(0, sittingOnASecret.length - 1)];
             }

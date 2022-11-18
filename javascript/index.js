@@ -6373,7 +6373,7 @@ function lipSync() {
                 doubleShantay = true;
             }
         }
-        else if (score1 < 4 && score2 < 4 && randomNumber(0, 100) <= 100 && !doubleSashay && currentCast.length > 6 && noDouble == false) {
+        else if (score1 < 4 && score2 < 4 && randomNumber(0, 100) <= 10 && !doubleSashay && currentCast.length > 6 && noDouble == false) {
             screen.createImage(bottomQueens[0].image, "darkred");
             screen.createImage(bottomQueens[1].image, "darkred");
             if (chocolateBarTwist  && !chocolateBarTwistCheck) {

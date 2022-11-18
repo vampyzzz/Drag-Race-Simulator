@@ -2146,11 +2146,12 @@ function finaleTop5Judging() {
             currentCast[i].rankP = 345;
             eliminatedCast.unshift(currentCast[i]);
         }
+        finalLS = [];
         finalLS.push(currentCast[0]);
         finalLS.push(currentCast[1]);
         screen.createButton("Proceed", "finaleLipSyncsDesc3()");
     }
-    currentCast.splice(0, 5);
+    currentCast.splice(0, currentCast.length);
     runT5 = true;
 }
 function finaleTeamJudging() {
@@ -3175,11 +3176,11 @@ function contestantProgress() {
         } else if (eliminatedCast[i].rankP == 345) {
             rank.innerHTML += "3rd/4th/5th";
         } else if (eliminatedCast[i].rankP == "tie1") {
-            rank.innerHTML = (rankNumber+1+i) + "th";
-            rank.innerHTML += "/" + (rankNumber+i) + "th";
-        } else if (eliminatedCast[i].rankP == "tie2") {
-            rank.innerHTML = (rankNumber+2+i) + "th";
+            rank.innerHTML = (rankNumber+i) + "th";
             rank.innerHTML += "/" + (rankNumber+1+i) + "th";
+        } else if (eliminatedCast[i].rankP == "tie2") {
+            rank.innerHTML = (rankNumber+1+i) + "th";
+            rank.innerHTML += "/" + (rankNumber+2+i) + "th";
         }
         contestant.appendChild(rank);
         let name = document.createElement("td");
@@ -11837,11 +11838,11 @@ function teamLipSyncDesc() {
     screen.createBold(`${bottomQueens[0].lipsyncQueen.getName()} and ${bottomQueens[1].lipsyncQueen.getName()} will be lip-syncing`);
     lsSong();
     screen.createHorizontalLine();
-    if (randomNumber(0, 100) >= 0 && wholipsyncs) {
+    if (randomNumber(0, 100) >= 98 && wholipsyncs) {
         screen.createImage(bottomQueens[0].QueenB.image, "red");
         screen.createBold("OMG!! " + bottomQueens[0].QueenB.getName() + " hits the she-mergency button and now she is going to lipsync!!");
         bottomQueens[0].lipsyncQueen = bottomQueens[0].QueenB;
-    } else if (randomNumber(0, 100) >= 0 && !wholipsyncs) {
+    } else if (randomNumber(0, 100) >= 98 && !wholipsyncs) {
         screen.createImage(bottomQueens[0].QueenA.image, "red");
         screen.createBold("OMG!! " + bottomQueens[0].QueenA.getName() + " hits the she-mergency button and now she is going to lipsync!!");
         bottomQueens[0].lipsyncQueen = bottomQueens[0].QueenA;
@@ -12242,9 +12243,6 @@ function chooseLateQueen() {
     main.appendChild(castSelection);
     returnImg();
     screen.createButton("Choose", "fijarLateQueen()", "fijar");
-    for (let i = 0; i < currentCast.length; i++) {
-        fullCast.push(currentCast[i]);
-    }
 }
 function fijarLateQueen() {
     let screen = new Scene();

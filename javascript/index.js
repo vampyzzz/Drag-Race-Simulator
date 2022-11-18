@@ -12183,7 +12183,7 @@ function updateCast() {
 function addKween(queen) {
     return `<div  class="card">
         <div class="data-image">
-            <img src="`+queen.image+`"/>
+            <img src="`+queen.image+`" style= "border-color: black; width: 105px; height: 105px;"/>
         </div>
         <div class="data-header">`+queen._name+`</div>
         <div class="data-body" id="`+queen._name+`"><button id="remove">X</button></div>

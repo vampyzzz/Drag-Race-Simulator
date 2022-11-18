@@ -1588,6 +1588,8 @@ function newEpisode() {
                 }
             }
         });
+        let koffeDiv = document.getElementsByClassName("floatingchat-container-wrap");
+        koffeDiv[0].classList.toggle("hide", true);
     }
     if (s9Premiere && episodeCount == 0) {
         currentCast.splice(currentCast.indexOf(lateQueen), 1);
@@ -2907,9 +2909,6 @@ function contestantProgress() {
                 placement.setAttribute("style", "font-weight: bold; background-color: lightgray;");
                 placement.innerHTML = (winnerQueen.ppe / (winnerQueen.episodesOn)).toFixed(2);
             }
-            if (winnerQueen.miniEpisode.indexOf((i+1)) != -1) {
-                placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
-            }
             if (winnerQueen.retEp == (i+1) && winnerQueen.retEp - winnerQueen.trackRecord.length <= 0) {
                 placement.innerHTML = "<b>RTRN</b><br>" + "+<br>" + placement.innerHTML;
                 if (placement.innerHTML == "<b>RTRN</b><br>+<br>SAFE") {
@@ -2921,6 +2920,9 @@ function contestantProgress() {
                 if (placement.innerHTML == "<b>RTRN</b><br>+<br>HIGH") {
                     placement.setAttribute("style", "background-color: greenyellow;");
                 }
+            }
+            if (winnerQueen.miniEpisode.indexOf((i+1)) != -1) {
+                placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
             }
             winner.appendChild(placement);
         }
@@ -3165,9 +3167,6 @@ function contestantProgress() {
                     placement.setAttribute("style", "font-weight: bold; background-color: lightgray;");
                     placement.innerHTML = (currentCast[i].ppe / (currentCast[i].episodesOn)).toFixed(2);
                 }
-                if (currentCast[i].miniEpisode.indexOf(k+1) != -1) {
-                    placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
-                }
                 if (currentCast[i].retEp == (k+1) && currentCast[i].retEp - currentCast[i].trackRecord.length <= 0) {
                     placement.innerHTML = "<b>RTRN</b><br>" + "+<br>" + placement.innerHTML;
                     if (placement.innerHTML == "<b>RTRN</b><br>+<br>SAFE") {
@@ -3179,6 +3178,9 @@ function contestantProgress() {
                     if (placement.innerHTML == "<b>RTRN</b><br>+<br>HIGH") {
                         placement.setAttribute("style", "background-color: greenyellow;");
                     }
+                }
+                if (currentCast[i].miniEpisode.indexOf(k+1) != -1) {
+                    placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
                 }
                 contestant.appendChild(placement);
             }
@@ -3457,9 +3459,6 @@ function contestantProgress() {
                 placement.setAttribute("style", "font-weight: bold; background-color: lightgray;");
                 placement.innerHTML = (eliminatedCast[i].ppe / (eliminatedCast[i].episodesOn)).toFixed(2);
             }
-            if (eliminatedCast[i].miniEpisode.indexOf((k+1)) != -1) {
-                placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
-            }
             if (eliminatedCast[i].retEp == (k+1) && eliminatedCast[i].retEp - eliminatedCast[i].trackRecord.length <= 0) {
                 placement.innerHTML = "<b>RTRN</b><br>" + "+<br>" + placement.innerHTML;
                 if (placement.innerHTML == "<b>RTRN</b><br>+<br>SAFE") {
@@ -3470,6 +3469,9 @@ function contestantProgress() {
                 }
                 if (placement.innerHTML == "<b>RTRN</b><br>+<br>HIGH") {
                     placement.setAttribute("style", "background-color: greenyellow;");
+                }
+                if (eliminatedCast[i].miniEpisode.indexOf((k+1)) != -1) {
+                    placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
                 }
             }
             contestant.appendChild(placement);
@@ -3640,6 +3642,8 @@ function contestantProgress() {
         screen.createButton("Download", "downloadTR()", "downloadTR");
         screen.createHorizontalLine();
         screen.createButton("Back to main page", "location.reload()");
+        let koffeDiv = document.getElementsByClassName("floatingchat-container-wrap");
+        koffeDiv[0].classList.toggle("hide", false);
     }
 }
 let totalCastSize;

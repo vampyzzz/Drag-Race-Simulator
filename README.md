@@ -1,12 +1,40 @@
 # Drag Race Simulator
-Drag Race Simulator based on edssb sim.
+Drag Race Simulator
 <br> You can also send me a dm in Discord if you find a bug or something that wasn't cute. <b> Rainbow#4283</b>
+
+# 11/18/2022
+* Added a search bar for the contestants
+* Finales and Season formats are now independent
+* Top 5 Finale
+* Top 4 Finale
+* UK 4 Stats updated
+* Now you can set GIFs as the contestants images
+* Now you get to choose who is the contestant that misses episode 1 with "Season 9 Premiere"
+* Double Elimination Ranks are now working properly
+* Teams Format now have Miss Congeniality
+* Contestant Progress Table now has a determined width and height
+* Most of the bugs that you all sent me in the bugs channel are fixed
 
 # 09/24/2022
 * Updated Down Under S2 Queens stats
 * Updated Canada's Drag Race S3 Queens stats
 
-# 08/21/2022
+
+# Working on
+Currently I'm working on Untucked!
+# To do list (not in order)
+ * Untucked *
+ * Predefined custom cast *
+ * Interactive format *
+ * Choosing the challenges order *
+ * Drag Race Italia Exp lipsync *
+ * S1-S5 immunity *
+ * Be RuPaul format *
+ * Detailed Challenges *
+ * Choose the lipsync assassin for your season *
+ * ...
+ 
+ # 08/21/2022
 * Added mini challenges wins to the track record table
 * Added Miss Congeniality
 * Added first version of a Reunion
@@ -20,31 +48,12 @@ Drag Race Simulator based on edssb sim.
 * Updated the track record table
 * The Contestant with the LOW LOW LOW LOW LOW bug is fixed 
 * I don't remember what else I added :(
-
-# 08/06/2022
+ 
+ # 08/06/2022
 * Added first version of Drag Race Thailand format
 * Added the lipsync for the Finale to Drag Race France
 * Updated stats of Drag Race Thailand queens
 * Fixed some bugs
-
-
-# Working on
-Currently I'm working on Untucked!
-# To do list (not in order)
- * Untucked *
- * Predefined custom cast *
- * Thailands format *
- * Interactive format *
- * Choosing the challenges order *
- * Stats tab *
- * Reveal placements and lipsync winners*
- * Drag Race Italia Exp lipsync *
- * S1-S5 immunity *
- * Be RuPaul format *
- * Miss Congeniality *
- * Detailed Challenges *
- * Choose the lipsync assassin for your season *
- * ...
  
  # 07/30/2022
 * Updated All Winners Format:

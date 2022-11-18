@@ -1730,6 +1730,8 @@ function reSimulate() {
             giveChocolate();
         }
     }
+    else if (s9Premiere)
+        chooseLateQueen();
     else if (s6Premiere || s12Premiere || s14Premiere)
         doublePremiere();
     else if (porkchopPremiere)

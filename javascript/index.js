@@ -2675,6 +2675,7 @@ function contestantProgress() {
         winner.appendChild(photo);
         for (let i = 0; i < winnerQueen.trackRecord.length + 1; i++) {
             let placement = document.createElement("td");
+            placement.setAttribute("class", "placement");
             placement.innerHTML = winnerQueen.trackRecord[i];
             if (placement.innerHTML == "WIN") {
                 placement.setAttribute("style", "font-weight: bold; background-color: royalblue; color: white;");

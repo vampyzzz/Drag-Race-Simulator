@@ -8931,7 +8931,7 @@ function topKittyWinLipsync(sittingOnASecret) {
         } 
         screen.createHorizontalLine();
         screen.createBold("Now... Which queen have you chosen to bring back to the competition?");
-        top2[0].lipstick = bestSister(sittingOnASecret);
+        top2[0].lipstick = bestSister(top2[0], sittingOnASecret);
         if (sittingOnASecret.find(q => { return q.getName() == top2[0].lipstick.getName()}) == undefined) {
             top2[0].lipstick = sittingOnASecret[randomNumber(0, sittingOnASecret.length - 1)];
         }
@@ -11974,6 +11974,7 @@ function finaleLipSyncsDesc3() {
     screen.createHeader("The end...");
     for (let i = 0; i < finalLS.length; i++) {
         finalLS[i].getASLipsync();
+        finalLS[i].getFinale();
     }
     if (finaleof4gurl) {
         screen.createBold(finalLS[0].getName() + ", " + finalLS[1].getName() + ", " + finalLS[2].getName() + " and " + finalLS[3].getName() + " will lip-sync for the crown...!");
@@ -11999,9 +12000,6 @@ function finaleLipSyncsDesc3() {
     let bad = finalLS.filter(function (queen) { return queen.lipsyncScore >= 2 && queen.lipsyncScore < 4; });
     let flop = finalLS.filter(function (queen) { return queen.lipsyncScore >= 0 && queen.lipsyncScore < 2; });
     createLipsyncDesc(slay, great, good, bad, flop);
-    for (let i = 0; i < finalLS.length; i++) {
-        finalLS[i].getFinale();
-    }
     screen.createButton("Show result", "finalLipSync()");
 }
 
@@ -12110,7 +12108,20 @@ const queenCardTemplate = document.querySelector("[data-drag-template]");
 const queenCardContainer = document.querySelector("[data-drag-cards-container]");
 const searchInput = document.querySelector("[data-search]");
 let chosenKweensContainer = document.getElementById("chosenKweens");
-let allCards
+
+function moreKweens() {
+    let button = document.getElementById("randomK");
+    let button1 = document.getElementById("moreK");
+    if (currentCast.length < 20) {
+        button.classList.toggle("hide", false);
+        button1.classList.toggle("hide", true);
+        searchInput.removeAttribute("readonly");
+        searchInput.removeAttribute("placeholder");
+        searchInput.setAttribute("placeholder", "Type a name..");
+    } else {
+        window.alert("Remove one contestant of your current cast..");
+    }
+}
 
 let showingQueens = [];
 
@@ -12262,6 +12273,25 @@ function fijarLateQueen() {
     screen.createBold(lateQueen.getName());
     lateQueen.addToTrackRecord('');
     screen.createButton("Proceed", "newEpisode()");
+}
+
+function addRandomContestant() {
+    let button = document.getElementById("randomK");
+    let button1 = document.getElementById("moreK");
+    let randomContestant = allQueens[randomNumber(0, allQueens.length - 1)];
+    currentCast.push(randomContestant);
+    updateCast();
+    if (currentCast.length >= 20) {
+        searchInput.setAttribute("readonly", true);
+        searchInput.removeAttribute("placeholder");
+        searchInput.setAttribute("placeholder", "You can't choose more than 20 contestants");
+        button.classList.toggle("hide", true);
+        button1.classList.toggle("hide", false);
+    }
+    let big = document.getElementById("castBig");
+    if (currentCast.length != 0) {
+        big.classList.toggle("hide", false);
+    }
 }
 ///// AGREGAR INMUNIDAD.
 ///// REUNION.

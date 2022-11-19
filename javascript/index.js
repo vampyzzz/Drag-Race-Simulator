@@ -1589,7 +1589,9 @@ function newEpisode() {
             }
         });
         let koffeDiv = document.getElementsByClassName("floatingchat-container-wrap");
+        let koffeDivMovil = document.getElementsByClassName("floatingchat-container-wrap-mobi");
         koffeDiv[0].classList.toggle("hide", true);
+        koffeDivMovil[0].classList.toggle("hide", true);
     }
     if (s9Premiere && episodeCount == 0) {
         currentCast.splice(currentCast.indexOf(lateQueen), 1);
@@ -2113,10 +2115,12 @@ function finaleTop4Judging() {
         lsSong();
         finaleof4gurl = true;
     }
-    for (let i = 0; i < currentCast.length; i++) {
-        currentCast[i].addToTrackRecord("TOP " + currentCast.length);
+    if (regularFormat || thailandFormat) {
+        episodeChallenges.push("Music Video");
+        for (let i = 0; i < currentCast.length; i++) {
+            currentCast[i].addToTrackRecord("TOP " + currentCast.length);
+        }
     }
-    episodeChallenges.push("Music Video");
     screen.createButton("Proceed", "finaleFinale()");
 }
 let runT5 = false;
@@ -3644,7 +3648,9 @@ function contestantProgress() {
         screen.createHorizontalLine();
         screen.createButton("Back to main page", "location.reload()");
         let koffeDiv = document.getElementsByClassName("floatingchat-container-wrap");
+        let koffeDivMovil = document.getElementsByClassName("floatingchat-container-wrap-mobi");
         koffeDiv[0].classList.toggle("hide", false);
+        koffeDivMovil[0].classList.toggle("hide", false);
     }
 }
 let totalCastSize;

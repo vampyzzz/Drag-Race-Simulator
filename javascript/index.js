@@ -1684,6 +1684,7 @@ function reSimulate() {
         currentCast[i].stars = 0;
         currentCast[i].winCount = 0;
         currentCast[i].rankP = 0;
+        currentCast[i].retEp = 0;
         currentCast[i].QueenDisqOrDept = false;
         currentCast[i].chocolate = false;
         currentCast[i].blocked = false;
@@ -3470,9 +3471,9 @@ function contestantProgress() {
                 if (placement.innerHTML == "<b>RTRN</b><br>+<br>HIGH") {
                     placement.setAttribute("style", "background-color: greenyellow;");
                 }
-                if (eliminatedCast[i].miniEpisode.indexOf((k+1)) != -1) {
-                    placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
-                }
+            }
+            if (eliminatedCast[i].miniEpisode.indexOf((k+1)) != -1) {
+                placement.innerHTML += "<br> <small> <i> Mini Chall. Winner </i> </small>";
             }
             contestant.appendChild(placement);
         }
@@ -4016,9 +4017,11 @@ function startSimulation(challenge = "") {
         else if ((s6Premiere || s12Premiere || porkchopPremiere || s14Premiere) && currentCast.length < 10 ) {
             window.alert("Double Premiere formats needs at least 10 queens!");
             s6Premiere = false;
+            s9Premiere = false;
             s12Premiere = false;
             s14Premiere = false;
             porkchopPremiere = false;
+            uk3Premiere = false;
             top5 = false;
             top4 = false;
             top3 = false;
@@ -4035,9 +4038,11 @@ function startSimulation(challenge = "") {
         else if ((s6Premiere || s12Premiere || porkchopPremiere || s14Premiere) && top5 && currentCast.length < 12 ) {
             window.alert("Top 5 finale with double premiere formats needs at least 12 queens!");
             s6Premiere = false;
+            s9Premiere = false;
             s12Premiere = false;
             s14Premiere = false;
             porkchopPremiere = false;
+            uk3Premiere = false;
             top5 = false;
             top4 = false;
             top3 = false;
@@ -4053,6 +4058,11 @@ function startSimulation(challenge = "") {
         }
         else if (uk3Premiere && currentCast.length < 6) {
             window.alert("Uk3 Premiere needs at least 6 queens!");
+            s6Premiere = false;
+            s9Premiere = false;
+            s12Premiere = false;
+            s14Premiere = false;
+            porkchopPremiere = false;
             uk3Premiere = false;
             top5 = false;
             top4 = false;
@@ -4076,6 +4086,11 @@ function startSimulation(challenge = "") {
         }
         else if (s9Premiere && currentCast.length < 6) {
             window.alert("Normal Premiere (No Elimination) needs at least 6 queens!");
+            s6Premiere = false;
+            s9Premiere = false;
+            s12Premiere = false;
+            s14Premiere = false;
+            porkchopPremiere = false;
             uk3Premiere = false;
             top5 = false;
             top4 = false;
@@ -4099,12 +4114,12 @@ function startSimulation(challenge = "") {
         }
         else if ((queensOfComedy || conjoinedQueens || kittyGirlGroup) && currentCast.length < 10) {
             window.alert("Queens of comedy, Kitty Girl Group and Conjoined Queens return challenges need at least 10 queens!");
-            uk3Premiere = false;
             s6Premiere = false;
             s9Premiere = false;
             s12Premiere = false;
             s14Premiere = false;
             porkchopPremiere = false;
+            uk3Premiere = false;
             top5 = false;
             top4 = false;
             top3 = false;
@@ -4127,6 +4142,12 @@ function startSimulation(challenge = "") {
         }
         else if (team && (smackdown || voteReturn || randomReturn || chocolateBarTwist || s9Premiere || s6Premiere || lalaparuza || queensOfComedy || kittyGirlGroup || conjoinedQueens || s12Premiere || porkchopPremiere || s14Premiere || uk3Premiere || top5 || top4 || top3 || lftc || canFinale || allstars3Finale)) {
             window.alert("The team format isn't supported with any special premiere, returning formats or a different finale that is not Teams Finale, sorry!");
+            s6Premiere = false;
+            s9Premiere = false;
+            s12Premiere = false;
+            s14Premiere = false;
+            porkchopPremiere = false;
+            uk3Premiere = false;
             team = false;
             top5 = false;
             top4 = false;
@@ -4143,21 +4164,15 @@ function startSimulation(challenge = "") {
             queensOfComedy = false;
             conjoinedQueens = false;
             kittyGirlGroup = false;
-            s6Premiere = false;
-            s9Premiere = false;
-            s12Premiere = false;
-            s14Premiere = false;
-            porkchopPremiere = false;
-            uk3Premiere = false;
             chocolateBarTwist = false;
             chocolateBarTwistChoosable = false;
         }
         else if (lalaparuza && !all_stars) {
             window.alert("The LaLaPaRUZa returning challenge is only supported with the Lipsync for your legacy, Jury All Stars and UK vs The World Formats, sorry!");
-            s14Premiere = false;
-            s12Premiere = false;
-            s9Premiere = false;
             s6Premiere = false;
+            s9Premiere = false;
+            s12Premiere = false;
+            s14Premiere = false;
             porkchopPremiere = false;
             uk3Premiere = false;
             top5 = false;
@@ -4185,10 +4200,10 @@ function startSimulation(challenge = "") {
         }
         else if (smackdown && chocolateBarTwist) {
             window.alert("The Lipsync Smackdown format isn't supported with the golden chocolate bar twist, sorry!");
-            s14Premiere = false;
-            s12Premiere = false;
-            s9Premiere = false;
             s6Premiere = false;
+            s9Premiere = false;
+            s12Premiere = false;
+            s14Premiere = false;
             porkchopPremiere = false;
             uk3Premiere = false;
             top5 = false;
@@ -4217,10 +4232,10 @@ function startSimulation(challenge = "") {
         }
         else if (smackdown && !noDouble) {
             window.alert("The Lipsync Smackdown format isn't supported with double shantays or sashays, sorry!");
-            s14Premiere = false;
-            s12Premiere = false;
-            s9Premiere = false;
             s6Premiere = false;
+            s9Premiere = false;
+            s12Premiere = false;
+            s14Premiere = false;
             porkchopPremiere = false;
             uk3Premiere = false;
             top5 = false;
@@ -4249,10 +4264,10 @@ function startSimulation(challenge = "") {
         }
         else if(all_winners && (smackdown || s14Premiere || s12Premiere || s9Premiere || s6Premiere || porkchopPremiere || uk3Premiere || voteReturn || conjoinedQueens || queensOfComedy || kittyGirlGroup || randomReturn || lalaparuza || chocolateBarTwist || top5 || top4 || top3 || canFinale || allstars3Finale)) {
             window.alert("The All Winners Format isn't avaliable with any combination of premiere, returning challenge or Chocolate Bar Twist, at this moment. Finale format must be Lipsync for the Crown,");
-            s14Premiere = false;
-            s12Premiere = false;
-            s9Premiere = false;
             s6Premiere = false;
+            s9Premiere = false;
+            s12Premiere = false;
+            s14Premiere = false;
             porkchopPremiere = false;
             uk3Premiere = false;
             top5 = false;
@@ -8070,6 +8085,7 @@ function queenReturnsVote() {
     currentCast.push(queen);
     eliminatedCast.splice(eliminatedCast.indexOf(queen), 1);
     queen.retEp = episodeCount+1
+    queen.votes = 0;
     quitarDoubleElim(queen);
 }
 function lipsyncSmackdown() {

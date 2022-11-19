@@ -1299,7 +1299,7 @@ function doublePremiere() {
         for (let i = 0; i < eliminatedCast.length; i++){
             let queen = eliminatedCast[i];
             if (disqOrDept) {
-                if (queen.QueenDisqOrDept){
+                if (queen.QueenDisqOrDept) {
                     //do nothing
                 }else{
                     if (queen.trackRecord.indexOf(" ELIM ") != -1) {
@@ -1308,6 +1308,7 @@ function doublePremiere() {
                     if (queen.trackRecord.indexOf("ELIM") != -1) {
                         queen.trackRecord.splice(queen.trackRecord.indexOf("ELIM"), 1, " ELIM");
                     }
+                    queen.rankP = 0;
                     currentCast.push(queen);
                     eliminatedCast.splice(eliminatedCast.indexOf(queen), 1);
                     i--;
@@ -1320,6 +1321,8 @@ function doublePremiere() {
                 if (queen.trackRecord.indexOf("ELIM") != -1) {
                     queen.trackRecord.splice(queen.trackRecord.indexOf("ELIM"), 1, " ELIM");
                 }
+                queen.retEp = episodeCount+1;
+                queen.rankP = 0;
                 currentCast.push(queen);
                 eliminatedCast.splice(eliminatedCast.indexOf(queen), 1);
                 i--;
@@ -3213,7 +3216,9 @@ function contestantProgress() {
         } else if (eliminatedCast[i].rankP == 3) {
             rank.innerHTML += "3rd<br><small>(Runner-Up)</small>";
         } else if (eliminatedCast[i].rankP == 234) {
-            rank.innerHTML += "2nd/3rd/4th<br><small>(Runner-Up)</small>";
+            rank.innerHTML += "2nd-4th<br><small>(Runner-Up)</small>";
+        } else if (eliminatedCast[i].rankP == 432) {
+            rank.innerHTML += "3rd/4th<br><small>(Runner-Up)</small>";
         } else if (eliminatedCast[i].rankP == 23) {
             rank.innerHTML += "2nd/3rd<br><small>(Runner-Up)</small>";
         } else if (eliminatedCast[i].rankP == 34) {
@@ -3221,7 +3226,7 @@ function contestantProgress() {
         } else if (eliminatedCast[i].rankP == 32) {
             rank.innerHTML += "3rd<br><small>(Runner-Up)</small>";
         } else if (eliminatedCast[i].rankP == 345) {
-            rank.innerHTML += "3rd/4th/5th";
+            rank.innerHTML += "3rd-5th";
         } else if (eliminatedCast[i].rankP == "tie1") {
             rank.innerHTML = (rankNumber+i) + "th";
             rank.innerHTML += "/" + (rankNumber+1+i) + "th";
@@ -10979,7 +10984,9 @@ function queenRelations(queen) {
     }
 }
 function worstSister(queen, cast) {
-    let bff = queen.sisters[0];
+    let bff = queen.sisters.find(sister => {
+        return sister.queen.getName() == cast[0].getName()
+    });
     for (let i = 0; i < queen.sisters.length; i++) {
         for (let k = 0; k < cast.length; k++) {
             if (queen.sisters[i].queen.getName() == cast[k].getName()) {
@@ -10996,7 +11003,9 @@ function worstSister(queen, cast) {
     return bff.queen
 }
 function bestSister(queen, cast) {
-    let bff = queen.sisters[0];
+    let bff = queen.sisters.find(sister => {
+        return sister.queen.getName() == cast[0].getName()
+    });
     for (let i = 0; i < queen.sisters.length; i++) {
         for (let k = 0; k < cast.length; k++) {
             if (queen.sisters[i].queen.getName() == cast[k].getName()) {

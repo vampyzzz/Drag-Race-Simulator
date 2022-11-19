@@ -2085,7 +2085,7 @@ function finaleTop4Judging() {
         for (let i = 0; i < eliminatedCast.length; i++) {
             eliminatedCast[i].addToTrackRecord("GUEST");
         }
-    } else {
+    } else if (regularFormat || thailandFormat){
         for (let i = 0; i < eliminatedCast.length; i++) {
             eliminatedCast[i].trackRecord.splice(eliminatedCast[i].trackRecord.length - 1,0, "");
         }
@@ -2094,7 +2094,9 @@ function finaleTop4Judging() {
         screen.createImage(currentCast[3].image, "sienna");
         screen.createBold(currentCast[3].getName() + ", I'm sorry my dear but it's not your time. I must ask you to sashay away...");
         currentCast[3].addToTrackRecord("ELIMINATED");
-        currentCast[3].addToTrackRecord("GUEST");
+        if (regularFormat || thailandFormat){ 
+            currentCast[3].addToTrackRecord("GUEST");
+        }
         eliminatedCast.unshift(currentCast[3]);
         currentCast.splice(3, 1);
         screen.createHorizontalLine();

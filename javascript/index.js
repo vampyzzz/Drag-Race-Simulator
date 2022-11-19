@@ -2870,6 +2870,10 @@ function contestantProgress() {
                 placement.setAttribute("style", "font-weight: bold; background-color:#9400d3; color:white;");
                 placement.innerHTML = "WIN <br>+<br> ELIM";
             }
+            else if (placement.innerHTML == "WIN ELIM ") { 
+                placement.setAttribute("style", "font-weight: bold; background-color: darkred; color:white;");
+                placement.innerHTML = "WIN <br>+<br> ELIM";
+            }
             else if (placement.innerHTML == "WIN BTM2") {
                 placement.setAttribute("style", "background-color: hotpink;");
                 placement.innerHTML = "WIN <br>+<br> BTM2";
@@ -3126,6 +3130,10 @@ function contestantProgress() {
                 }
                 else if (placement.innerHTML == "WINELIM") {
                     placement.setAttribute("style", "font-weight: bold; background-color:#9400d3; color:white;");
+                    placement.innerHTML = "WIN <br>+<br> ELIM";
+                }
+                else if (placement.innerHTML == "WIN ELIM ") { 
+                    placement.setAttribute("style", "font-weight: bold; background-color: darkred; color:white;");
                     placement.innerHTML = "WIN <br>+<br> ELIM";
                 }
                 else if (placement.innerHTML == "WIN BTM2") {
@@ -3420,6 +3428,10 @@ function contestantProgress() {
             }
             else if (placement.innerHTML == "WINELIM") {
                 placement.setAttribute("style", "font-weight: bold; background-color:#9400d3; color:white;");
+                placement.innerHTML = "WIN <br>+<br> ELIM";
+            }
+            else if (placement.innerHTML == "WIN ELIM ") { 
+                placement.setAttribute("style", "font-weight: bold; background-color: darkred; color:white;");
                 placement.innerHTML = "WIN <br>+<br> ELIM";
             }
             else if (placement.innerHTML == "WIN BTM2") {
@@ -9769,7 +9781,7 @@ let allLsSongs = [
     "Your Disco Needs You by Kylie Minogue",
     "Froot by MARINA",
     "She Works Hard For The Money by Donna Summer",
-    "Supernova by Carly Rae Jepsen",
+    "Supernova by Kylie Minogue",
     "Detention by Melanie Martinez",
     "Complicated by Avril Lavigne",
     "So What by P!nk",
@@ -10985,7 +10997,11 @@ function queenRelations(queen) {
 }
 function worstSister(queen, cast) {
     let bff = queen.sisters.find(sister => {
-        return sister.queen.getName() == cast[0].getName()
+        if (queen.getName() == cast[0].getName()) {
+            return sister.queen.getName() == cast[1].getName()
+        } else {
+            return sister.queen.getName() == cast[0].getName()
+        }
     });
     for (let i = 0; i < queen.sisters.length; i++) {
         for (let k = 0; k < cast.length; k++) {

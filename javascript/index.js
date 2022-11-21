@@ -3327,47 +3327,47 @@ function contestantProgress() {
                     placement.setAttribute("style", "font-weight: bold; background-color:#5920d4;");
                     placement.innerHTML = "<b>WIN<br>+<br> QUIT</b>";
                 }
-                else if (placement.innerHTML == "WINWIN") {
+                else if (placement.innerHTML == "WINWIN" || placement.innerHTML == " WINWIN") {
                     placement.setAttribute("style", "font-weight: bold; background-color:mediumblue; color:white;");
                     placement.innerHTML = "WIN";
                 }
-                else if (placement.innerHTML == "WINHIGH") {
+                else if (placement.innerHTML == "WINHIGH" || placement.innerHTML == " WINHIGH") {
                     placement.setAttribute("style", "background-color:cornflowerblue;");
                     placement.innerHTML = "<b>WIN</b><br>+<br> HIGH";
                 }
-                else if (placement.innerHTML == "WINLOW") {
+                else if (placement.innerHTML == "WINLOW" || placement.innerHTML == " WINLOW") {
                     placement.setAttribute("style", "background-color:#ee82ee;");
                     placement.innerHTML = "<b>WIN</b><br>+<br> LOW";
                 }
-                else if (placement.innerHTML == "WINBTM2") {
+                else if (placement.innerHTML == "WINBTM2" || placement.innerHTML == " WINBTM2") {
                     placement.setAttribute("style", "background-color:mediumorchid;");
                     placement.innerHTML = "<b>WIN</b><br>+<br> BTM2";
                 }
-                else if (placement.innerHTML == "WINELIM") {
+                else if (placement.innerHTML == "WINELIM" || placement.innerHTML == " WINELIM") {
                     placement.setAttribute("style", "font-weight: bold; background-color:#9400d3; color:white;");
                     placement.innerHTML = "WIN <br>+<br> ELIM";
                 }
-                else if (placement.innerHTML == "WIN ELIM ") { 
+                else if (placement.innerHTML == "WIN ELIM " || placement.innerHTML == " WIN ELIM ") { 
                     placement.setAttribute("style", "font-weight: bold; background-color: darkred; color:white;");
                     placement.innerHTML = "WIN <br>+<br> ELIM";
                 }
-                else if (placement.innerHTML == "WIN BTM2") {
+                else if (placement.innerHTML == "WIN BTM2" || placement.innerHTML == " WIN BTM2") {
                     placement.setAttribute("style", "background-color: hotpink;");
                     placement.innerHTML = "WIN <br>+<br> BTM2";
                 }
-                else if (placement.innerHTML == "WINCHOC") {
+                else if (placement.innerHTML == "WINCHOC" || placement.innerHTML == " WINCHOC") {
                     placement.setAttribute("style", "font-weight: bold; background-color: #fcea7c;");
                     placement.innerHTML = "WIN <br>+<br> CHOC";
                 }
-                else if (placement.innerHTML == "WINDISQ") {
+                else if (placement.innerHTML == "WINDISQ" || placement.innerHTML == " WINDISQ") {
                     placement.setAttribute("style", "font-weight: bold; background-color: black; color: white;");
                     placement.innerHTML = "WIN <br>+<br> DISQ";
                 }
-                else if (placement.innerHTML == "WINDEPT") {
+                else if (placement.innerHTML == "WINDEPT" || placement.innerHTML == " WINDEPT") {
                     placement.setAttribute("style", "font-weight: bold; background-color: plum;");
                     placement.innerHTML = "WIN <br>+<br> DEPT";
                 }
-                else if (placement.innerHTML == "WINQUIT") {
+                else if (placement.innerHTML == "WINQUIT" || placement.innerHTML == " WINQUIT") {
                     placement.setAttribute("style", "font-weight: bold; background-color: palevioletred;");
                     placement.innerHTML = "WIN <br>+<br> QUIT";
                 }
@@ -3625,47 +3625,47 @@ function contestantProgress() {
                 placement.setAttribute("style", "font-weight: bold; background-color:#5920d4;");
                 placement.innerHTML = "<b>WIN<br>+<br> QUIT</b>";
             }
-            else if (placement.innerHTML == "WINWIN") {
+            else if (placement.innerHTML == "WINWIN" || placement.innerHTML == " WINWIN") {
                 placement.setAttribute("style", "font-weight: bold; background-color:mediumblue; color:white;");
                 placement.innerHTML = "WIN";
             }
-            else if (placement.innerHTML == "WINHIGH") {
+            else if (placement.innerHTML == "WINHIGH" || placement.innerHTML == " WINHIGH") {
                 placement.setAttribute("style", "background-color:cornflowerblue;");
                 placement.innerHTML = "<b>WIN</b><br>+<br> HIGH";
             }
-            else if (placement.innerHTML == "WINLOW") {
+            else if (placement.innerHTML == "WINLOW" || placement.innerHTML == " WINLOW") {
                 placement.setAttribute("style", "background-color:#ee82ee;");
                 placement.innerHTML = "<b>WIN</b><br>+<br> LOW";
             }
-            else if (placement.innerHTML == "WINBTM2") {
+            else if (placement.innerHTML == "WINBTM2" || placement.innerHTML == " WINBTM2") {
                 placement.setAttribute("style", "background-color:mediumorchid;");
                 placement.innerHTML = "<b>WIN</b><br>+<br> BTM2";
             }
-            else if (placement.innerHTML == "WINELIM") {
+            else if (placement.innerHTML == "WINELIM" || placement.innerHTML == " WINELIM") {
                 placement.setAttribute("style", "font-weight: bold; background-color:#9400d3; color:white;");
                 placement.innerHTML = "WIN <br>+<br> ELIM";
             }
-            else if (placement.innerHTML == "WIN ELIM ") { 
+            else if (placement.innerHTML == "WIN ELIM " || placement.innerHTML == " WIN ELIM ") { 
                 placement.setAttribute("style", "font-weight: bold; background-color: darkred; color:white;");
                 placement.innerHTML = "WIN <br>+<br> ELIM";
             }
-            else if (placement.innerHTML == "WIN BTM2") {
+            else if (placement.innerHTML == "WIN BTM2" || placement.innerHTML == " WIN BTM2") {
                 placement.setAttribute("style", "background-color: hotpink;");
                 placement.innerHTML = "WIN <br>+<br> BTM2";
             }
-            else if (placement.innerHTML == "WINCHOC") {
+            else if (placement.innerHTML == "WINCHOC" || placement.innerHTML == " WINCHOC") {
                 placement.setAttribute("style", "font-weight: bold; background-color: #fcea7c;");
                 placement.innerHTML = "WIN <br>+<br> CHOC";
             }
-            else if (placement.innerHTML == "WINDISQ") {
+            else if (placement.innerHTML == "WINDISQ" || placement.innerHTML == " WINDISQ") {
                 placement.setAttribute("style", "font-weight: bold; background-color: black; color: white;");
                 placement.innerHTML = "WIN <br>+<br> DISQ";
             }
-            else if (placement.innerHTML == "WINDEPT") {
+            else if (placement.innerHTML == "WINDEPT" || placement.innerHTML == " WINDEPT") {
                 placement.setAttribute("style", "font-weight: bold; background-color: plum;");
                 placement.innerHTML = "WIN <br>+<br> DEPT";
             }
-            else if (placement.innerHTML == "WINQUIT") {
+            else if (placement.innerHTML == "WINQUIT" || placement.innerHTML == " WINQUIT") {
                 placement.setAttribute("style", "font-weight: bold; background-color: palevioletred;");
                 placement.innerHTML = "WIN <br>+<br> QUIT";
             }

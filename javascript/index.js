@@ -12218,10 +12218,14 @@ queenCardContainer.addEventListener("click", e => {
         }
         updateCast();
         resetSearch();
+        let button = document.getElementById("randomK");
+        let button1 = document.getElementById("moreK");
         if (currentCast.length == 20) {
             searchInput.setAttribute("readonly", true);
             searchInput.removeAttribute("placeholder");
             searchInput.setAttribute("placeholder", "You can't choose more than 20 contestants");
+            button.classList.toggle("hide", true);
+            button1.classList.toggle("hide", false);
         }
         let big = document.getElementById("castBig");
         if (currentCast.length != 0) {

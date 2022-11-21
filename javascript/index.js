@@ -2906,8 +2906,7 @@ function contestantProgress() {
         winner.appendChild(name);
         let photo = document.createElement("td");
         photo.setAttribute("style", "background: url("+ winnerQueen.image +"); background-size: cover; background-position: center; background-repeat: no-repeat;");
-        photo.setAttribute("width", "50");
-        photo.setAttribute("height", "90");
+        photo.setAttribute("class", "placement");
         winner.appendChild(photo);
         for (let i = 0; i < winnerQueen.trackRecord.length + 1; i++) {
             let placement = document.createElement("td");
@@ -3170,8 +3169,7 @@ function contestantProgress() {
             contestant.appendChild(name);
             let photo = document.createElement("td");
             photo.setAttribute("style", "background: url("+ currentCast[i].image +"); background-size: cover; background-position: center; background-repeat: no-repeat;");
-            photo.setAttribute("width", "50");
-            photo.setAttribute("height", "90");
+            photo.setAttribute("class", "placement");
             contestant.appendChild(photo);
             for (let k = 0; k < currentCast[i].trackRecord.length + 1; k++) {
                 let placement = document.createElement("td");
@@ -3464,8 +3462,7 @@ function contestantProgress() {
         contestant.appendChild(name);
         let photo = document.createElement("td");
         photo.setAttribute("style", "background: url("+ eliminatedCast[i].image +"); background-size: cover; background-position: center; background-repeat: no-repeat;");
-        photo.setAttribute("width", "50");
-        photo.setAttribute("height", "90");
+        photo.setAttribute("class", "placement");
         contestant.appendChild(photo);
         for (let k = 0; k < eliminatedCast[i].trackRecord.length + 1; k++) {
             let placement = document.createElement("td");
@@ -7974,7 +7971,7 @@ let hol_season1 = [chelsea, envy, janey, madamem, mama, megan, abby, patty, roem
 let ivyelise = new Queen("Ivy-Elyse", 6, 8, 5, 4, 8, 5, 10, "IvyE");
 let juicy = new Queen("Juicy Kouture", 5, 6, 5, 5, 4, 4, 5, "Juicy");
 let keta = new Queen("Keta Minaj", 9, 12, 9, 7, 12, 11, 9, "Keta");
-let love = new Queen("Pierre Alexandre", 6, 5, 6, 8, 5, 10, 7, "Love");
+let love = new Queen("Love Masisi", 6, 5, 6, 8, 5, 10, 7, "Love");
 let mlp = new Queen("My Little Puny", 10, 10, 10, 7, 9, 10, 10, "MLP");
 let reggy = new Queen("Reggy B", 6, 6, 6, 5, 6, 8, 8, "Reggy");
 let tabitha = new Queen("Tabitha", 6, 7, 8, 6, 5, 7, 8, "Tabitha");
@@ -11475,16 +11472,6 @@ function readingChallenge() {
 
 function downloadTR() {
     let table = document.getElementById("trackRecord");
-    let td = document.querySelectorAll(".placement");
-    let names = document.querySelectorAll(".nameTR");
-    td.forEach(placement => {
-        placement.style.width = "75px";
-        placement.style.height = "150px";
-    });
-    names.forEach(name => {
-        name.setAttribute("style", "font-size: 1rem");
-    });
-    table.setAttribute("style", "font-size: 1rem");
     html2canvas(table).then((canvas) => {
         let img = canvas.toDataURL("image/png");
         let a = document.createElement('a');
@@ -11492,14 +11479,6 @@ function downloadTR() {
         a.setAttribute("download","TrackRecord.png");
         a.click();
         a.remove();
-    });
-    table.removeAttribute("style");
-    td.forEach(placement => {
-        placement.style.width = "45px";
-        placement.style.height = "90px";
-    });
-    names.forEach(name => {
-        name.removeAttribute("style");
     });
 }
 

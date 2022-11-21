@@ -1768,7 +1768,6 @@ let sweatshop = false;
 let chaos = false;
 function newEpisode() {
     if (episodeCount == 0) {
-        loadSongs();
         currentCast.forEach((queen) => {
             for (let i = 0; i < currentCast.length; i++) {
                 if (queen.getName() != currentCast[i].getName()) {
@@ -1831,6 +1830,7 @@ function newEpisode() {
         eliminatedCast[i].addToTrackRecord('');
 }
 function reSimulate() {
+    loadSongs();
     //add eliminated queens again to cast and clean it
     for (let i = 0; i < eliminatedCast.length; i++) {
         currentCast.push(eliminatedCast[i]);
@@ -1927,8 +1927,9 @@ function reSimulate() {
         chooseLateQueen();
     else if (s6Premiere || s12Premiere || s14Premiere)
         doublePremiere();
-    else if (porkchopPremiere)
+    else if (porkchopPremiere) {
         porkchopLipsyncs();
+    }
     else
         newEpisode();
 }
@@ -4156,8 +4157,9 @@ function predefCast(cast, format, finale, premiere = '', returning = '') {
     }
     else if (s6Premiere || s12Premiere || s14Premiere)
         doublePremiere();
-    else if (porkchopPremiere)
+    else if (porkchopPremiere) {
         porkchopLipsyncs();
+    }
     else{
         newEpisode();
     }
@@ -9826,8 +9828,9 @@ function loadSongs() {
         let songs = data.toString().replace(/"/gi, '').split(/,\r\n|\r|\n/);
         allLsSongs = songs;
         lsSongs = [...allLsSongs]
-    })
+    });
 }
+loadSongs()
 let lsSongs = [];
 class Team extends Queen {
     constructor(QueenA, QueenB) {

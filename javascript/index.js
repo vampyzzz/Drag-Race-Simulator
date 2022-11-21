@@ -1851,6 +1851,7 @@ function reSimulate() {
     onTop4Finale = false;
     totalCastSize = currentCast.length;
     disqOrDept = false;
+    disqOrDeptFlag = false;
     gsFlag = false;
     threestars = false;
     flagThree = false;
@@ -6541,6 +6542,7 @@ function top2AndBlocked() {
     screen.createButton("Proceed", "awLipsync(gs)");
 }
 let disqOrDept = false;
+let disqOrDeptFlag = false;
 function lipSync() {
     let screen = new Scene();
     screen.clean();
@@ -7171,10 +7173,12 @@ function asLipSync() {
             bottomQueens[i].addToTrackRecord("BTM4");
         else if (bottomQueens.length == 2 && !disqOrDept || bottomQueens.length == 2 && currentCast.length == 4)
             bottomQueens[i].addToTrackRecord("BTM3");
-        else if (disqOrDept && bottomQueens.length == 2)
+        else if (disqOrDept && bottomQueens.length == 2 && !disqOrDeptFlag) {
             bottomQueens[i].addToTrackRecord(" BTM2");
-        else if (disqOrDept && bottomQueens.length == 3)
+        }
+        else if (disqOrDept && bottomQueens.length == 3 && !disqOrDeptFlag) {
             bottomQueens[i].addToTrackRecord(" BTM3");
+        }
         else
             bottomQueens[i].addToTrackRecord("BTM2");
         bottomQueens[i].unfavoritism += 3;

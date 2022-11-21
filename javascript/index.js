@@ -7174,12 +7174,16 @@ function asLipSync() {
         else if (bottomQueens.length == 2 && !disqOrDept || bottomQueens.length == 2 && currentCast.length == 4)
             bottomQueens[i].addToTrackRecord("BTM3");
         else if (disqOrDept && bottomQueens.length == 2 && !disqOrDeptFlag) {
-            disqOrDeptFlag = true;
             bottomQueens[i].addToTrackRecord(" BTM2");
+            if (i == bottomQueens.length - 1) {
+                disqOrDeptFlag = true;
+            }
         }
         else if (disqOrDept && bottomQueens.length == 3 && !disqOrDeptFlag) {
-            disqOrDeptFlag = true;
             bottomQueens[i].addToTrackRecord(" BTM3");
+            if (i == bottomQueens.length - 1) {
+                disqOrDeptFlag = true;
+            }
         }
         else
             bottomQueens[i].addToTrackRecord("BTM2");

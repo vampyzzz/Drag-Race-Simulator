@@ -8096,16 +8096,16 @@ let riche = new Queen("Le Riche", 6, 8, 6, 8, 9, 8, 7, "Riche");
 let luquisha = new Queen("Luquisha Lubamba", 7, 6, 6, 5, 7, 6, 7, "Luquisha");
 let drita = [ava, divinity, elecktra, enorma, farida, ivana, riche, luquisha];
 //DRAG RACE ITALIA 2
-let aura = new Queen("Aura Eternal", 7, 7, 7, 7, 7, 7, 7, "Aura");
-let gioffre = new Queen("Gioffré", 7, 7, 7, 7, 7, 7, 7, "Gioffre");
-let diamond = new Queen("La Diamond", 7, 7, 7, 7, 7, 7, 7, "LaDiamond");
-let petite = new Queen("La Petite Noire", 7, 7, 7, 7, 7, 7, 7, "Petite");
-let narciso = new Queen("Narciso", 7, 7, 7, 7, 7, 7, 7, "Narciso");
-let nehellenia = new Queen("Nehellenia", 7, 7, 7, 7, 7, 7, 7, "Nehellenia");
-let obama = new Queen("Obama", 7, 7, 7, 7, 7, 7, 7, "Obama");
-let panthera = new Queen("Panthera Virus", 7, 7, 7, 7, 7, 7, 7, "Panthera");
-let skandalove = new Queen("Skandalove", 7, 7, 7, 7, 7, 7, 7, "Skandalove");
-let tanissa = new Queen("Tanissa Yoncè", 7, 7, 7, 7, 7, 7, 7, "Tanissa");
+let aura = new Queen("Aura Eternal", 11, 9, 9, 6, 5, 9, 8, "Aura");
+let gioffre = new Queen("Gioffré", 6, 8, 5, 7, 5, 8, 8, "Gioffre");
+let diamond = new Queen("La Diamond", 10, 12, 8, 12, 11, 13, 9, "LaDiamond");
+let petite = new Queen("La Petite Noire", 10, 5, 10, 8, 7, 11, 11, "Petite");
+let narciso = new Queen("Narciso", 4, 4, 4, 4, 4, 4, 4, "Narciso");
+let nehellenia = new Queen("Nehellenia", 8, 10, 10, 8, 10, 12, 9, "Nehellenia");
+let obama = new Queen("Obama", 5, 9, 6, 8, 9, 8, 8, "Obama");
+let panthera = new Queen("Panthera Virus", 7, 5, 6, 6, 5, 8, 9, "Panthera");
+let skandalove = new Queen("Skandalove", 9, 7, 8, 8, 7, 9, 9, "Skandalove");
+let tanissa = new Queen("Tanissa Yoncè", 5, 6, 6, 10, 6, 9, 7, "Tanissa");
 let drita_season2 = [aura, gioffre, diamond, petite, narciso, nehellenia, obama, panthera, skandalove, tanissa];
 //DRAG RACE FRANCE
 let elips = new Queen("Elips", 7, 9, 8, 8, 8, 8, 7, "Elips");

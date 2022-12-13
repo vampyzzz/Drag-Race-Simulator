@@ -7868,6 +7868,24 @@ let maddy = new Queen("Maddy Morphosis", 8, 7, 6, 5, 6, 9, 7, "Maddy");
 let orion = new Queen("Orion Story", 4, 6, 6, 5, 6, 6, 5, "Orion");
 let willow = new Queen("Willow Pill", 11, 8, 7, 10, 10, 12, 8, "Willow");
 let us_season14 = [alyssaH, angeria, bosco, daya, deja, jasmineK, jorgeous, june, kerri, kornbread, cadmen, maddy, orion, willow];
+//SEASON 15
+let amethyst = new Queen("Amethyst", 7, 7, 7, 7, 7, 7, 7, "Amethyst");
+let anetra = new Queen("Anetra", 7, 7, 7, 7, 7, 7, 7, "Anetra");
+let auraMayari = new Queen("Aura Mayari", 7, 7, 7, 7, 7, 7, 7, "AuraMayari");
+let irene = new Queen("Irene Dubois", 7, 7, 7, 7, 7, 7, 7, "IreneBudoir");
+let jax = new Queen("Jax", 7, 7, 7, 7, 7, 7, 7, "Jax");
+let loosey = new Queen("Loosey LaDuca", 7, 7, 7, 7, 7, 7, 7, "LooseyLaDuca");
+let luxx = new Queen("Luxx Noir London", 7, 7, 7, 7, 7, 7, 7, "LuxxNoirLondon");
+let malaysia = new Queen("Malaysia Babydoll Foxx", 7, 7, 7, 7, 7, 7, 7, "MalaysiaBabydollFoxx");
+let marcia = new Queen("Marcia Marcia Marcia", 7, 7, 7, 7, 7, 7, 7, "MarciaMarciaMarcia");
+let mistress = new Queen("Mistress Isabelle Brooks", 7, 7, 7, 7, 7, 7, 7, "MistressIsabelleBrooks");
+let poppy = new Queen("Princess Poppy", 7, 7, 7, 7, 7, 7, 7, "PrincessPoppy");
+let robin = new Queen("Robin Fierce", 7, 7, 7, 7, 7, 7, 7, "RobinFierce");
+let salina = new Queen("Salina Estitties", 7, 7, 7, 7, 7, 7, 7, "SalinaEstitties");
+let sashaColby = new Queen("Sasha Colby", 7, 7, 7, 7, 7, 7, 7, "SashaColby");
+let spice = new Queen("Spice", 7, 7, 7, 7, 7, 7, 7, "Spice");
+let sugar = new Queen("Sugar", 7, 7, 7, 7, 7, 7, 7, "Sugar");
+let us_season15 = [amethyst, anetra, auraMayari, irene, jax, loosey, luxx, malaysia, marcia, mistress, poppy, robin, salina, sashaColby, spice, sugar];
 //DRUK SEASON 1 
 let baga = new Queen("Baga Chipz", 13, 12, 5, 5, 13, 8, 7, "Baga");
 let blu = new Queen("Blu Hydrangea", 5, 9, 8, 10, 10, 12, 9, "Blu");
@@ -8144,6 +8162,7 @@ let allQueens = [
     aiden, brita, crystal, dahlia, gigi, heidi, jackie, jaida, jan, nicky, rock, widow,
     denali, elliott, mik, joey, kahmora, kandym, lala, olivia, rose, symone, tamisha, tina, utica,
     alyssaH, angeria, bosco, daya, deja, jasmineK, jorgeous, june, kerri, kornbread, cadmen, maddy, orion, willow,
+    amethyst, anetra, auraMayari, irene, jax, loosey, luxx, malaysia, marcia, mistress, poppy, robin, salina, sashaColby, spice, sugar,
     baga, blu, cheryl, crystaluk, divina, gothy, scaredy, sumting, viv, vinegar,
     awhora, asttina, bimini, cherry, ellie, ginny, joe, lawrence, sister, tayce, tia, veronica,
     anubis, charity, choriza, elektraF, ella, kitty, krystal, river, scarlett, vanity, victoriaS,

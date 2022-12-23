@@ -1946,8 +1946,15 @@ function uk3PremiereJudging2() {
     screen.clean();
     screen.createHeader("I've made my decision.");
     topQueens.sort((a, b) => (b.lipsyncScore - a.lipsyncScore));
-    screen.createImage(topQueens[0].image, "royalblue");
-    screen.createBold(`${topQueens[0].getName()}, you're a winner baby!`);
+    if (immunityTwist && giveImmunity()) {
+        topQueens[0].immune = true;
+        topQueens[0].immuneEp.push(episodeCount);
+        screen.createImage(topQueens[0].image, "royalblue");
+        screen.createBold(topQueens[0].getName() + ", you're a winner baby! And you also earned immunity for the next challenge!");
+    } else {
+        screen.createImage(topQueens[0].image, "royalblue");
+        screen.createBold(`${topQueens[0].getName()}, you're a winner baby!`);
+    }
     screen.createImage(topQueens[1].image, "deepskyblue");
     screen.createBold(`${topQueens[1].getName()}, you are safe.`);
     topQueens[0].addToTrackRecord("WIN");
@@ -6209,8 +6216,15 @@ function winAndBtm6() {
         topQueens[0].addToTrackRecord("WIN");
         topQueens[0].favoritism += 5;
         topQueens[0].ppe += 5;
-        screen.createImage(topQueens[0].image, "royalblue");
-        screen.createBold(topQueens[0].getName() + ", condragulations, you're the winner of today's challenge!");
+        if (immunityTwist && giveImmunity()) {
+            topQueens[0].immune = true;
+            topQueens[0].immuneEp.push(episodeCount);
+            screen.createImage(topQueens[0].image, "royalblue");
+            screen.createBold(topQueens[0].getName() + ", condragulations, you're the winner of today's challenge! And you also earned immunity for the next challenge!");
+        } else {
+            screen.createImage(topQueens[0].image, "royalblue");
+            screen.createBold(topQueens[0].getName() + ", condragulations, you're the winner of today's challenge!");
+        }
         topQueens.splice(0, 1);
     }
     //double win:
@@ -6230,8 +6244,15 @@ function winAndBtm6() {
         topQueens[0].addToTrackRecord("WIN");
         topQueens[0].favoritism += 5;
         topQueens[0].ppe += 5;
-        screen.createImage(topQueens[0].image, "royalblue");
-        screen.createBold(topQueens[0].getName() + ", condragulations, you're the winner of today's challenge!");
+        if (immunityTwist && giveImmunity()) {
+            topQueens[0].immune = true;
+            topQueens[0].immuneEp.push(episodeCount);
+            screen.createImage(topQueens[0].image, "royalblue");
+            screen.createBold(topQueens[0].getName() + ", condragulations, you're the winner of today's challenge! And you also earned immunity for the next challenge!");
+        } else {
+            screen.createImage(topQueens[0].image, "royalblue");
+            screen.createBold(topQueens[0].getName() + ", condragulations, you're the winner of today's challenge!");
+        }
         topQueens.splice(0, 1);
     }
     if (topQueens.length > 0) {
@@ -6248,6 +6269,20 @@ function winAndBtm6() {
             highs.innerHTML += "good job this week, you're safe.";
     }
     screen.createHorizontalLine();
+    if (immunityTwist && stillImmune()) {
+        for (let i = 0; i < bottomQueens.length; i++) {
+            if (bottomQueens[i].immune && bottomQueens.length > 2) {
+                screen.createImage(bottomQueens[i].image, "magenta");
+                screen.createParagraph(bottomQueens[i].getName() + ", you have immunity, you are safe.");
+                bottomQueens[i].addToTrackRecord("LOW");
+                bottomQueens[i].unfavoritism += 1;
+                bottomQueens[i].ppe += 2;
+                bottomQueens[i].immune = false;
+                bottomQueens.splice(bottomQueens.indexOf(bottomQueens[i]), 1);
+                break;
+            }
+        }
+    }
     if (bottomQueens.length >= 3) {
         for (let i = 0; i < bottomQueens.length; i++)
             screen.createImage(bottomQueens[i].image, "tomato");
@@ -13721,14 +13756,25 @@ function checkForLipsyncEvent(lipsyncContestants) {
     }
 }
 function stillImmune() {
-    if (totalCastSize <= 10 && episodeCount < 5 || totalCastSize > 10 && totalCastSize <= 15 && episodeCount < 6 || totalCastSize > 15 && episodeCount < 7) {
+    if ((s14Premiere || s6Premiere) && premiereCounter <= 2) {
+        return false
+    } else if (totalCastSize <= 10 && episodeCount < 5 || totalCastSize > 10 && totalCastSize <= 15 && episodeCount < 6 || totalCastSize > 15 && episodeCount < 7) {
         return true
     } else {
         return false
     }
 }
 function giveImmunity() {
-    if (totalCastSize <= 10 && episodeCount < 4 || totalCastSize > 10 && totalCastSize <= 15 && episodeCount < 5 || totalCastSize > 15 && episodeCount < 6) {
+    if ((s14Premiere || s6Premiere) && premiereCounter <= 2) {
+        return false
+    } else if (totalCastSize <= 10 && episodeCount < 4 || totalCastSize > 10 && totalCastSize <= 15 && episodeCount < 5 || totalCastSize > 15 && episodeCount < 6) { 
+        for (let i = 0; i < currentCast.length; i++) {
+            if (currentCast[i].immuneEp.find(ep => {
+                return ep == episodeCount - 1
+            }) == undefined) {
+                currentCast[i].immune = false;
+            }
+        }
         return true
     } else {
         return false

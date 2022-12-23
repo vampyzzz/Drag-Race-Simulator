@@ -3,6 +3,8 @@
 
 html {
     height: 100%;
+    scroll-behavior: smooth;
+    line-height: 1.75;
 }
 
 body {
@@ -89,14 +91,17 @@ button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-/*
-table, th, td, tr {
-    border: black solid 1px;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 3px;
+.statistics {
+    font-size: 1rem;
 }
-*/
+
+.red {
+    background-color: #ffb6c1;
+}
+
+.blue {
+    background-color: #add8e6;
+}
 
 .trtable {
     background-color: #f5ebf5;
@@ -148,6 +153,15 @@ td {
 .placement {
     height: 90px;
     width: 45px;
+}
+
+.rumocracy {
+    height: 45px;
+    width: 45px;
+}
+.song {
+    width: max-content;
+    font-size: 1rem;
 }
 
 .nameTR{
@@ -248,6 +262,7 @@ input {
     padding: .5rem;
     border: none;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
 }
 
 .card:hover {
@@ -296,8 +311,48 @@ input {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.textRightClick {
+    opacity:0;
+    filter:alpha(opacity=0);
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.toTop {
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-items: center;
+    font-size: 32px;
+    color: #3D0A1F;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.toTop.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.toTop.active:hover {
+    background: rgba(39, 5, 35, 0.548);
+    border-radius: 50%;
+    color: white;
+    border-color: #000000;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 @media (max-width: 580px) {
-    body {
+    html {
         font-size: 1rem;
     }
     .searchInput {
@@ -309,4 +364,31 @@ input {
     button {
         font-size: 1rem;
     }
+    .statistics {
+        font-size: .8rem;
+    }
+    .toTop {
+        bottom: 8px;
+        right: 16px;
+        width: 30px;
+        height: 30px;
+        font-size: 1.5rem;
+        align-items: center;
+        justify-items: center;
+    }
+    .toTop.active {
+        bottom: 16px;
+    }
 }
+/*
+@media (max-width: 1400px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+} */

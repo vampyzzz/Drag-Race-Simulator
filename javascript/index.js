@@ -9092,13 +9092,13 @@ let dres_season2 = [arielRec, diamante, sethlas, estrella, jota, juriji, marina,
 //DRAG RACE ITALIA S1
 let ava = new Queen("Ava Hangar", 8, 7, 5, 5, 6, 6, 6, "Ava");
 let divinity = new Queen("Divinity", 9, 6, 8, 7, 6, 8, 7, "Divinity");
-let elecktra = new Queen("Elecktra Bionic", 7, 8, 8, 8, 9, 9, 8, "ElecktraBionic");
+let elecktraBionic = new Queen("Elecktra Bionic", 7, 8, 8, 8, 9, 9, 8, "ElecktraBionic");
 let enorma = new Queen("Enorma Jean", 8, 8, 6, 6, 8, 7, 6, "Enorma");
 let farida = new Queen("Farida Kant", 7, 6, 8, 11, 5, 11, 8, "Farida");
 let ivana = new Queen("Ivana Vamp", 6, 5, 6, 6, 6, 6, 5, "Ivana");
 let riche = new Queen("Le Riche", 6, 8, 6, 8, 9, 8, 7, "Riche");
 let luquisha = new Queen("Luquisha Lubamba", 7, 6, 6, 5, 7, 6, 7, "Luquisha");
-let drita = [ava, divinity, elecktra, enorma, farida, ivana, riche, luquisha];
+let drita = [ava, divinity, elecktraBionic, enorma, farida, ivana, riche, luquisha];
 //DRAG RACE ITALIA 2 acting, comedy, dance, design, improv, runway, lipsync
 let aura = new Queen("Aura Eternal", 11, 9, 9, 6, 5, 9, 8, "Aura");
 let gioffre = new Queen("Gioffré", 6, 8, 5, 7, 5, 8, 8, "Gioffre");
@@ -9206,7 +9206,7 @@ let allQueens = [
     aubrey, beverly, faux, hannah, kweenKong, minnie, molly, pomara, spankie, yuri,
     arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena,
     arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, sharonne, venedita,
-    ava, divinity, elecktra, enorma, farida, ivana, riche, luquisha,
+    ava, divinity, elecktraBionic, enorma, farida, ivana, riche, luquisha,
     aura, gioffre, diamond, petite, narciso, nehellenia, obama, panthera, skandalove, tanissa,
     elips, kam, bigbertha, briochee, grandedame, kahena, lolita, lova, paloma, soa,
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,

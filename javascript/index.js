@@ -9092,7 +9092,7 @@ let dres_season2 = [arielRec, diamante, sethlas, estrella, jota, juriji, marina,
 //DRAG RACE ITALIA S1
 let ava = new Queen("Ava Hangar", 8, 7, 5, 5, 6, 6, 6, "Ava");
 let divinity = new Queen("Divinity", 9, 6, 8, 7, 6, 8, 7, "Divinity");
-let elecktra = new Queen("Elecktra Bionic", 7, 8, 8, 8, 9, 9, 8, "Elecktra");
+let elecktra = new Queen("Elecktra Bionic", 7, 8, 8, 8, 9, 9, 8, "ElecktraBionic");
 let enorma = new Queen("Enorma Jean", 8, 8, 6, 6, 8, 7, 6, "Enorma");
 let farida = new Queen("Farida Kant", 7, 6, 8, 11, 5, 11, 8, "Farida");
 let ivana = new Queen("Ivana Vamp", 6, 5, 6, 6, 6, 6, 5, "Ivana");

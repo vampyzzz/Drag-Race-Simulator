@@ -86,7 +86,7 @@ let girlGroupCounter = false;
 let makeoverCounter = false;
 let snatchCounter = false;
 let rumixCounter = false;
-let lastChallenge = '';
+let lastChallenge = ''; 
 function miniChallenge() {
     for (let i = 0; i < currentCast.length; i++) {
         currentCast[i].miniWinner = false;

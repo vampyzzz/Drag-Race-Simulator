@@ -9149,6 +9149,17 @@ let peach = new Queen("Peach", 7, 7, 7, 7, 7, 7, 7, "Peach");
 let susan = new Queen("Susan", 7, 7, 7, 7, 7, 7, 7, "Susan");
 let valenciaga = new Queen("Valenciaga", 7, 7, 7, 7, 7, 7, 7, "Valenciaga");
 let drbl = [amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga];
+//DRAG RACE SVERIGE
+let admira = new Queen("Admira Thunderpussy", 7, 7, 7, 7, 7, 7, 7, "AdmiraThunderpussy");
+let almighty = new Queen("Almighty Aphroditey", 7, 7, 7, 7, 7, 7, 7, "AlmightyAphroditey");
+let antonina = new Queen("Antonina Nutshell", 7, 7, 7, 7, 7, 7, 7, "AntoninaNutshell");
+let elecktra = new Queen("Elecktra", 7, 7, 7, 7, 7, 7, 7, "Elecktra");
+let endigo = new Queen("Endigo", 7, 7, 7, 7, 7, 7, 7, "Endigo");
+let fontana = new Queen("Fontana", 7, 7, 7, 7, 7, 7, 7, "Fontana");
+let imaa = new Queen("Imaa Queen", 7, 7, 7, 7, 7, 7, 7, "ImaaQueen");
+let santana = new Queen("Santana Sexmachine", 7, 7, 7, 7, 7, 7, 7, "SantanaSexmachine");
+let vanityVain = new Queen("Vanity Vain", 7, 7, 7, 7, 7, 7, 7, "VanityVain");
+let drsv = [admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
 let ukvstw = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
@@ -9200,6 +9211,7 @@ let allQueens = [
     elips, kam, bigbertha, briochee, grandedame, kahena, lolita, lova, paloma, soa,
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
+    admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
     pangina
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];

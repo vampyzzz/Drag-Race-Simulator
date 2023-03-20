@@ -9089,6 +9089,20 @@ let samantha = new Queen("Samantha Ballentines", 4, 4, 5, 5, 5, 5, 3, "Samantha"
 let sharonne = new Queen("Sharonne", 12, 10, 8, 8, 12, 10, 9, "Sharonne");
 let venedita = new Queen("Venedita Von Däsh", 9, 9, 9, 9, 9, 10, 9, "Venedita");
 let dres_season2 = [arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, sharonne, venedita];
+//DRAG RACE ESPAÑA S3
+let bestiah = new Queen("Bestiah", 7, 7, 7, 7, 7, 7, 7, "Bestiah");
+let chanel = new Queen("Chanel Anorex", 7, 7, 7, 7, 7, 7, 7, "ChanelAnorex");
+let clover = new Queen("Clover Bish", 7, 7, 7, 7, 7, 7, 7, "CloverBish");
+let chuchi = new Queen("Drag Chuchi", 7, 7, 7, 7, 7, 7, 7, "DragChuchi");
+let hornella = new Queen("Hornella Góngora", 7, 7, 7, 7, 7, 7, 7, "HornellaGongora");
+let maria = new Queen("María Edília", 7, 7, 7, 7, 7, 7, 7, "MariaEdilia");
+let kellyRoller = new Queen("Kelly Roller", 7, 7, 7, 7, 7, 7, 7, "KellyRoller");
+let pakita = new Queen("Pakita", 7, 7, 7, 7, 7, 7, 7, "Pakita");
+let pink = new Queen("Pink Chadora", 7, 7, 7, 7, 7, 7, 7, "PinkChadora");
+let pitita = new Queen("Pitita", 7, 7, 7, 7, 7, 7, 7, "Pitita");
+let vania = new Queen("Vania Vainilla", 7, 7, 7, 7, 7, 7, 7, "VaniaVainilla");
+let visa = new Queen("Visa", 7, 7, 7, 7, 7, 7, 7, "Visa");
+let dres_season3 = [bestiah, chanel, clover, chuchi, hornella, maria, kellyRoller, pakita, pink, pitita, vania, visa];
 //DRAG RACE ITALIA S1
 let ava = new Queen("Ava Hangar", 8, 7, 5, 5, 6, 6, 6, "Ava");
 let divinity = new Queen("Divinity", 9, 6, 8, 7, 6, 8, 7, "Divinity");
@@ -9206,6 +9220,7 @@ let allQueens = [
     aubrey, beverly, faux, hannah, kweenKong, minnie, molly, pomara, spankie, yuri,
     arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena,
     arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, sharonne, venedita,
+    bestiah, chanel, clover, chuchi, hornella, maria, kellyRoller, pakita, pink, pitita, vania, visa,
     ava, divinity, elecktraBionic, enorma, farida, ivana, riche, luquisha,
     aura, gioffre, diamond, petite, narciso, nehellenia, obama, panthera, skandalove, tanissa,
     elips, kam, bigbertha, briochee, grandedame, kahena, lolita, lova, paloma, soa,

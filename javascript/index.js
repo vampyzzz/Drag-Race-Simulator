@@ -2021,7 +2021,7 @@ let returningQueen = false;
 let immunityTwist = false;
 let noDouble = false;
 let riggory = false;
-let riggoryLipsync = false;
+let riggoryLipsync = true;
 let chocolateBarTwist = false;
 let chocolateBarTwistCheck = false;
 let chocolateBarTwistChoosable = false;
@@ -3282,7 +3282,7 @@ function  canadaS2LipSyncs3() {
             screen.createImage("image/ChocolateBarWithTicket.webp", "gold");
             screen.createImage(finalLS[1].image, "gold");
             screen.createBold("You've got the GOLD BAR!!!! The gods have spoken!");
-            screen.createBold(finalLS[1].getName() + "!! Condragulations, you are safe to slay another day and you move on into the finale!!");
+            screen.createBold(finalLS[1].getName() + "!! YOU FUCKING DID IT BITCH YOU'RE SAFE AS FUCK!!");
             finalLS[1].addToTrackRecord("CHOC");
             finalLS[1].unfavoritism += 3;
             chocolateBarTwistCheck = true;
@@ -3292,13 +3292,13 @@ function  canadaS2LipSyncs3() {
             screen.createBold("It's chocolate.");
             eliminatedCast.unshift(finalLS[1]);
             screen.createImage(finalLS[1].image, "sienna");
-            screen.createBold(finalLS[1].getName() + ", sashay away...");
+            screen.createBold(finalLS[1].getName() + ", bye bye bitchie...");
             finalLS[1].addToTrackRecord("ELIMINATED");
         }
     } else {
         eliminatedCast.unshift(finalLS[1]);
         screen.createImage(finalLS[1].image, "sienna");
-        screen.createBold(finalLS[1].getName() + ", sashay away...");
+        screen.createBold(finalLS[1].getName() + ", bye bye bitch..");
         finalLS[1].addToTrackRecord("ELIMINATED");
     }
     episodeCount++;
@@ -3334,7 +3334,7 @@ function memLips() {
         let lipsync = document.createElement("td");
         lipsync.setAttribute("class", "song");
         lipsync.setAttribute("colspan", "2");
-        lipsync.innerHTML = "There was no memorable lipsyncs this season";
+        lipsync.innerHTML = "The lipsyncs were shit soz ):";
         row.appendChild(lipsync);
         trackRecords.appendChild(row);
     } else {
@@ -5957,7 +5957,7 @@ function lipsyncs14() {
             }
             lipSync.sort(function (a, b) { return (b.lipsyncScore - a.lipsyncScore); });
             screen.createImage(lipSync[0].image, "royalblue");
-            screen.createBold(lipSync[0].getName() + ", shantay you stay! ");
+            screen.createBold(lipSync[0].getName() + ", you turned that out! shantay you stay ");
             screen.createBold(lipSync[1].getName() + ", " + lipSync[2].getName() + ", you are still up for eliminaton!!");
             lipSync[0].addToTrackRecord("SAFE<br><small>Round 1</small>");
             lipsyncorder.splice(lipsyncorder.indexOf(lipSync[0]), 1);
@@ -6420,7 +6420,7 @@ function bottom6Judging() {
                 
             }
         } else {
-            screen.createBold("I'm sorry but none of you showed the fire it takes to stay. You must both... sashay away.");
+            screen.createBold("YOU BOTH FUCKING SUCKED LMAOO bye bitches.");
             doubleSashay = true;
             bottomQueens[bottomQueens.length - 2].addToTrackRecord(" ELIM ");
             bottomQueens[bottomQueens.length - 2].unfavoritism += 5;
@@ -6435,7 +6435,7 @@ function bottom6Judging() {
         }
     }else{
         screen.createImage(bottomQueens[bottomQueens.length - 2].image, "tomato");
-        screen.createBold(bottomQueens[bottomQueens.length - 2].getName() + ", shantay you stay.");
+        screen.createBold(bottomQueens[bottomQueens.length - 2].getName() + ", just for that lipsync ur safe as fuck.");
         if (bottomQueens.length == 5) {
             bottomQueens[bottomQueens.length - 2].addToTrackRecord("BTM5");
         } else {
@@ -6997,7 +6997,7 @@ function teamWinAndBtm2() {
     topQueens[0].ppe += 5;
     screen.createImage(topQueens[0].QueenB.image, "royalblue");
     screen.createImage(topQueens[0].QueenA.image, "royalblue");
-    screen.createBold(topQueens[0].getName() + ", condragulations you're the winners of this week's challenge!");
+    screen.createBold(topQueens[0].getName() + ", You ate this challenge up bitch! You're this weeks winner");
     if (topQueens.length > 1) {
         topQueens[1].QueenA.addToTrackRecord("HIGH");
         topQueens[1].QueenB.addToTrackRecord("HIGH");

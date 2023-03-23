@@ -9047,10 +9047,9 @@ let cocoj = new Queen("Coco Jumbo", 6, 5, 6, 6, 5, 8, 10, "CocoJ");
 let elektra = new Queen("Elektra Shock", 10, 6, 12, 8, 4, 7, 11, "Elektra");
 let etc = new Queen("Etcetera Etcetera", 5, 8, 8, 7, 8, 8, 8, "Etc");
 let jojo = new Queen("Jojo Zaho", 5, 5, 5, 5, 5, 6, 6, "Jojo");
-let karen = new Queen("Karen From Finance", 5, 6, 5, 5, 7, 7, 5, "Karen");
 let kita = new Queen("Kita Mean", 9, 9, 7, 7, 9, 9, 8, "Kita");
 let maxi = new Queen("Maxi Shield", 6, 6, 5, 9, 7, 8, 8, "Maxi");
-let drdu_season1 = [anita, art, cocoj, elektra, etc, jojo, karen, kita, maxi];
+let drdu_season1 = [anita, art, cocoj, elektra, etc, jojo, kita, maxi];
 //DRAG RACE DOWN UNDER SEASON 2
 let aubrey = new Queen("Aubrey Haive", 5, 4, 5, 7, 4, 8, 7, "Aubrey");
 let beverly = new Queen("Beverly Kills", 8, 4, 10, 9, 5, 9, 10, "Beverly");
@@ -9218,7 +9217,7 @@ let allQueens = [
     ivyelise, juicy, keta, love, mlp, reggy, tabitha, countess, vanessaC, vivaldi,
     amadiva, annee, b, bunny, dearis, jaja, meannie, morrigan, natalia, petchra,
     angele, bandit, genie, kana, kandyz, katy, m, maya, mocha, gimhuay, silver, srimala, tormai, vanda,
-    anita, art, cocoj, elektra, etc, jojo, karen, kita, maxi,
+    anita, art, cocoj, elektra, etc, jojo, kita, maxi,
     aubrey, beverly, faux, hannah, kweenKong, minnie, molly, pomara, spankie, yuri,
     arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena,
     arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, sharonne, venedita,
@@ -12868,7 +12867,6 @@ let queensReads = [
     {queen: "Lady Boom Boom", reads: ["Lady Boom Boom… Like the Great North American squirrel, you're graceful, petite, and you're able to fit an alarming amount of nuts in your mouth.", "Miss Lady Boom Boom, I know what you've got in your bags. Cucumber."]},
     {queen: "Kita Mean", reads: ["It is ssssso good to have you here in the competition. Now, ♪ dun-dun da-dun-dun ♪... fuck off.", "Kita Mean. I never knew why they filmed The Hobbit in New Zealand, and now I know.", "Kita Mean! No, you know, Kita's gone through a fantastic weight-loss journey. You've got enough leftover skin to make a family resemblance costume."]},
     {queen: "Art Simone", reads: ["Art Simone, you're a brilliant drag queen and an amazing makeup artist. You can paint pretty much anything, except a win."]},
-    {queen: "Karen From Finance", reads: ["You look like the kind of person who enjoys hemorrhoids.", "Karen From Finance, if I threw a stick, would you leave?", "Karen From Finance, you're in for a very big payday soon, yeah, when I hire you to do the tax on my prize money."]},
     {queen: "Elektra Shock", reads: ["I finally understand your name, 'cause it's a shock to me that you're still in the competition.", "Elektra Shock, man...", "Elektra Shock, hello. I was so excited when I found out we were coming to the COVID-free haven that is New Zealand, but if I was you, I would get a COVID test 'cause you've clearly lost your sense of taste."]},
     {queen: "Maxi Shield", reads: ["Now, I don't want to call Maxi old, but uh, the calculator on her first phone was an abacus."]},
     {queen: "Etcetera Etcetera", reads: ["You know, this competition is full of fierce talent, hilarious people, Etcetera Etcetera... It's kind of interesting, for someone that is so woke, I'm wondering when you're gonna wake the fuck up.", "Etcetera Etcetera. Now, just a recap on pronouns for the room here, now, out of drag, Etcetera uses they/them pronouns, so for example: 'They' haven't been in the top, so we won't be seeing 'them' in the final."]},
@@ -12945,8 +12943,6 @@ let queensReads = [
     "You talk about having sex a lot, but the only thing you're 'fucking' is stupid.",
     "We can tell that you're from the ball scene. I mean, your lashes love voguing.",
     "Sister to sister, let me give you some advice. Don't ever be ashamed of who you are. That's your parents' job.",
-    "You look like the kind of person who enjoys hemorrhoids.",
-    "If I threw a stick, would you leave?",
     "I don't have a roast for you. I didn't expect you in this episode.",
     "ah yes... wait... who is that again?",
     "Honey, your career only has movement because the earth has to spin on its axis.",
@@ -12956,16 +12952,19 @@ let queensReads = [
     "Your fashion make Rupaul's Judging Panel sweatpants look like a million bucks.",
     "Maybe you'd look good if you were six feet under.",
     "My dear, you are built like a star... fish.",
-    "Bitch you’re so old, when people ask to act your own age, bitch you died.",
+    "Bitch you’re so old, when people ask to act your own age, bitch you die.",
     "I see the sanitation men forgot to pick you up for garbage day.",
     "Maybe if you spent a little less time eating ass, your breath wouldn't be as shit as your attitude.",
     "I don't shut up, I grow up. But when I look at you, I throw up...",
-    "Green behaviour."
+    "BMW...Body. Made.Wrong",
+    "Fat.",
+    "Green behavior."
     ]}
 ];
 let allReads = [...queensReads];
 let whoWhyCompetition = [
     "they are lacking experience to be the winner",
+    "they're very hokey pokey like this is a drag queen competetion...",
     "working with them was frustrating and they were not in the same level as the other contestants",
     "they were the weakest person in the group",
     "they are comfortable being a beautiful girl",
@@ -13025,7 +13024,7 @@ let whoWhyRelation = [
     "their wigs look like they're laced with lice, they have crunchy outfits and because they shouldn't have even made it past the audition stage."
 ];
 let lipsyncsEventsBad = [
-    {event: "broke a light of the scenario.", penalization: -1},
+    {event: "broke a light on the stage.", penalization: -1},
     {event: "tried to do a reveal and failed.", penalization: -3},
     {event: "lost their wig!", penalization: -3},
     {event: "lost their heels!", penalization: -3},
@@ -13039,13 +13038,13 @@ let lipsyncsEventsBad = [
 let lipsyncsEventsGood = [
     {event: "did the best split of the season!", points: 5},
     {event: "did an amazing reveal!", points: 5},
-    {event: "pretend to be tipped by the audience.", points: 4},
+    {event: "pretended to be tipped by the audience.", points: 4},
     {event: "embodied the song.", points: 3},
     {event: "knew every single word of the song.", points: 3},
-    {event: "made a fake split.", points: 2},
+    {event: "did a fake split.", points: 2},
     {event: "pulled out a microphone.", points: 2},
     {event: "kissed the guest judge.", points: 2},
-    {event: "broke a light of the scenario.", points: 1}
+    {event: "broke a light on the stage.", points: 1}
 ];
 function toBlots(lipsyncers, song) {
     let totalLipsync = 0;

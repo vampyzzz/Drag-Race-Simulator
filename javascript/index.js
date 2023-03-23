@@ -9084,9 +9084,8 @@ let marina = new Queen("Marina", 6, 10, 8, 7, 7, 8, 11, "Marina");
 let marisa = new Queen("Marisa Prisa", 4, 4, 3, 2, 4, 4, 4, "Marisa");
 let onyx = new Queen("Onyx", 6, 6, 7, 7, 6, 13, 7, "Onyx");
 let samantha = new Queen("Samantha Ballentines", 4, 4, 5, 5, 5, 5, 3, "Samantha");
-let sharonne = new Queen("Sharonne", 12, 10, 8, 8, 12, 10, 9, "Sharonne");
 let venedita = new Queen("Venedita Von Däsh", 9, 9, 9, 9, 9, 10, 9, "Venedita");
-let dres_season2 = [arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, sharonne, venedita];
+let dres_season2 = [arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, venedita];
 //DRAG RACE ESPAÑA S3
 let bestiah = new Queen("Bestiah", 7, 7, 7, 7, 7, 7, 7, "Bestiah");
 let chanel = new Queen("Chanel Anorex", 7, 7, 7, 7, 7, 7, 7, "ChanelAnorex");
@@ -9219,7 +9218,7 @@ let allQueens = [
     anita, art, cocoj, elektra, etc, jojo, kita, maxi,
     aubrey, beverly, faux, hannah, kweenKong, minnie, molly, pomara, spankie, yuri,
     arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena,
-    arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, sharonne, venedita,
+    arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, venedita,
     bestiah, chanel, clover, chuchi, hornella, maria, kellyRoller, pakita, pink, pitita, vania, visa,
     ava, divinity, elecktraBionic, enorma, farida, ivana, riche, luquisha,
     aura, gioffre, diamond, petite, narciso, nehellenia, obama, panthera, skandalove, tanissa,

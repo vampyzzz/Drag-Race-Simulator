@@ -8887,7 +8887,7 @@ let salina = new Queen("Salina EsTitties", 9, 8, 8, 5, 8, 7, 11, "SalinaEsTittie
 let sashaColby = new Queen("Sasha Colby", 12, 9, 15, 13, 8, 14, 13, "SashaColby");
 let spice = new Queen("Spice", 8, 6, 7, 8, 5, 10, 7, "Spice");
 let sugar = new Queen("Sugar", 9, 7, 6, 6, 5, 10, 7, "Sugar");
-let us_season15 = [amethyst, anetra, auraMayari, irene, jax, loosey, luxx, malaysia, marcia, mistress, poppy, robin, salina, sashaColby, spice, sugar];
+let us_season15 = [amethyst, anetra, auraMayari, irene, jax, loosey, luxx, malaysia, marcia, mistress, robin, salina, sashaColby, spice, sugar];
 //DRUK SEASON 1 
 let baga = new Queen("Baga Chipz", 13, 12, 5, 5, 13, 8, 7, "Baga");
 let blu = new Queen("Blu Hydrangea", 5, 9, 8, 10, 10, 12, 9, "Blu");

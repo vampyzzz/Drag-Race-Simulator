@@ -9163,6 +9163,54 @@ let peach = new Queen("Peach", 7, 7, 7, 7, 7, 7, 7, "Peach");
 let susan = new Queen("Susan", 7, 7, 7, 7, 7, 7, 7, "Susan");
 let valenciaga = new Queen("Valenciaga", 7, 7, 7, 7, 7, 7, 7, "Valenciaga");
 let drbl = [amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga];
+//DRAGULA SEASON 1
+let foxie = new Queen("Foxie Adjuia", 6, 5, 14, 4, 4, 5, 15, "Foxie");
+let frankie = new Queen("Frankie Doom", 8, 5, 6, 6, 7, 12, 10, "Frankie");
+let loris = new Queen("Loris", 5, 4, 8, 14, 4, 13, 9, "Loris");
+let meatball = new Queen("Meatball", 13, 14, 7, 2, 15, 5, 12, "Meatball");
+let melissa = new Queen("Melissa Befierce", 9, 5, 14, 9, 6, 11, 15, "Melissa");
+let pinche = new Queen("Pinche Queen", 7, 6, 5, 2, 5, 3, 6, "Pinche");
+let ursula = new Queen("Ursula Major", 5, 3, 3, 6, 5, 7, 3, "Ursula");
+let vander = new Queen("Vander Von Odd", 13, 8, 7, 15, 9, 15, 8, "Vander");
+let xochi = new Queen("Xochi Mochi", 9, 7, 6, 6, 7, 8, 6, "Xochi");
+let dragula = [foxie, frankie, loris, meatball, melissa, pinche, ursula, vander, xochi];
+//DRAGULA SEASON 2
+let abhora = new Queen("Abhora", 7, 6, 5, 10, 5, 12, 10, "Abhora");
+let biqtch = new Queen("Biqtch Puddin'", 13, 14, 8, 8, 15, 10, 10, "Biqtch");
+let dahli = new Queen("Dahli", 7, 10, 8, 12, 8, 15, 10, "Dahli");
+let disasterina = new Queen("Disasterina", 6, 8, 4, 10, 14, 7, 4, "Disasterina");
+let erika = new Queen("Erika Klash", 6, 5, 9, 8, 5, 7, 10, "Erika");
+let felony = new Queen("Felony Dodger", 6, 8, 4, 6, 6, 5, 5, "Felony");
+let kendra = new Queen("Kendra Onixxx", 5, 7, 10, 8, 9, 10, 10, "Kendra");
+let majesty = new Queen("Majesty", 14, 8, 7, 12, 9, 14, 10, "Majesty");
+let monikkie = new Queen("Monikkie Shame", 4, 2, 2, 3, 2, 2, 3, "Monikkie");
+let victoria = new Queen("Victoria Elizabeth Black", 4, 6, 4, 15, 8, 15, 7, "Victoria");
+let dragula2 = [abhora, biqtch, dahli, disasterina, erika, felony, kendra, majesty, monikkie, victoria];
+//DRAGULA SEASON 3
+let dollya = new Queen("Dollya Black", 6, 6, 6, 15, 6, 14, 8, "Dollya");
+let evah = new Queen("Evah Destruction", 13, 8, 10, 11, 7, 11, 11, "Evah");
+let hollow = new Queen("Hollow Eve", 9, 3, 4, 7, 4, 10, 9, "Hollow");
+let landon = new Queen("Landon Cider", 12, 11, 10, 14, 12, 15, 13, "Landon");
+let louisianna = new Queen("Louisianna Purchase", 10, 8, 10, 9, 6, 10, 10, "Louisianna");
+let maddelynn = new Queen("Maddelynn Hatter", 5, 6, 6, 10, 7, 10, 8, "Maddelynn");
+let maxiG = new Queen("Maxi Glamour", 4, 4, 10, 7, 4, 8, 10, "MaxiG");
+let priscilla = new Queen("Priscilla Chambers", 8, 10, 13, 7, 10, 9, 13, "Priscilla");
+let saint = new Queen("Saint", 5, 7, 8, 15, 7, 15, 12, "Saint");
+let violencia = new Queen("Violencia!", 7, 6, 4, 4, 7, 4, 6, "Loris");
+let yovska = new Queen("Yovska", 5, 7, 4, 11, 7, 11, 6, "Yoska");
+let dragula3 = [dollya, evah, hollow, landon, louisianna, maddelynn, maxiG, priscilla, saint, violencia, yovska];
+//DRAGULA RESURRECTION
+let dragulares = [dahli, frankie, kendra, loris, priscilla, saint, victoria];
+//DRAGULA SEASON 4
+let astrud = new Queen("Astrud Aurelia", 6, 4, 8, 12, 5, 15, 10, "Astrud");
+let betty = new Queen("Bitter Betty", 7, 5, 7, 9, 5, 11, 7, "Betty");
+let formelda = new Queen("Formelda Hyde", 3, 3, 3, 6, 3, 6, 2, "formelda");
+let hoso = new Queen("HoSo Terra Toma", 13, 8, 9, 13, 9, 14, 10, "HoSo");
+let koco = new Queen("Koco Caine", 6, 9, 13, 6, 8, 8, 13, "Koco");
+let lazavaleta = new Queen("La Zavaleta", 8, 8, 12, 10, 8, 13, 13, "LaZavaleta");
+let merrie = new Queen("Merrie Cherry", 5, 5, 4, 2, 6, 4, 6, "Merrie");
+let sigourney = new Queen("Sigourney Beaver", 10, 9, 9, 13, 9, 13, 10, "Sigourney");
+let dragula4 = [astrud, betty, dahli, formelda, hoso, jadejolie, koco, lazavaleta, merrie, saint, sigourney];
 //DRAG RACE SVERIGE
 let admira = new Queen("Admira Thunderpussy", 7, 7, 7, 7, 7, 7, 7, "AdmiraThunderpussy");
 let almighty = new Queen("Almighty Aphroditey", 7, 7, 7, 7, 7, 7, 7, "AlmightyAphroditey");

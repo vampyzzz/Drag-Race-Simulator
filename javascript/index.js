@@ -9147,9 +9147,9 @@ let xilhouete = new Queen("Xilhouete", 6, 10, 6, 8, 11, 10, 8, "Xilhouete");
 let drph = [brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete];
 //DRAG RACE BELGIQUE
 let amanda = new Queen("Amanda Tears", 5, 5, 3, 5, 4, 5, 6, "AmandaTears");
-let athena = new Queen("Athena Sorgelikis", 8, 10, 7, 8, 6, 15, 7, "AthenaSorgelikis");
+let athena = new Queen("Athena Sorgelikis", 8, 8, 7, 8, 6, 15, 7, "AthenaSorgelikis");
 let brittany = new Queen("Brittany Von Bottoks", 5, 3, 5, 4, 5, 4, 5, "BrittanyVonBottoks");
-let dragCouenne = new Queen("Drag Couenne", 10, 10, 7, 8, 8, 9, 7, "DragCouenne");
+let dragCouenne = new Queen("Drag Couenne", 12, 12, 7, 10, 10, 9, 7, "DragCouenne");
 let edna = new Queen("Edna Sorgelsen", 7, 7, 8, 7, 7, 7, 8, "EdnaSorgelsen");
 let mademoiselle = new Queen("Mademoiselle Boop", 7, 9, 6, 9, 11, 6, 8, "MademoiselleBoop");
 let moca = new Queen("Mocca Bone", 6, 5, 6, 6, 7, 7, 8, "MoccaBone");

@@ -8709,7 +8709,7 @@ let princess = new Queen("The Princess", 4, 4, 5, 7, 4, 7, 7, "Princess");
 let willam = new Queen("Willam", 15, 11, 7, 10, 12, 9, 8, "Willam");
 let us_season4 = [alisa, chad, dida, jiggly, kenya, leshauwn, latrice, madame, milan, phiphi, princess, willam];
 //ALL STARS 1:
-let allstars_1 = [alexis, chad, jujubee, latrice, manila, mimi, ninaf, pandora, shannel, tammie, yara];
+let allstars_1 = [alexis, chad, jujubee, latrice, manila, mimi, ninaf, pandora, shannel, tammie, willam, yara];
 //SEASON 5:   acting, comedy, dance, design, improv, runway, lipsync
 let alaska = new Queen("Alaska", 15, 14, 7, 8, 14, 10, 11, "Alaska");
 let alyssa = new Queen("Alyssa Edwards", 4, 11, 15, 6, 10, 9, 12, "Alyssa");

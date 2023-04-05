@@ -846,7 +846,7 @@ class GirlGroup {
             desc1[desc1["Sitting on a Secret"] = 2] = "Sitting on a Secret";
             desc1[desc1["Don't Funk it Up"] = 3] = "Don't Funk it Up";
             desc1[desc1["Everybody Say Love"] = 4] = "Everybody Say Love";
-            desc1[desc1["You Don't Know Me"] = 5] = "You Don't Know Me";
+            desc1[desc1["Super Bass"] = 5] = "Super Bass";
             desc1[desc1["I'm That Bitch"] = 6] = "I'm That Bitch";
             desc1[desc1["I'm in Love!"] = 7] = "I'm in Love!";
             desc1[desc1["Not Sorry Aboot It"] = 8] = "Not Sorry Aboot It";
@@ -854,7 +854,7 @@ class GirlGroup {
             desc1[desc1["Phenomenon"] = 10] = "Phenomenon";
             desc1[desc1["UK Hun?"] = 11] = "UK Hun?";
             desc1[desc1["Queens Down Under"] = 12] = "Queens Down Under";
-            desc1[desc1["Divas"] = 13] = "Divas";
+            desc1[desc1["Blame It on the Edit"] = 13] = "Blame It on the Edit";
             desc1[desc1["Show Up Queen"] = 14] = "Show Up Queen";
             desc1[desc1["B.D.E (Big Drag Energy)"] = 15] = "B.D.E (Big Drag Energy)";
             desc1[desc1["Bye Flop"] = 16] = "Bye Flop";
@@ -9002,7 +9002,7 @@ let juicy = new Queen("Juicy Kouture", 5, 6, 5, 5, 4, 4, 5, "Juicy");
 let keta = new Queen("Keta Minaj", 9, 12, 9, 7, 12, 11, 9, "Keta");
 let love = new Queen("Love Masisi", 6, 5, 6, 8, 5, 10, 7, "Love");
 let mlp = new Queen("My Little Puny", 10, 10, 10, 7, 9, 10, 10, "MLP");
-let reggy = new Queen("Reggy B", 6, 6, 6, 5, 6, 8, 8, "Reggy");
+let reggy = new Queen("Reggy B", 6, 6, 9, 5, 6, 8, 9, "Reggy");
 let tabitha = new Queen("Tabitha", 6, 7, 8, 6, 5, 7, 8, "Tabitha");
 let countess = new Queen("The Countess", 7, 5, 4, 10, 6, 12, 5, "Countess");
 let vanessaC = new Queen("Vanessa Van Cartier", 7, 5, 6, 8, 5, 12, 8, "VanessaC");
@@ -9055,7 +9055,7 @@ let kweenKong = new Queen("Kween Kong", 5, 9, 12, 5, 8, 10, 11, "Kween");
 let minnie = new Queen("Minnie Cooper", 9, 8, 5, 6, 6, 9, 7, "Minnie");
 let molly = new Queen("Molly Poppinz", 8, 7, 6, 9, 7, 10, 9, "Molly");
 let pomara = new Queen("Pomara Fifth", 8, 5, 5, 7, 5, 9, 8, "Pomara");
-let spankie = new Queen("Spankie Jackzon", 11, 11, 8, 5, 8, 7, 9, "Spankie");
+let spankie = new Queen("Spankie Jackzon", 11, 11, 9, 5, 9, 6, 11, "Spankie");
 let yuri = new Queen("Yuri Guaii", 6, 11, 6, 14, 9, 13, 9, "Yuri");
 let drdu_season2 = [aubrey, beverly, faux, hannah, kweenKong, minnie, molly, pomara, spankie, yuri];
 //DRAG RACE ESPAÑA 1
@@ -9109,7 +9109,7 @@ let luquisha = new Queen("Luquisha Lubamba", 7, 6, 6, 5, 7, 6, 7, "Luquisha");
 let drita = [ava, divinity, elecktraBionic, enorma, farida, ivana, riche, luquisha];
 //DRAG RACE ITALIA 2 acting, comedy, dance, design, improv, runway, lipsync
 let aura = new Queen("Aura Eternal", 11, 9, 9, 6, 5, 9, 8, "Aura");
-let gioffre = new Queen("Gioffré", 6, 8, 5, 7, 5, 8, 8, "Gioffre");
+let gioffre = new Queen("Gioffré", 6, 8, 5, 7, 5, 3, 8, "Gioffre");
 let diamond = new Queen("La Diamond", 10, 12, 8, 12, 11, 13, 9, "LaDiamond");
 let petite = new Queen("La Petite Noire", 10, 5, 10, 8, 7, 11, 11, "Petite");
 let narciso = new Queen("Narciso", 4, 4, 4, 4, 4, 4, 4, "Narciso");
@@ -12916,32 +12916,27 @@ let queensReads = [
     "Your idea of a wardrobe is a swimsuit in a different color.",
     "Rotted.",
     "Never mind.",
-    "You're still here?",
+    "Eat my pussy",
     "At this point you really should just make like your hair line and recede.",
     "Haute couture? More like haute glue.",
-    "I don't blame you for not being a great makeup artist. There's not many things you can do with coffee grounds and gasoline.",
-    "Have you ever tried eating your makeup? So you'll be pretty on the inside, too?",
     "People don't appreciate how much money you have to spend on makeup when you covering two faces.",
     "I don't read somebody unless I have a genuine respect for them... so I think we're done here.",
-    "Girl, you're so skinny, you got people in Somalia sending you food.",
     "I remember when you were dressed up as a cockroach on the runway. That's the closest you can get to cock.",
     "I'm looking for a new apartment, how much are you charging for the vacant space between your ears?",
-    "I bet R. Kelly wouldn't even piss on you.",
     "Meh forgettable.",
-    "You're like a really good pair of socks. Soft, supportive, full of cum.",
     "You are so stupid, you studied for your COVID test.", 
     "It's so crazy how you can paint so fast. We paint on face, and you paint two faces.",
     "The face of a superstar... for podcasting.",
     "You talk about having sex a lot, but the only thing you're 'fucking' is stupid.",
     "We can tell that you're from the ball scene. I mean, your lashes love voguing.",
     "Sister to sister, let me give you some advice. Don't ever be ashamed of who you are. That's your parents' job.",
-    "I don't have a roast for you. I didn't expect you in this episode.",
+    "I don't have a read for you. I didn't expect you in this episode.",
     "ah yes... wait... who is that again?",
     "Honey, your career only has movement because the earth has to spin on its axis.",
     "You’re not yourself today… I noticed the improvement immediately!",
     "Honey, who cancelled and you booked this gig?",
     "Reading you is like reading a Walt Disney book, it’s simply too easy",
-    "Your fashion make Rupaul's Judging Panel sweatpants look like a million bucks.",
+    "Your fashion make Rupaul's Judging Panel sweatpants look like a million dollars.",
     "Maybe you'd look good if you were six feet under.",
     "My dear, you are built like a star... fish.",
     "Bitch you’re so old, when people ask to act your own age, bitch you die.",

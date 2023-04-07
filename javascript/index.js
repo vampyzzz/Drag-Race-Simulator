@@ -9147,25 +9147,25 @@ let xilhouete = new Queen("Xilhouete", 6, 10, 6, 8, 11, 10, 8, "Xilhouete");
 let drph = [brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete];
 //DRAG RACE BELGIQUE
 let amanda = new Queen("Amanda Tears", 5, 5, 3, 5, 4, 5, 6, "AmandaTears");
-let athena = new Queen("Athena Sorgelikis", 8, 8, 7, 8, 6, 15, 7, "AthenaSorgelikis");
+let athena = new Queen("Athena Sorgelikis", 8, 8, 7, 9, 6, 15, 8, "AthenaSorgelikis");
 let brittany = new Queen("Brittany Von Bottoks", 5, 3, 5, 4, 5, 4, 5, "BrittanyVonBottoks");
-let dragCouenne = new Queen("Drag Couenne", 12, 12, 7, 10, 10, 10, 7, "DragCouenne");
-let edna = new Queen("Edna Sorgelsen", 6, 7, 8, 6, 7, 5, 8, "EdnaSorgelsen");
+let dragCouenne = new Queen("Drag Couenne", 12, 12, 7, 11, 10, 12, 7, "DragCouenne");
+let edna = new Queen("Edna Sorgelsen", 6, 5, 8, 6, 6, 5, 8, "EdnaSorgelsen");
 let mademoiselle = new Queen("Mademoiselle Boop", 7, 9, 6, 9, 11, 6, 8, "MademoiselleBoop");
 let moca = new Queen("Mocca Bone", 6, 5, 6, 6, 7, 7, 8, "MoccaBone");
 let peach = new Queen("Peach", 9, 6, 7, 9, 6, 8, 7, "Peach");
 let susan = new Queen("Susan From Grindr", 7, 6, 6, 10, 9, 8, 7, "Susan");
-let valenciaga = new Queen("Valenciaga", 5, 6, 9, 7, 5, 7, 10, "Valenciaga");
+let valenciaga = new Queen("Valenciaga", 5, 6, 9, 6, 5, 7, 10, "Valenciaga");
 let drbl = [amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga];
 //DRAG RACE SVERIGE acting, comedy, dance, design, improv, runway, lipsync
-let admira = new Queen("Admira Thunderpussy", 7, 9, 9, 6, 7, 11, 7, "AdmiraThunderpussy");
+let admira = new Queen("Admira Thunderpussy", 8, 10, 9, 6, 11, 11, 7, "AdmiraThunderpussy");
 let almighty = new Queen("Almighty Aphroditey", 5, 4, 4, 5, 5, 4, 5, "AlmightyAphroditey");
 let antonina = new Queen("Antonina Nutshell", 3, 3, 3, 4, 2, 2, 4, "AntoninaNutshell");
-let elecktra = new Queen("Elecktra", 7, 7, 7, 5, 7, 9, 7, "Elecktra");
+let elecktra = new Queen("Elecktra", 8, 7, 9, 5, 9, 9, 7, "Elecktra");
 let endigo = new Queen("Endigo", 7, 5, 6, 4, 6, 4, 7, "Endigo");
 let fontana = new Queen("Fontana", 7, 7, 7, 5, 7, 7, 7, "Fontana");
-let imaa = new Queen("Imaa Queen", 8, 7, 5, 8, 4, 12, 4, "ImaaQueen");
-let santana = new Queen("Santana Sexmachine", 7, 9, 9, 9, 8, 9, 6, "SantanaSexmachine");
+let imaa = new Queen("Imaa Queen", 8, 7, 5, 10, 4, 14, 4, "ImaaQueen");
+let santana = new Queen("Santana Sexmachine", 7, 9, 9, 9, 8, 10, 6, "SantanaSexmachine");
 let vanityVain = new Queen("Vanity Vain", 6, 5, 9, 11, 6, 9, 8, "VanityVain");
 let drsv = [admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain];
 //SPECIAL 

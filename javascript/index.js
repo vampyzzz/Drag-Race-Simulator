@@ -9169,7 +9169,6 @@ let vanityVain = new Queen("Vanity Vain", 6, 5, 9, 11, 6, 9, 8, "VanityVain");
 let drsv = [admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
-let mayam = new Queen("Maya Mengoni", 8, 10, 13, 8, 11, 13, 13, "MayaMengoni");
 let dahli = new Queen("Dahli", 7, 10, 8, 12, 8, 15, 10, "Dahli");
 let ukvstw = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
 let canvstw = [anita, icesis, kendall, rajah, rita, silky, stephanie, victoriaS, vanity];
@@ -9222,7 +9221,7 @@ let allQueens = [
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
-    pangina, mayam, dahli
+    pangina, dahli
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];

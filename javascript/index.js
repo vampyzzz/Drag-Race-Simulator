@@ -8678,8 +8678,7 @@ let sahara = new Queen("Sahara Davenport", 6, 6, 10, 4, 6, 7, 10, "Sahara");
 let shangela = new Queen("Shangela", 14, 13, 10, 3, 9, 9, 12, "Shangela");
 let sonique = new Queen("Kylie Sonique Love", 11, 9, 10, 9, 8, 11, 11, "Kylie");
 let tatianna = new Queen("Tatianna", 8, 11, 8, 8, 10, 8, 10, "Tatianna");
-let tyra = new Queen("King Tyra", 11, 7, 8, 12, 8, 10, 10, "Tyra");
-let us_season2 = [jessica, jujubee, morgan, mystique, nicole, pandora, sahara, shangela, sonique, tatianna, tyra];
+let us_season2 = [jessica, jujubee, morgan, mystique, nicole, pandora, sahara, shangela, sonique, tatianna];
 //SEASON 3:
 let alexis = new Queen("Alexis Mateo", 14, 12, 9, 7, 10, 8, 12, "Alexis");
 let carmen = new Queen("Carmen Carrera", 3, 8, 6, 4, 3, 7, 7, "Carmen");
@@ -8716,7 +8715,7 @@ let alyssa = new Queen("Alyssa Edwards", 4, 11, 15, 6, 10, 9, 12, "Alyssa");
 let coco = new Queen("Coco Montrese", 10, 11, 11, 9, 7, 9, 15, "Coco");
 let detox = new Queen("Detox", 10, 9, 9, 9, 8, 12, 11, "Detox");
 let honey = new Queen("Honey Mahogany", 10, 3, 3, 6, 6, 8, 4, "Honey");
-let ivy = new Queen("Ivy Winters", 11, 4, 8, 12, 7, 10, 7, "Ivy");
+let 15 = new Queen("Ivy Winters", 11, 4, 8, 15, 7, 10, 7, "Ivy");
 let jadejolie = new Queen("Jade Jolie", 5, 7, 8, 7, 8, 7, 8, "JadeJ");
 let jinkx = new Queen("Jinkx Monsoon", 15, 15, 9, 8, 15, 9, 8, "Jinkx");
 let lineysha = new Queen("Lineysha Sparx", 10, 4, 7, 12, 5, 10, 8, "Lineysha");
@@ -9187,7 +9186,7 @@ for (let i = 0; i < customLength; i++) {
 allCustomQueens.splice(0, customLength);
 let allQueens = [
     akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria,
-    jessica, jujubee, morgan, mystique, nicole, pandora, sahara, shangela, sonique, tatianna, tyra,
+    jessica, jujubee, morgan, mystique, nicole, pandora, sahara, shangela, sonique, tatianna,
     alexis, carmen, delta, india, manila, mariah, mimi, phoenix, raja, stacey, venus, yara,
     alisa, chad, dida, jiggly, kenya, leshauwn, latrice, madame, milan, phiphi, princess, willam,
     alaska, alyssa, coco, detox, honey, ivy, jadejolie, jinkx, lineysha, monica, penny, roxxxy, serena, vivienne,

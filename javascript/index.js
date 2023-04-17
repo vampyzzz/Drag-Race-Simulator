@@ -8904,7 +8904,7 @@ let allstars_7 = [raja, jinkx, yvie, jaida, trinity, monet, shea, viv];
 // ALL STARS 8
 let allstars_8 = [alexism, darienne, heidi, jaymes, jessica, kahanna, kandym, kasha, lala, monica, naysha];
 // GLOBAL ALL STARS
-let allstars_global = [alyssa, vanessa, peppermint, naomi, kitty, bobo, jada, elektra, kween, kana, turing, farida];
+let allstars_32 = [alyssa, vanessa, peppermint, naomi, kitty, bobo, jada, elektra, kween, kana, turing, farida, tayce];
 
 //DRUK SEASON 2
 let awhora = new Queen("A'Whora", 7, 5, 8, 15, 10, 10, 8, "Awhora");
@@ -8920,7 +8920,7 @@ let tayce = new Queen("Tayce", 10, 9, 10, 5, 9, 12, 14, "Tayce");
 let tia = new Queen("Tia Kofi", 7, 13, 9, 5, 9, 5, 12, "Tia");
 let veronica = new Queen("Veronica Green", 10, 9, 6, 8, 9, 7, 9, "Veronica");
 let uk_season2 = [awhora, asttina, bimini, cherry, ellie, ginny, joe, lawrence, sister, tayce, tia, veronica];
-//DRUK SEASON 3    
+//DRUK SEASON 3  
 let anubis = new Queen("Anubis", 5, 5, 5, 4, 5, 4, 4, "Anubis");
 let charity = new Queen("Charity Kase", 8, 7, 4, 12, 6, 13, 8, "Charity");
 let choriza = new Queen("Choriza May", 9, 9, 6, 7, 7, 8, 5, "Choriza");

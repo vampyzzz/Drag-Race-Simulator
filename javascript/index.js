@@ -8904,7 +8904,7 @@ let allstars_7 = [raja, jinkx, yvie, jaida, trinity, monet, shea, viv];
 // ALL STARS 8
 let allstars_8 = [alexism, darienne, heidi, jaymes, jessica, kahanna, kandym, kasha, lala, monica, naysha];
 // GLOBAL ALL STARS
-let globalas = [alyssa, vanessa, peppermint, naomi, tayce, kitty, bobo, jada, elektra, kween, kana, turing, farida];
+let allstars_global = [alyssa, vanessa, peppermint, naomi, tayce, kitty, bobo, jada, elektra, kween, kana, turing, farida];
 
 //DRUK SEASON 2
 let awhora = new Queen("A'Whora", 7, 5, 8, 15, 10, 10, 8, "Awhora");

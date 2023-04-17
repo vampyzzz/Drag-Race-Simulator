@@ -846,7 +846,7 @@ class GirlGroup {
             desc1[desc1["Sitting on a Secret"] = 2] = "Sitting on a Secret";
             desc1[desc1["Don't Funk it Up"] = 3] = "Don't Funk it Up";
             desc1[desc1["Everybody Say Love"] = 4] = "Everybody Say Love";
-            desc1[desc1["Super Bass"] = 5] = "Super Bass";
+            desc1[desc1["You Don't Know Me"] = 5] = "You Don't Know Me";
             desc1[desc1["I'm That Bitch"] = 6] = "I'm That Bitch";
             desc1[desc1["I'm in Love!"] = 7] = "I'm in Love!";
             desc1[desc1["Not Sorry Aboot It"] = 8] = "Not Sorry Aboot It";
@@ -854,7 +854,7 @@ class GirlGroup {
             desc1[desc1["Phenomenon"] = 10] = "Phenomenon";
             desc1[desc1["UK Hun?"] = 11] = "UK Hun?";
             desc1[desc1["Queens Down Under"] = 12] = "Queens Down Under";
-            desc1[desc1["Blame It on the Edit"] = 13] = "Blame It on the Edit";
+            desc1[desc1["Divas"] = 13] = "Divas";
             desc1[desc1["Show Up Queen"] = 14] = "Show Up Queen";
             desc1[desc1["B.D.E (Big Drag Energy)"] = 15] = "B.D.E (Big Drag Energy)";
             desc1[desc1["Bye Flop"] = 16] = "Bye Flop";
@@ -8678,7 +8678,8 @@ let sahara = new Queen("Sahara Davenport", 6, 6, 10, 4, 6, 7, 10, "Sahara");
 let shangela = new Queen("Shangela", 14, 13, 10, 3, 9, 9, 12, "Shangela");
 let sonique = new Queen("Kylie Sonique Love", 11, 9, 10, 9, 8, 11, 11, "Kylie");
 let tatianna = new Queen("Tatianna", 8, 11, 8, 8, 10, 8, 10, "Tatianna");
-let us_season2 = [jessica, jujubee, morgan, mystique, nicole, pandora, sahara, shangela, sonique, tatianna];
+let tyra = new Queen("King Tyra", 11, 7, 8, 12, 8, 10, 10, "Tyra");
+let us_season2 = [jessica, jujubee, morgan, mystique, nicole, pandora, sahara, shangela, sonique, tatianna, tyra];
 //SEASON 3:
 let alexis = new Queen("Alexis Mateo", 14, 12, 9, 7, 10, 8, 12, "Alexis");
 let carmen = new Queen("Carmen Carrera", 3, 8, 6, 4, 3, 7, 7, "Carmen");
@@ -8715,7 +8716,7 @@ let alyssa = new Queen("Alyssa Edwards", 4, 11, 15, 6, 10, 9, 12, "Alyssa");
 let coco = new Queen("Coco Montrese", 10, 11, 11, 9, 7, 9, 15, "Coco");
 let detox = new Queen("Detox", 10, 9, 9, 9, 8, 12, 11, "Detox");
 let honey = new Queen("Honey Mahogany", 10, 3, 3, 6, 6, 8, 4, "Honey");
-let 15 = new Queen("Ivy Winters", 11, 4, 8, 15, 7, 10, 7, "Ivy");
+let ivy = new Queen("Ivy Winters", 11, 4, 8, 12, 7, 10, 7, "Ivy");
 let jadejolie = new Queen("Jade Jolie", 5, 7, 8, 7, 8, 7, 8, "JadeJ");
 let jinkx = new Queen("Jinkx Monsoon", 15, 15, 9, 8, 15, 9, 8, "Jinkx");
 let lineysha = new Queen("Lineysha Sparx", 10, 4, 7, 12, 5, 10, 8, "Lineysha");
@@ -9001,7 +9002,7 @@ let juicy = new Queen("Juicy Kouture", 5, 6, 5, 5, 4, 4, 5, "Juicy");
 let keta = new Queen("Keta Minaj", 9, 12, 9, 7, 12, 11, 9, "Keta");
 let love = new Queen("Love Masisi", 6, 5, 6, 8, 5, 10, 7, "Love");
 let mlp = new Queen("My Little Puny", 10, 10, 10, 7, 9, 10, 10, "MLP");
-let reggy = new Queen("Reggy B", 6, 6, 9, 5, 6, 8, 9, "Reggy");
+let reggy = new Queen("Reggy B", 6, 6, 6, 5, 6, 8, 8, "Reggy");
 let tabitha = new Queen("Tabitha", 6, 7, 8, 6, 5, 7, 8, "Tabitha");
 let countess = new Queen("The Countess", 7, 5, 4, 10, 6, 12, 5, "Countess");
 let vanessaC = new Queen("Vanessa Van Cartier", 7, 5, 6, 8, 5, 12, 8, "VanessaC");
@@ -9054,7 +9055,7 @@ let kweenKong = new Queen("Kween Kong", 5, 9, 12, 5, 8, 10, 11, "Kween");
 let minnie = new Queen("Minnie Cooper", 9, 8, 5, 6, 6, 9, 7, "Minnie");
 let molly = new Queen("Molly Poppinz", 8, 7, 6, 9, 7, 10, 9, "Molly");
 let pomara = new Queen("Pomara Fifth", 8, 5, 5, 7, 5, 9, 8, "Pomara");
-let spankie = new Queen("Spankie Jackzon", 11, 11, 9, 5, 9, 6, 11, "Spankie");
+let spankie = new Queen("Spankie Jackzon", 11, 11, 8, 5, 8, 7, 9, "Spankie");
 let yuri = new Queen("Yuri Guaii", 6, 11, 6, 14, 9, 13, 9, "Yuri");
 let drdu_season2 = [aubrey, beverly, faux, hannah, kweenKong, minnie, molly, pomara, spankie, yuri];
 //DRAG RACE ESPAÑA 1
@@ -9108,7 +9109,7 @@ let luquisha = new Queen("Luquisha Lubamba", 7, 6, 6, 5, 7, 6, 7, "Luquisha");
 let drita = [ava, divinity, elecktraBionic, enorma, farida, ivana, riche, luquisha];
 //DRAG RACE ITALIA 2 acting, comedy, dance, design, improv, runway, lipsync
 let aura = new Queen("Aura Eternal", 11, 9, 9, 6, 5, 9, 8, "Aura");
-let gioffre = new Queen("Gioffré", 6, 8, 5, 7, 5, 3, 8, "Gioffre");
+let gioffre = new Queen("Gioffré", 6, 8, 5, 7, 5, 8, 8, "Gioffre");
 let diamond = new Queen("La Diamond", 10, 12, 8, 12, 11, 13, 9, "LaDiamond");
 let petite = new Queen("La Petite Noire", 10, 5, 10, 8, 7, 11, 11, "Petite");
 let narciso = new Queen("Narciso", 4, 4, 4, 4, 4, 4, 4, "Narciso");
@@ -9146,29 +9147,30 @@ let xilhouete = new Queen("Xilhouete", 6, 10, 6, 8, 11, 10, 8, "Xilhouete");
 let drph = [brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete];
 //DRAG RACE BELGIQUE
 let amanda = new Queen("Amanda Tears", 5, 5, 3, 5, 4, 5, 6, "AmandaTears");
-let athena = new Queen("Athena Sorgelikis", 8, 8, 7, 9, 6, 15, 8, "AthenaSorgelikis");
+let athena = new Queen("Athena Sorgelikis", 8, 8, 7, 8, 6, 15, 7, "AthenaSorgelikis");
 let brittany = new Queen("Brittany Von Bottoks", 5, 3, 5, 4, 5, 4, 5, "BrittanyVonBottoks");
-let dragCouenne = new Queen("Drag Couenne", 12, 12, 7, 11, 10, 12, 7, "DragCouenne");
-let edna = new Queen("Edna Sorgelsen", 6, 5, 8, 6, 6, 5, 8, "EdnaSorgelsen");
+let dragCouenne = new Queen("Drag Couenne", 12, 12, 7, 10, 10, 10, 7, "DragCouenne");
+let edna = new Queen("Edna Sorgelsen", 6, 7, 8, 6, 7, 5, 8, "EdnaSorgelsen");
 let mademoiselle = new Queen("Mademoiselle Boop", 7, 9, 6, 9, 11, 6, 8, "MademoiselleBoop");
 let moca = new Queen("Mocca Bone", 6, 5, 6, 6, 7, 7, 8, "MoccaBone");
 let peach = new Queen("Peach", 9, 6, 7, 9, 6, 8, 7, "Peach");
 let susan = new Queen("Susan From Grindr", 7, 6, 6, 10, 9, 8, 7, "Susan");
-let valenciaga = new Queen("Valenciaga", 5, 6, 9, 6, 5, 7, 10, "Valenciaga");
+let valenciaga = new Queen("Valenciaga", 5, 6, 9, 7, 5, 7, 10, "Valenciaga");
 let drbl = [amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga];
 //DRAG RACE SVERIGE acting, comedy, dance, design, improv, runway, lipsync
-let admira = new Queen("Admira Thunderpussy", 8, 10, 9, 6, 11, 11, 7, "AdmiraThunderpussy");
+let admira = new Queen("Admira Thunderpussy", 7, 9, 9, 6, 7, 11, 7, "AdmiraThunderpussy");
 let almighty = new Queen("Almighty Aphroditey", 5, 4, 4, 5, 5, 4, 5, "AlmightyAphroditey");
 let antonina = new Queen("Antonina Nutshell", 3, 3, 3, 4, 2, 2, 4, "AntoninaNutshell");
-let elecktra = new Queen("Elecktra", 8, 7, 9, 5, 9, 9, 7, "Elecktra");
+let elecktra = new Queen("Elecktra", 7, 7, 7, 5, 7, 9, 7, "Elecktra");
 let endigo = new Queen("Endigo", 7, 5, 6, 4, 6, 4, 7, "Endigo");
 let fontana = new Queen("Fontana", 7, 7, 7, 5, 7, 7, 7, "Fontana");
-let imaa = new Queen("Imaa Queen", 8, 7, 5, 10, 4, 14, 4, "ImaaQueen");
-let santana = new Queen("Santana Sexmachine", 7, 9, 9, 9, 8, 10, 6, "SantanaSexmachine");
+let imaa = new Queen("Imaa Queen", 8, 7, 5, 8, 4, 12, 4, "ImaaQueen");
+let santana = new Queen("Santana Sexmachine", 7, 9, 9, 9, 8, 9, 6, "SantanaSexmachine");
 let vanityVain = new Queen("Vanity Vain", 6, 5, 9, 11, 6, 9, 8, "VanityVain");
 let drsv = [admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
+let mayam = new Queen("Maya Mengoni", 8, 10, 13, 8, 11, 13, 13, "MayaMengoni");
 let dahli = new Queen("Dahli", 7, 10, 8, 12, 8, 15, 10, "Dahli");
 let ukvstw = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
 let canvstw = [anita, icesis, kendall, rajah, rita, silky, stephanie, victoriaS, vanity];
@@ -9185,7 +9187,7 @@ for (let i = 0; i < customLength; i++) {
 allCustomQueens.splice(0, customLength);
 let allQueens = [
     akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria,
-    jessica, jujubee, morgan, mystique, nicole, pandora, sahara, shangela, sonique, tatianna,
+    jessica, jujubee, morgan, mystique, nicole, pandora, sahara, shangela, sonique, tatianna, tyra,
     alexis, carmen, delta, india, manila, mariah, mimi, phoenix, raja, stacey, venus, yara,
     alisa, chad, dida, jiggly, kenya, leshauwn, latrice, madame, milan, phiphi, princess, willam,
     alaska, alyssa, coco, detox, honey, ivy, jadejolie, jinkx, lineysha, monica, penny, roxxxy, serena, vivienne,
@@ -9221,7 +9223,7 @@ let allQueens = [
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
-    pangina, dahli,
+    pangina, mayam, dahli
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];
@@ -12914,27 +12916,32 @@ let queensReads = [
     "Your idea of a wardrobe is a swimsuit in a different color.",
     "Rotted.",
     "Never mind.",
-    "Eat my pussy",
+    "You're still here?",
     "At this point you really should just make like your hair line and recede.",
     "Haute couture? More like haute glue.",
+    "I don't blame you for not being a great makeup artist. There's not many things you can do with coffee grounds and gasoline.",
+    "Have you ever tried eating your makeup? So you'll be pretty on the inside, too?",
     "People don't appreciate how much money you have to spend on makeup when you covering two faces.",
     "I don't read somebody unless I have a genuine respect for them... so I think we're done here.",
+    "Girl, you're so skinny, you got people in Somalia sending you food.",
     "I remember when you were dressed up as a cockroach on the runway. That's the closest you can get to cock.",
     "I'm looking for a new apartment, how much are you charging for the vacant space between your ears?",
+    "I bet R. Kelly wouldn't even piss on you.",
     "Meh forgettable.",
+    "You're like a really good pair of socks. Soft, supportive, full of cum.",
     "You are so stupid, you studied for your COVID test.", 
     "It's so crazy how you can paint so fast. We paint on face, and you paint two faces.",
     "The face of a superstar... for podcasting.",
     "You talk about having sex a lot, but the only thing you're 'fucking' is stupid.",
     "We can tell that you're from the ball scene. I mean, your lashes love voguing.",
     "Sister to sister, let me give you some advice. Don't ever be ashamed of who you are. That's your parents' job.",
-    "I don't have a read for you. I didn't expect you in this episode.",
+    "I don't have a roast for you. I didn't expect you in this episode.",
     "ah yes... wait... who is that again?",
     "Honey, your career only has movement because the earth has to spin on its axis.",
     "You’re not yourself today… I noticed the improvement immediately!",
     "Honey, who cancelled and you booked this gig?",
     "Reading you is like reading a Walt Disney book, it’s simply too easy",
-    "Your fashion make Rupaul's Judging Panel sweatpants look like a million dollars.",
+    "Your fashion make Rupaul's Judging Panel sweatpants look like a million bucks.",
     "Maybe you'd look good if you were six feet under.",
     "My dear, you are built like a star... fish.",
     "Bitch you’re so old, when people ask to act your own age, bitch you die.",

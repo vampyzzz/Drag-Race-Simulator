@@ -8901,6 +8901,9 @@ let vinegar = new Queen("Vinegar Strokes", 7, 6, 6, 4, 4, 6, 6, "Vinegar");
 let uk_season1 = [baga, blu, cheryl, crystaluk, divina, gothy, scaredy, sumting, viv, vinegar];
 // ALL STARS 7
 let allstars_7 = [raja, jinkx, yvie, jaida, trinity, monet, shea, viv];
+// ALL STARS 8
+let allstars_8 = [alexism, darienne, heidi, jaymes, jessica, jimbo, kahanna, kandym, kasha, lala, monica, naysha];
+
 //DRUK SEASON 2
 let awhora = new Queen("A'Whora", 7, 5, 8, 15, 10, 10, 8, "Awhora");
 let asttina = new Queen("Asttina Mandella", 6, 6, 13, 8, 6, 10, 12, "Asttina");

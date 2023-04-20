@@ -8960,6 +8960,8 @@ let rita = new Queen("Rita Baga", 11, 10, 9, 9, 8, 10, 12, "Rita");
 let bobo = new Queen("Scarlett BoBo", 6, 8, 9, 9, 9, 10, 9, "Scarlett");
 let tynomi = new Queen("Tynomi Banks", 5, 6, 5, 7, 5, 7, 10, "Tynomi");
 let can_season1 = [anastarzia, boa, ilona, jimbo, juice, kiara, kyne, lemon, priyanka, rita, bobo, tynomi];
+//ALL STARS 8
+let allstars_8 = [alexism, darienne, heidi, jaymes, jessica, jimbo, kahanna, kandym, lala, monica, kasha, naysha];
 //CAN SEASON 2
 let adriana = new Queen("Adriana", 9, 6, 7, 6, 6, 8, 5, "Adriana");
 let beth = new Queen("Beth", 5, 5, 6, 3, 6, 5, 4, "Beth");

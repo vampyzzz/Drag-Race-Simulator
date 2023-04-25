@@ -9166,15 +9166,15 @@ let susan = new Queen("Susan", 5, 10, 7, 10, 9, 9, 9, "Susan");
 let valenciaga = new Queen("Valenciaga", 5, 5, 6, 8, 6, 10, 9, "Valenciaga");
 let drbl = [amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga];
 //DRAG RACE SVERIGE
-let admira = new Queen("Admira Thunderpussy", 7, 7, 7, 7, 7, 7, 7, "AdmiraThunderpussy");
-let almighty = new Queen("Almighty Aphroditey", 7, 7, 7, 7, 7, 7, 7, "AlmightyAphroditey");
-let antonina = new Queen("Antonina Nutshell", 7, 7, 7, 7, 7, 7, 7, "AntoninaNutshell");
-let elecktra = new Queen("Elecktra", 7, 7, 7, 7, 7, 7, 7, "Elecktra");
-let endigo = new Queen("Endigo", 7, 7, 7, 7, 7, 7, 7, "Endigo");
-let fontana = new Queen("Fontana", 7, 7, 7, 7, 7, 7, 7, "Fontana");
-let imaa = new Queen("Imaa Queen", 7, 7, 7, 7, 7, 7, 7, "ImaaQueen");
-let santana = new Queen("Santana Sexmachine", 7, 7, 7, 7, 7, 7, 7, "SantanaSexmachine");
-let vanityVain = new Queen("Vanity Vain", 7, 7, 7, 7, 7, 7, 7, "VanityVain");
+let admira = new Queen("Admira Thunderpussy", 10, 10, 10, 9, 10, 11, 9, "AdmiraThunderpussy");
+let almighty = new Queen("Almighty Aphroditey", 4, 4, 4, 4, 4, 7, 5, "AlmightyAphroditey");
+let antonina = new Queen("Antonina Nutshell", 6, 6, 8, 6, 5, 5, 6, "AntoninaNutshell");
+let elecktra = new Queen("Elecktra", 9, 9, 6, 7, 9, 10, 9, "Elecktra");
+let endigo = new Queen("Endigo", 6, 5, 6, 6, 5, 9, 8, "Endigo");
+let fontana = new Queen("Fontana", 9, 8, 8, 6, 8, 9, 11, "Fontana");
+let imaa = new Queen("Imaa Queen", 6, 6, 6, 11, 5, 14, 7, "ImaaQueen");
+let santana = new Queen("Santana Sexmachine", 6, 8, 7, 9, 8, 10, 9, "SantanaSexmachine");
+let vanityVain = new Queen("Vanity Vain", 7, 7, 9, 12, 6, 12, 10, "VanityVain");
 let drsv = [admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");

@@ -71,6 +71,7 @@ class MiniChallenge {
         }
     }
 }
+
 //challenge modifiers:
 let actingChallengeCounter = 0;
 let comedyChallengeCounter = 0;

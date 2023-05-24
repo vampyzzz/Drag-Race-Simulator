@@ -9176,6 +9176,19 @@ let imaa = new Queen("Imaa Queen", 6, 6, 6, 11, 5, 14, 7, "ImaaQueen");
 let santana = new Queen("Santana Sexmachine", 6, 8, 7, 9, 8, 10, 9, "SantanaSexmachine");
 let vanityVain = new Queen("Vanity Vain", 7, 7, 9, 12, 6, 12, 10, "VanityVain");
 let drsv = [admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain];
+//DRAG RACE MEXICO
+let argennis = new Queen("Argennis", 7, 7, 7, 7, 7, 7, 7, "Argennis");
+let cristian = new Queen("Cristian Peralta", 7, 7, 7, 7, 7, 7, 7, "CristianPeralta");
+let gala = new Queen("Gala Varo", 7, 7, 7, 7, 7, 7, 7, "GalaVaro");
+let kero = new Queen("Lady Kero", 7, 7, 7, 7, 7, 7, 7, "LadyKero");
+let margaret = new Queen("Margaret Y Ya", 7, 7, 7, 7, 7, 7, 7, "MargaretYYa");
+let matraka = new Queen("Matraka", 7, 7, 7, 7, 7, 7, 7, "Matraka");
+let vallarta = new Queen("Miss Vallarta", 7, 7, 7, 7, 7, 7, 7, "MissVallarta");
+let pixiePixie = new Queen("Pixie Pixie", 7, 7, 7, 7, 7, 7, 7, "PixiePixie");
+let regina = new Queen("Regina Voce", 7, 7, 7, 7, 7, 7, 7, "Regina oce");
+let serenaM = new Queen("Serena Morena", 7, 7, 7, 7, 7, 7, 7, "SerenaMorena");
+let vermelha = new Queen("Vermelha Noir", 7, 7, 7, 7, 7, 7, 7, "VermelhaNoir");
+let drmx = [argennis, cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
 let ukvstw = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
@@ -9229,6 +9242,7 @@ let allQueens = [
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
+    argennis, cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha,
     pangina
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];

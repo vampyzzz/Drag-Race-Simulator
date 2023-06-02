@@ -9128,7 +9128,7 @@ let panthera = new Queen("Panthera Virus", 7, 5, 6, 6, 5, 8, 9, "Panthera");
 let skandalove = new Queen("Skandalove", 9, 7, 8, 8, 7, 9, 9, "Skandalove");
 let tanissa = new Queen("Tanissa Yoncè", 5, 6, 6, 10, 6, 9, 7, "Tanissa");
 let drita_season2 = [aura, gioffre, diamond, petite, narciso, nehellenia, obama, panthera, skandalove, tanissa];
-//DRAG RACE FRANCE
+//DRAG RACE FRANCE 1
 let elips = new Queen("Elips", 7, 9, 8, 8, 8, 8, 7, "Elips");
 let kam = new Queen("Kam Hugh", 7, 5, 6, 9, 4, 13, 7, "Kam");
 let bigbertha = new Queen("La Big Bertha", 7, 6, 7, 6, 6, 8, 9, "BigBertha");
@@ -9139,7 +9139,20 @@ let lolita = new Queen("Lolita Banana", 9, 7, 13, 11, 6, 9, 12, "LolitaBanana");
 let lova = new Queen("Lova Ladiva", 5, 5, 6, 4, 6, 6, 5, "Lova");
 let paloma = new Queen("Paloma", 11, 11, 6, 7, 9, 9, 8, "Paloma");
 let soa = new Queen("Soa de Muse", 9, 10, 10, 8, 8, 9, 10, "Soa");
-let drfr = [elips, kam, bigbertha, briochee, grandedame, kahena, lolita, lova, paloma, soa];
+let drfr_season1 = [elips, kam, bigbertha, briochee, grandedame, kahena, lolita, lova, paloma, soa];
+//DRAG RACE FRANCE 2
+let cookie = new Queen("Cookie Kunty", 7, 7, 7, 7, 7, 7, 7, "CookieKunty");
+let gingerB = new Queen("Ginger Bitch", 7, 7, 7, 7, 7, 7, 7, "GingerBitch");
+let keiona = new Queen("Keiona", 7, 7, 7, 7, 7, 7, 7, "Keiona");
+let kittyS = new Queen("Kitty Space", 7, 7, 7, 7, 7, 7, 7, "KittySpace");
+let mami = new Queen("Mami Watta", 7, 7, 7, 7, 7, 7, 7, "MamiWatta");
+let moon = new Queen("Moon", 7, 7, 7, 7, 7, 7, 7, "Moon");
+let piche = new Queen("Piche", 7, 7, 7, 7, 7, 7, 7, "Piche");
+let punani = new Queen("Punani", 7, 7, 7, 7, 7, 7, 7, "Punani");
+let roseF = new Queen("Rose", 7, 7, 7, 7, 7, 7, 7, "RoseF");
+let sara = new Queen("Sara Forever", 7, 7, 7, 7, 7, 7, 7, "SaraForever");
+let vespi = new Queen("Vespi", 7, 7, 7, 7, 7, 7, 7, "Vespi");
+let drfr_season2 = [cookie, gingerB, keiona, kittyS, mami, moon, piche, punani, roseF, sara, vespi];
 //DRAG RACE PHILIPPINES
 let brigiding = new Queen("Brigiding", 6, 5, 8, 8, 4, 9, 10, "Brigiding");
 let corazon = new Queen("Corazon", 4, 5, 4, 3, 4, 7, 5, "Corazon");
@@ -9240,6 +9253,7 @@ let allQueens = [
     ava, divinity, elecktraBionic, enorma, farida, ivana, riche, luquisha,
     aura, gioffre, diamond, petite, narciso, nehellenia, obama, panthera, skandalove, tanissa,
     elips, kam, bigbertha, briochee, grandedame, kahena, lolita, lova, paloma, soa,
+    cookie, gingerB, keiona, kittyS, mami, moon, piche, punani, roseF, sara, vespi,
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,

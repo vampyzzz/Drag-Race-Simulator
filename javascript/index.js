@@ -9066,6 +9066,18 @@ let pomara = new Queen("Pomara Fifth", 8, 5, 5, 7, 5, 9, 8, "Pomara");
 let spankie = new Queen("Spankie Jackzon", 11, 11, 8, 5, 8, 7, 9, "Spankie");
 let yuri = new Queen("Yuri Guaii", 6, 11, 6, 12, 9, 13, 7, "Yuri");
 let drdu_season2 = [aubrey, beverly, faux, hannah, kweenKong, minnie, molly, pomara, spankie, yuri];
+//DRAG RACE DOWN UNDER SEASON 3
+let amyl = new Queen("Amyl", 7, 7, 7, 7, 7, 7, 7, "Amyl");
+let ashley = new Queen("Ashley Madison", 7, 7, 7, 7, 7, 7, 7, "AshleyMadison");
+let bumpa = new Queen("Bumpa Love", 7, 7, 7, 7, 7, 7, 7, "BumpaLove");
+let flor = new Queen("Flor", 7, 7, 7, 7, 7, 7, 7, "Flor");
+let gabriella = new Queen("Gabriella Labucci", 7, 7, 7, 7, 7, 7, 7, "GabriellaLabucci");
+let hollywould = new Queen("Hollywould Star", 7, 7, 7, 7, 7, 7, 7, "HollywouldStar");
+let isis = new Queen("Isis Avis Loren", 7, 7, 7, 7, 7, 7, 7, "IsisAvisLoren");
+let ivanna = new Queen("Ivanna Drink", 7, 7, 7, 7, 7, 7, 7, "IvannaDrink");
+let ivory = new Queen("Ivory Glaze", 7, 7, 7, 7, 7, 7, 7, "IvoryGlaze");
+let ritaMenu = new Queen("Rita Menu", 7, 7, 7, 7, 7, 7, 7, "RitaMenu");
+let drdu_season3 = [amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivanna, ivory, ritaMenu];
 //DRAG RACE ESPAÑA 1
 let arantxa = new Queen("Arantxa Castilla La Mancha", 6, 8, 6, 7, 8, 9, 7, "Arantxa");
 let carmenf = new Queen("Carmen Farala", 10, 10, 10, 14, 8, 13, 10, "CarmenF");
@@ -9247,6 +9259,7 @@ let allQueens = [
     angele, bandit, genie, kana, kandyz, katy, m, maya, mocha, gimhuay, silver, srimala, tormai, vanda,
     anita, art, cocoj, elektra, etc, jojo, karen, kita, maxi,
     aubrey, beverly, faux, hannah, kweenKong, minnie, molly, pomara, spankie, yuri,
+    amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivanna, ivory, ritaMenu,
     arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena,
     arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, sharonne, venedita,
     bestiah, chanel, clover, chuchi, hornella, maria, kellyRoller, pakita, pink, pitita, vania, visa,

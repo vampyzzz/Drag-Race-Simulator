@@ -814,8 +814,13 @@ class Rumix {
             desc1[desc1["This Is Our Country."] = 13] = "This Is Our Country.";
             desc1[desc1["Hey Sis, It's Christmas."] = 14] = "Hey Sis, It's Christmas.";
             desc1[desc1["Queen of the North."] = 15] = "Queen of the North.";
+            desc1[desc1["a Megamix of the album, 'Super Model of the World'."] = 16] = "A Megamix of the album, 'Super Model of the World'.";
+            desc1[desc1["a Megamix of the album, 'Champion'."] = 17] = "a Megamix of the album, 'Glamazon'.";
+            desc1[desc1["a Megamix of the album, 'Born Naked'."] = 18] = "a Megamix of the album, 'Realness'.";
+            desc1[desc1["a Megamix of the album, Slay Belles'."] = 19] = "a Megamix of the album, 'Slay Belles'";
+            desc1[desc1["a Megamix of the album, 'American'."] = 20] = "a Megamix of the album, 'American'.";
         })(desc1 || (desc1 = {}));
-        description.innerHTML = "Today's challenge is... the rumix! The queens will make a verse and a choreography for " + desc1[randomNumber(0, 15)];
+        description.innerHTML = "Today's challenge is... the rumix! The queens will make a verse and a choreography for " + desc1[randomNumber(0, 20)];
     }
     rankPerformances() {
         for (let i = 0; i < currentCast.length; i++)

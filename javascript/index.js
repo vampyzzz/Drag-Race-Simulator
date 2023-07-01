@@ -821,7 +821,7 @@ class Rumix {
             desc1[desc1["a Megamix of the album, Slay Belles'."] = 19] = "a Megamix of the album, 'Slay Belles'";
             desc1[desc1["a Megamix of the album, 'American'."] = 20] = "a Megamix of the album, 'American'.";
         })(desc1 || (desc1 = {}));
-        description.innerHTML = "Today's challenge is... the rumix! The queens will make a verse and a choreography for " + desc1[randomNumber(0, 20)];
+        description.innerHTML = "Today's challenge is... the rumix! The queens will make a verse and a choreography for " + desc1[randomNumber(16, 20)];
     }
     rankPerformances() {
         for (let i = 0; i < currentCast.length; i++)

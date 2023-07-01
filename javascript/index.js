@@ -4816,10 +4816,9 @@ function predefCast(cast, format, finale, premiere = '', returning = '') {
         team = true;
     else if (format == "lipsync-assassin"){ 
         lipsync_assassin = true;
-        allQueensCopy2 = [...allQueens];
-        allQueens = allQueens.filter(function (queen) { return queen.getLipSyncStat() >= 11; });
-        allQueens = allQueens.filter(function (queen) { return currentCast.indexOf(queen) == -1; });
-        allQueensCopy = [...allQueens];
+        AssassinsCopy2 = [...Assassins];
+        Assassins = Assassins.filter(function (queen) { return currentCast.indexOf(queen) == -1; });
+        AssassinsCopy = [...Assassins];
     }
     if (finale == "top5") {
         top5 = true;
@@ -4973,10 +4972,9 @@ function startSimulation(challenge = "") {
             team = true;
         else if (select.options[select.selectedIndex].value == "lipsync-assassin") {
             lipsync_assassin = true;
-            allQueensCopy2 = [...allQueens];
-            allQueens = allQueens.filter(function (queen) { return queen.getLipSyncStat() >= 11; });
-            allQueens = allQueens.filter(function (queen) { return currentCast.indexOf(queen) == -1; });
-            allQueensCopy = [...allQueens];
+            AssassinsCopy2 = [...Assassins];
+            Assassins = Assassins.filter(function (queen) { return currentCast.indexOf(queen) == -1; });
+            AssassinsCopy = [...Assassins];
         }
         if (select4.options[select4.selectedIndex].value == "top5")
             top5 = true;
@@ -8360,7 +8358,7 @@ function lsaLipSync() {
             decidingVote4Chart[decidingVote4Chart.length - 1] = "The Group & " + top2[1].getName();
             elimKween4Chart[elimKween4Chart.length - 1] = {text: "<b>" + top2[0].lipstick.getName(), type: 2};
         }
-        allQueens.splice(allQueens.indexOf(assassin), 1);
+        Assassins.splice(Assassins.indexOf(assassin), 1);
         screen.createHorizontalLine();
         screen.createImage(top2[0].lipstick.image, "red");
         if (chocolateBarTwist  && !chocolateBarTwistCheck) {
@@ -9277,9 +9275,13 @@ let allQueens = [
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
     argennis, cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha,
     pangina
+let Assassins = [yvie, alyssa, monet, morgan, vanessa, roxxxy, kennedy, coco, brooke, laganja, jessica, mayhem, manila, alexis, heidi,
+    kameron, jaida, aja, pangina, rajah, shannel, jasmineK, angeria, jorgeous, nicky, silky]
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];
+let AssassinsCopy = [];
+let AssassinsCopy2 = [];
 let randomReturn = false;
 let chooseReturn = false;
 let voteReturn = false;
@@ -13244,7 +13246,7 @@ function lsaLipsyncDesc() {
     let screen = new Scene();
     screen.clean();
     screen.createHeader("It's time to ruveal...");
-    assassin = allQueens[randomNumber(0, allQueens.length - 1)];
+    assassin = Assassins[randomNumber(0, Assassins.length - 1)];
     bottomQueens.sort((a, b) => b.votes - a.votes);
     top2.push(assassin);
     screen.createImage(assassin.image, "royalblue");

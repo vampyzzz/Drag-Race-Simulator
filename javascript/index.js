@@ -2206,6 +2206,7 @@ function reSimulate() {
     //refill lip-sync songs and lsa
     lsSongs = allLsSongs;
     allQueens = allQueensCopy;
+    Assassins = AssassinsCopy;
     if (chocolateBarTwist) {
         if (chocolateBarTwistChoosable){
             chooseGoldenBar();

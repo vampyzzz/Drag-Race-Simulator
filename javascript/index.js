@@ -8668,7 +8668,7 @@ let tammie = new Queen("Tammie Brown", 10, 15, 3, 7, 15, 7, 3, "Tammie");
 let victoria = new Queen("Victoria 'Porkchop' Parker", 3, 6, 4, 3, 6, 5, 4, "Victoria");
 let us_season1 = [akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria];
 //SEASON 2:       acting, comedy, dance, design, improv, runway, lipsync
-let jessica = new Queen("Jessica Wild", 8, 9, 11, 9, 8, 8, 12, "Jessica");
+let jessica = new Queen("Jessica Wild", 8, 10, 11, 9, 10, 9, 12, "Jessica");
 let jujubee = new Queen("Jujubee", 9, 11, 7, 8, 12, 6, 12, "Jujubee");
 let morgan = new Queen("Morgan McMichaels", 6, 6, 10, 9, 5, 10, 10, "Morgan");
 let mystique = new Queen("Mystique Summers", 4, 5, 3, 3, 3, 5, 6, "Mystique");
@@ -8726,7 +8726,7 @@ let roxxxy = new Queen("Roxxxy Andrews", 7, 4, 10, 13, 8, 10, 12, "Roxxxy");
 let serena = new Queen("Serena ChaCha", 3, 3, 7, 4, 5, 5, 8, "Serena");
 let vivienne = new Queen("Vivienne Pinay", 7, 3, 4, 5, 3, 6, 4, "Vivienne");
 let us_season5 = [alaska, alyssa, coco, detox, honey, ivy, jadejolie, jinkx, lineysha, monica, penny, roxxxy, serena, vivienne];
-//SEASON 6:
+//SEASON 6: acting, comedy, dance, design, improv, runway, lipsync
 let adore = new Queen("Adore Delano", 9, 11, 9, 6, 9, 8, 11, "Adore");
 let april = new Queen("April Carrión", 5, 5, 6, 9, 5, 9, 8, "April");
 let bendelacreme = new Queen("BenDeLaCreme", 12, 12, 11, 10, 15, 10, 9, "Bendelacreme");
@@ -8774,12 +8774,12 @@ let thorgy = new Queen("Thorgy Thor", 14, 12, 6, 9, 13, 9, 8, "Thorgy");
 let us_season8 = [acid, bob, chichi, cynthia, dax, derrick, kim, laila, naomi, naysha, robbie, thorgy];
 //ALL STARS 2:
 let allstars_2 = [adore, alaska, alyssa, coco, detox, ginger, katya, phiphi, roxxxy, tatianna];
-//SEASON 9: 
+//SEASON 9:
 let aja = new Queen("Aja", 4, 8, 14, 11, 9, 10, 13, "Aja");
-let alexism = new Queen("Alexis Michelle", 13, 8, 7, 7, 13, 7, 10, "AlexisM");
+let alexism = new Queen("Alexis Michelle", 13, 8, 8, 8, 13, 7, 10, "AlexisM");
 let eureka = new Queen("Eureka!", 9, 11, 8, 10, 13, 10, 12, "Eureka");
 let farrah = new Queen("Farrah Moan", 9, 4, 7, 3, 6, 8, 7, "Farrah");
-let jaymes = new Queen("Jaymes Mansfield", 10, 9, 3, 8, 8, 10, 7, "Jaymes");
+let jaymes = new Queen("Jaymes Mansfield", 10, 9, 3, 8, 9, 10, 5, "Jaymes");
 let kimora = new Queen("Kimora Blac", 5, 5, 4, 6, 5, 8, 7, "Kimora");
 let ninab = new Queen("Nina Bo'Nina Brown", 4, 10, 10, 15, 10, 10, 11, "NinaBB");
 let peppermint = new Queen("Peppermint", 11, 9, 10, 9, 4, 8, 13, "Peppermint");
@@ -8822,13 +8822,13 @@ let shuga = new Queen("Shuga Cain", 10, 9, 7, 6, 7, 10, 7, "Shuga");
 let silky = new Queen("Silky Nutmeg Ganache", 10, 15, 12, 9, 10, 10, 12, "Silky");
 let yvie = new Queen("Yvie Oddly", 12, 7, 13, 12, 9, 12, 15, "Yvie");
 let us_season11 = [akeria, ariel, brooke, honeyd, kahanna, mercedes, ninaw, plastique, rajah, scarlet, shuga, silky, vanessa, yvie];
-//SEASON 12: 
+//SEASON 12: acting, comedy, dance, design, improv, runway, lipsync
 let aiden = new Queen("Aiden Zhane", 9, 3, 6, 4, 3, 6, 6, "Aiden");
 let brita = new Queen("Brita", 7, 8, 10, 4, 6, 8, 11, "Brita");
 let crystal = new Queen("Crystal Methyd", 6, 8, 8, 13, 8, 12, 6, "CrystalM");
 let dahlia = new Queen("Dahlia Sin", 4, 4, 6, 5, 5, 10, 4, "Dahlia");
 let gigi = new Queen("Gigi Goode", 10, 11, 11, 13, 9, 12, 8, "Gigi");
-let heidi = new Queen("Heidi N Closet", 6, 9, 11, 6, 12, 7, 13, "Heidi");
+let heidi = new Queen("Heidi N Closet", 8, 9, 11, 8, 12, 9, 13, "Heidi");
 let jackie = new Queen("Jackie Cox", 11, 12, 6, 6, 13, 9, 11, "Jackie");
 let jaida = new Queen("Jaida Essence Hall", 8, 5, 10, 15, 8, 13, 12, "Jaida");
 let jan = new Queen("Jan", 8, 4, 12, 9, 5, 10, 9, "Jan");
@@ -8838,13 +8838,13 @@ let widow = new Queen("Widow Von'Du", 11, 7, 13, 8, 11, 10, 15, "Widow");
 let us_season12 = [aiden, brita, crystal, dahlia, gigi, heidi, jackie, jaida, jan, nicky, rock, widow];
 //ALL STARS 5
 let allstars_5 = [alexis, blair, derrick, india, jujubee, mariah, mayhem, miz, ongina, shea];
-//SEASON 13
+//SEASON 13 
 let denali = new Queen("Denali", 4, 8, 14, 9, 10, 11, 13, "Denali");
 let mik = new Queen("Gottmik", 8, 11, 6, 13, 12, 13, 6, "Gottmik");
 let joey = new Queen("Joey Jay", 6, 7, 6, 5, 5, 7, 7, "Joey");
 let kahmora = new Queen("Kahmora Hall", 3, 4, 3, 5, 4, 12, 4, "Kahmora");
-let kandym = new Queen("Kandy Muse", 7, 8, 7, 8, 8, 8, 13, "KandyM");
-let lala = new Queen("LaLa Ri", 7, 8, 13, 5, 6, 8, 15, "Lala");
+let kandym = new Queen("Kandy Muse", 7, 8, 8, 7, 8, 7, 11, "KandyM");
+let lala = new Queen("LaLa Ri", 7, 9, 13, 5, 9, 6, 15, "Lala");
 let olivia = new Queen("Olivia Lux", 11, 5, 11, 10, 8, 11, 8, "Olivia");
 let rose = new Queen("Rosé", 12, 11, 13, 8, 10, 10, 6, "Rose");
 let symone = new Queen("Symone", 14, 7, 7, 9, 12, 13, 13, "Symone");
@@ -8870,8 +8870,8 @@ let maddy = new Queen("Maddy Morphosis", 9, 8, 6, 8, 8, 9, 7, "Maddy");
 let orion = new Queen("Orion Story", 4, 6, 6, 9, 6, 6, 5, "Orion");
 let willow = new Queen("Willow Pill", 11, 9, 7, 12, 8, 12, 8, "Willow");
 let us_season14 = [alyssaH, angeria, bosco, daya, deja, jasmineK, jorgeous, june, kerri, kornbread, cadmen, maddy, orion, willow];
-//SEASON 15
-let amethyst = new Queen("Amethyst", 4, 10, 8, 5, 10, 8, 12, "Amethyst");
+//SEASON 15 
+let amethyst = new Queen("Amethyst", 4, 9, 8, 5, 10, 7, 9, "Amethyst");
 let anetra = new Queen("Anetra", 8, 9, 12, 10, 8, 9, 14, "Anetra");
 let auraMayari = new Queen("Aura Mayari", 5, 5, 6, 7, 6, 9, 7, "AuraMayari");
 let irene = new Queen("Irene Dubois", 4, 5, 4, 4, 4, 8, 6, "IreneDubois");

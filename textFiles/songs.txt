@@ -28,7 +28,7 @@
 "Because It's In The Music by Robyn"
 "212 by Azealia Banks"
 "Crybaby by Fat Fucking Lizzo"
-"Lavendar Haze by Taylor Swift"
+"Lavender Haze by Taylor Swift"
 "BAM by Miranda Cosgrove"
 "You Lose! by Magdalena Bay"
 "Struggle by Tove Lo"
@@ -36,7 +36,7 @@
 "Off to the Races by Lana Del Rey"
 "Florida Kilos by Lana Del Rey"
 "Feedback by Janet Jackson"
-"2 die 4 by Tove Lo"
+"2 Die 4 by Tove Lo"
 "No One Dies from Love by Tove Lo"
 "VOID by Melanie Martinez"
 "How Long by Tove Lo"
@@ -48,3 +48,25 @@
 "Gibson Girl by Ethel Cain"
 "Hollaback Girl by Gwen Stefani"
 "Cherry by Lana Del Rey"
+"Trouble for Me" by Britney Spears
+"Hot as Ice" By Britney Spears
+"Up N' Down" By Britney Spears
+"Matches" by Britney Spears
+"Better Place" By *NSYNC
+"Fembot" Robyn
+"Poster Girl" By Zara Larsson
+"Get Me Bodied" By Beyonce
+"Seal It with a Kiss" By Britney Spears
+"Padam Padam" By Kylie Minouge
+"Hottie" By Flo Milli
+"All I Live For" Mariah Carey
+"I'm That Chick" Mariah Carey
+"At Your Best (You Are Love)" By Aaliyah
+"Gasoline" By Britney Spears
+"Meddle" Little Boots
+"Fly Like A Bird" by Mariah Carey
+"Slumber Party" by Britney Spears
+"Pussy Talk" by City Girls
+"Barbie Dreams" By FIFTY FIFTY
+"Dreams and Converse" By Dawn Richard
+"Heavens On Fire" By KISS

@@ -8700,7 +8700,7 @@ let chad = new Queen("Chad Michaels", 11, 10, 8, 9, 12, 10, 8, "Chad");
 let dida = new Queen("Dida Ritz", 8, 7, 13, 5, 7, 7, 14, "Dida");
 let jiggly = new Queen("Jiggly Caliente", 4, 6, 9, 4, 4, 7, 10, "Jiggly");
 let kenya = new Queen("Kenya Olivera", 9, 8, 6, 8, 8, 7, 8, "Kenya");
-let leshauwn = new Queen("Lashauwn Beyond", 4, 4, 6, 11, 5, 7, 7, "Lashauwn");
+let leshauwn = new Queen("Lashauwn Beyond", 4, 4, 7, 15, 5, 10, 8, "Lashauwn");
 let latrice = new Queen("Latrice Royale", 11, 8, 9, 8, 7, 9, 13, "Latrice");
 let madame = new Queen("Madame LaQueer", 4, 7, 6, 5, 9, 7, 6, "Madame");
 let milan = new Queen("Milan", 4, 5, 12, 7, 5, 8, 10, "Milan");
@@ -11688,17 +11688,17 @@ let twoQueensRelation3_2 = [
     "lashes out irrationally at",
     "says that one person doesn't deserve to be there, and that person is",
     "is saying what a fake, fake, fake b*tch is",
-    "says that the person being favoured by the judges is",
+    "says that the person being favored by the judges is",
     "thinks she should've won the challenge but is called delusional by",
     "thinks that the person that should've been sent home was",
     "hates the makeup and style of",
-    "says that some queens have a questionable fashion choices while looking at",
+    "says that some queens have questionable fashion choices while looking at",
     "screams *I'M FROM CHICAGO!* to",
-    "tells all the others Queens that they are on the same level... Except for",
+    "tells all the other Queens that they are on the same level... Except for",
     "is sick of hearing the whining of",
     "thinks that the one who needs to get ready to lipsync because they did badly this week is",
     "is intimidated by",
-    "farted next to",
+    "cummed next to",
     "does a mean impression of",
     "is getting annoyed by the way of how is drinking",
     "had had it officially! with",
@@ -11710,7 +11710,7 @@ let twoQueensRelation4 = [
 ];
 let twoQueensRelation4_2 = [
     "made cry",
-    "ripped the tights of",
+    "ripped the tights off",
     "does a reveal showing that if she had to lipsync for her life, she was ready to do so. *What does that HAVE TO DO WITH ANYTHING BITCH?!* says",
     "wants to scarp",
     "is violently threatening",
@@ -11721,7 +11721,7 @@ let twoQueensRelation4_2 = [
     "spits on",
     "says *go back to party city where they belong* to",
     "threw a glass of water at",
-    "is getting into a fist fight with"
+    "is getting into a fistfight with"
 ];
 let twoQueensRelation5 = [
     "are talking about who is the trade of the season.",
@@ -11733,14 +11733,14 @@ let twoQueensRelation5 = [
 let threeQueensRelation1 = [
     "have formed a clique.",
     "think that they are being overlooked.",
-    "are shadying the other contestants makeup skills.",
+    "are shading the other contestant's makeup skills.",
     "go outside for a kiki, when a bee starts to chase them.",
     "perform a karaoke number of a RuPaul song to pass the time.",
     "drank a few too many cocktails."
 ];
 let threeQueensRelation2 = [
     "are talking a lot and they are bonding a lot.",
-    "shared personal memories to each other."
+    "shared personal memories with each other."
 ];
 let threeQueensRelation3 = [
     "get into a heated debate about Pringles.",
@@ -11748,7 +11748,7 @@ let threeQueensRelation3 = [
 ];
 let threeQueensRelation4 = [
     "get into a huge fight.",
-    "are yelling at eachother."
+    "are yelling at each other."
 ];
 //4 queens events
 let fourQueensRelation1 = [
@@ -11759,20 +11759,20 @@ let fourQueensRelation1 = [
 ];
 let fourQueensRelation2 = [
     "are talking a lot and the others think that they are in this together.",
-    "shared personal memories to each other."
+    "shared personal memories with each other."
 ];
 let fourQueensRelation3 = [
     "think that they are the best one in here.",
-    "are reading eachother to filth."
+    "are reading each other to filth."
 ];
 let fourQueensRelation4 = [
     "get into a huge fight.",
-    "yelled at eachother"
+    "yelled at each other"
 ];
 //Multiple queens events
 let multipleQueensRelation = [
     "are talking a lot and the others think that they are dating.",
-    "shared personal memories to each other."
+    "shared personal memories with each other."
 ];
 //UNTUCKED
 function untucked() {
@@ -12784,7 +12784,7 @@ let queensReads = [
     {queen: "Heidi N Closet", reads: ["Heidi, you have got to be loving this social distancing, because you look best from at least six feet away."]},
     {queen: "Symone", reads: ["Symone, you're so oily I could definitely see you in a dawn commercial."]},
     {queen: "Kandy Muse", reads: ["Kandy, you have eaten tons of it.", "Kandy Muse, it is so amazing how we represent such different communities here, gay, trans, pug.", "Kandy Ho, I meant Kandy Muse is a hoe. The only time you're not talking is when you're getting plowed, Joey told me that.",  "Miss Kandy Muse, you're one of those girls that loves to be mad sis. Well I actually have something for, here's a cape now you can be super mad and fly the hell outta here girl."]},
-    {queen: "Gottmik", reads: ["Gottmik, so you are so LA, even your farts have a vocal fry", "Gottmik, you are so known for your mug sis but I really think you mean mugshot because- your having a face like that is criminal."]},
+    {queen: "Gottmik", reads: ["Gottmik, so you are so LA, even your orgasms have a vocal fry", "Gottmik, you are so known for your mug sis but I really think you mean mugshot because- your having a face like that is criminal."]},
     {queen: "Rosé", reads: ["Scottish Rosé, you are like a wine, you're everything a basic white girl would want, every time I'm around you I get a headache, and every time I look at your face I just see sour grapes.", "Rosé, when I think of Rosé, I think of expensive beautiful champagne but when I look at you I think of, tap water.", "Miss Rosé, your personality reminds me of a piece of Purdue chicken, white, bland, and unseasoned."]},
     {queen: "Utica Queen", reads: ["Utica, bitch you're fucking weird, RuPaul could walk up in here in cargo shorts and I would still vote you most confusing thing in the room.", "Miss Utica, you are weird, you are creepy, and for those reasons my dear, I want you to suffocate me with your big dick.", "Utica, the new Dorian Corey of drag race, I mean where are those bodies hidden you fricking freak."]},
     {queen: "Tina Burner", reads: ["Tina, if this whole drag thing doesn't work out for you, you and those shoulders have a gorgeous career in the NFL.", "TINTA BURNTER, How much Tina have you actually burned bitch? WE ALL WANNA KNOW!"]},

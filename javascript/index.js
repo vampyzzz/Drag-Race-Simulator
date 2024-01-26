@@ -9196,6 +9196,19 @@ let regina = new Queen("Regina Voce", 7, 7, 7, 7, 7, 7, 7, "ReginaVoce");
 let serenaM = new Queen("Serena Morena", 7, 7, 7, 7, 7, 7, 7, "SerenaMorena");
 let vermelha = new Queen("Vermelha Noir", 7, 7, 7, 7, 7, 7, 7, "VermelhaNoir");
 let drmx = [argennis, cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha];
+//DRAG RACE GERMANY
+let barbieQ = new Queen("Barbie Q", 7, 7, 7, 7, 7, 7, 7, "BarbieQ");
+let kellyH = new Queen("Kelly Heelton", 7, 7, 7, 7, 7, 7, 7, "KellyHeelton");
+let leleC = new Queen("LeLe Cocoon", 7, 7, 7, 7, 7, 7, 7, "LeleCocoon");
+let loreley = new Queen("Loreley Rivers", 7, 7, 7, 7, 7, 7, 7, "LoreleyRivers");
+let metamorkid = new Queen("Metamorkid", 7, 7, 7, 7, 7, 7, 7, "Metamorkid");
+let nikitaV = new Queen("Nikita Vegaz", 7, 7, 7, 7, 7, 7, 7, "NikitaVegaz");
+let pandoraN = new Queen("Pandora Nox", 7, 7, 7, 7, 7, 7, 7, "PandoraNox");
+let tessaT = new Queen("Tessa Testicle", 7, 7, 7, 7, 7, 7, 7, "TessaTesticle");
+let naomy = new Queen("The Only Naomy", 7, 7, 7, 7, 7, 7, 7, "TheOnlyNaomy");
+let victoriaSH = new Queen("Victoria Shakespears", 7, 7, 7, 7, 7, 7, 7, "VictoriaShakespears");
+let yvonne = new Queen("Yvonne Nightstand", 7, 7, 7, 7, 7, 7, 7, "YvonneNightstand");
+let drge = [barbieQ, kellyH, leleC, loreley, metamorkid, nikitaV, pandoraN, tessaT, naomy, victoriaSH, yvonne];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
 let mayam = new Queen("Maya Mengoni", 8, 10, 13, 8, 11, 13, 13, "MayaMengoni");
@@ -9252,7 +9265,8 @@ let allQueens = [
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
     pangina, mayam, dahli, amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivanna, ivory, ritaMenu,argennis,
-    cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha, 
+    cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha, barbieQ, kellyH, leleC, loreley, 
+    metamorkid, nikitaV, pandoran, tessaT, naomy, victoriaSH, yvonne
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];

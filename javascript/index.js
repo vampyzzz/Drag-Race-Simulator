@@ -9172,8 +9172,17 @@ let santana = new Queen("Santana Sexmachine", 7, 9, 9, 9, 8, 9, 6, "SantanaSexma
 let vanityVain = new Queen("Vanity Vain", 6, 5, 9, 11, 6, 9, 9, "VanityVain");
 let drsv = [admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain];
 //DRAG RACE DOWN UNDER SEASON 3
+let amyl = new Queen("Amyl", 7, 7, 7, 7, 7, 7, 7, "Amyl");
+let ashley = new Queen("Ashley Madison", 7, 7, 7, 7, 7, 7, 7, "AshleyMadison");
+let bumpa = new Queen("Bumpa Love", 7, 7, 7, 7, 7, 7, 7, "BumpaLove");
+let flor = new Queen("Flor", 7, 7, 7, 7, 7, 7, 7, "Flor");
+let gabriella = new Queen("Gabriella Labucci", 7, 7, 7, 7, 7, 7, 7, "GabriellaLabucci");
 let hollywould = new Queen("Hollywould Star", 7, 7, 7, 7, 7, 7, 7, "HollywouldStar");
-let drdu_season3 = [hollywould];
+let isis = new Queen("Isis Avis Loren", 7, 7, 7, 7, 7, 7, 7, "IsisAvisLoren");
+let ivanna = new Queen("Ivanna Drink", 7, 7, 7, 7, 7, 7, 7, "IvannaDrink");
+let ivory = new Queen("Ivory Glaze", 7, 7, 7, 7, 7, 7, 7, "IvoryGlaze");
+let ritaMenu = new Queen("Rita Menu", 7, 7, 7, 7, 7, 7, 7, "RitaMenu");
+let drdu_season3 = [amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivanna, ivory, ritaMenu];
 //DRAG RACE MEXICO
 let argennis = new Queen("Argennis", 7, 7, 7, 7, 7, 7, 7, "Argennis");
 let drmx = [argennis];
@@ -9232,7 +9241,7 @@ let allQueens = [
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
-    pangina, mayam, dahli, argennis, hollywould,
+    pangina, mayam, dahli, argennis,amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivanna, ivory, ritaMenu,
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];

@@ -9171,7 +9171,7 @@ let imaa = new Queen("Imaa Queen", 8, 7, 5, 8, 4, 12, 4, "ImaaQueen");
 let santana = new Queen("Santana Sexmachine", 7, 9, 9, 9, 8, 9, 6, "SantanaSexmachine");
 let vanityVain = new Queen("Vanity Vain", 6, 5, 9, 11, 6, 9, 9, "VanityVain");
 let drsv = [admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain];
-//DRAG RACE DOWN UNDER SEASON 3
+//DRAG RACE DOWN UNDER SEASON 3 
 let amyl = new Queen("Amyl", 7, 7, 7, 7, 7, 7, 7, "Amyl");
 let ashley = new Queen("Ashley Madison", 7, 7, 7, 7, 7, 7, 7, "AshleyMadison");
 let bumpa = new Queen("Bumpa Love", 7, 7, 7, 7, 7, 7, 7, "BumpaLove");
@@ -9196,18 +9196,18 @@ let regina = new Queen("Regina Voce", 7, 7, 7, 7, 7, 7, 7, "ReginaVoce");
 let serenaM = new Queen("Serena Morena", 7, 7, 7, 7, 7, 7, 7, "SerenaMorena");
 let vermelha = new Queen("Vermelha Noir", 7, 7, 7, 7, 7, 7, 7, "VermelhaNoir");
 let drmx = [argennis, cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha];
-//DRAG RACE GERMANY
-let barbieQ = new Queen("Barbie Q", 7, 7, 7, 7, 7, 7, 7, "BarbieQ");
-let kellyH = new Queen("Kelly Heelton", 7, 7, 7, 7, 7, 7, 7, "KellyHeelton");
-let leleC = new Queen("LeLe Cocoon", 7, 7, 7, 7, 7, 7, 7, "LeleCocoon");
-let loreley = new Queen("Loreley Rivers", 7, 7, 7, 7, 7, 7, 7, "LoreleyRivers");
-let metamorkid = new Queen("Metamorkid", 7, 7, 7, 7, 7, 7, 7, "Metamorkid");
-let nikitaV = new Queen("Nikita Vegaz", 7, 7, 7, 7, 7, 7, 7, "NikitaVegaz");
-let pandoraN = new Queen("Pandora Nox", 7, 7, 7, 7, 7, 7, 7, "PandoraNox");
-let tessaT = new Queen("Tessa Testicle", 7, 7, 7, 7, 7, 7, 7, "TessaTesticle");
-let naomy = new Queen("The Only Naomy", 7, 7, 7, 7, 7, 7, 7, "TheOnlyNaomy");
-let victoriaSH = new Queen("Victoria Shakespears", 7, 7, 7, 7, 7, 7, 7, "VictoriaShakespears");
-let yvonne = new Queen("Yvonne Nightstand", 7, 7, 7, 7, 7, 7, 7, "YvonneNightstand");
+//DRAG RACE GERMANY                acting, comedy, dance, design, improv, runway, lipsync
+let barbieQ = new Queen("Barbie Q", 7, 7, 5, 4, 6, 9, 5, "BarbieQ");
+let kellyH = new Queen("Kelly Heelton", 10, 11, 7, 6, 10, 8, 7, "KellyHeelton");
+let leleC = new Queen("LeLe Cocoon", 6, 6, 5, 8, 5, 9, 6, "LeleCocoon");
+let loreley = new Queen("Loreley Rivers", 8, 5, 7, 10, 7, 10, 9, "LoreleyRivers");
+let metamorkid = new Queen("Metamorkid", 8, 12, 7, 9, 9, 12, 7, "Metamorkid");
+let nikitaV = new Queen("Nikita Vegaz", 8, 9, 5, 6, 8, 6, 5, "NikitaVegaz");
+let pandoraN = new Queen("Pandora Nox", 7, 6, 10, 10, 5, 13, 13, "PandoraNox");
+let tessaT = new Queen("Tessa Testicle", 6, 6, 6, 9, 5, 8, 10, "TessaTesticle");
+let naomy = new Queen("The Only Naomy", 5, 6, 5, 5, 6, 6, 7, "TheOnlyNaomy");
+let victoriaSH = new Queen("Victoria Shakespears", 8, 8, 8, 7, 5, 8, 10, "VictoriaShakespears");
+let yvonne = new Queen("Yvonne Nightstand", 8, 11, 7, 6, 8, 9, 7, "YvonneNightstand");
 let drge = [barbieQ, kellyH, leleC, loreley, metamorkid, nikitaV, pandoraN, tessaT, naomy, victoriaSH, yvonne];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");

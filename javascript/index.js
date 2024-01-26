@@ -9171,6 +9171,12 @@ let imaa = new Queen("Imaa Queen", 8, 7, 5, 8, 4, 12, 4, "ImaaQueen");
 let santana = new Queen("Santana Sexmachine", 7, 9, 9, 9, 8, 9, 6, "SantanaSexmachine");
 let vanityVain = new Queen("Vanity Vain", 6, 5, 9, 11, 6, 9, 9, "VanityVain");
 let drsv = [admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain];
+//DRAG RACE DOWN UNDER SEASON 3
+let hollywould = new Queen("Hollywould Star", 7, 7, 7, 7, 7, 7, 7, "HollywouldStar");
+let drdu_season3 = [hollywould];
+//DRAG RACE MEXICO
+let argennis = new Queen("Argennis", 7, 7, 7, 7, 7, 7, 7, "Argennis");
+let drmx = [argennis];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
 let mayam = new Queen("Maya Mengoni", 8, 10, 13, 8, 11, 13, 13, "MayaMengoni");
@@ -9226,7 +9232,7 @@ let allQueens = [
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
-    pangina, mayam, dahli
+    pangina, mayam, dahli, argennis, hollywould,
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];

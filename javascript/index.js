@@ -9185,7 +9185,17 @@ let ritaMenu = new Queen("Rita Menu", 7, 7, 7, 7, 7, 7, 7, "RitaMenu");
 let drdu_season3 = [amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivanna, ivory, ritaMenu];
 //DRAG RACE MEXICO
 let argennis = new Queen("Argennis", 7, 7, 7, 7, 7, 7, 7, "Argennis");
-let drmx = [argennis];
+let cristian = new Queen("Cristian Peralta", 7, 7, 7, 7, 7, 7, 7, "CristianPeralta");
+let gala = new Queen("Gala Varo", 7, 7, 7, 7, 7, 7, 7, "GalaVaro");
+let kero = new Queen("Lady Kero", 7, 7, 7, 7, 7, 7, 7, "LadyKero");
+let margaret = new Queen("Margaret Y Ya", 7, 7, 7, 7, 7, 7, 7, "MargaretYYa");
+let matraka = new Queen("Matraka", 7, 7, 7, 7, 7, 7, 7, "Matraka");
+let vallarta = new Queen("Miss Vallarta", 7, 7, 7, 7, 7, 7, 7, "MissVallarta");
+let pixiePixie = new Queen("Pixie Pixie", 7, 7, 7, 7, 7, 7, 7, "PixiePixie");
+let regina = new Queen("Regina Voce", 7, 7, 7, 7, 7, 7, 7, "ReginaVoce");
+let serenaM = new Queen("Serena Morena", 7, 7, 7, 7, 7, 7, 7, "SerenaMorena");
+let vermelha = new Queen("Vermelha Noir", 7, 7, 7, 7, 7, 7, 7, "VermelhaNoir");
+let drmx = [argennis, cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
 let mayam = new Queen("Maya Mengoni", 8, 10, 13, 8, 11, 13, 13, "MayaMengoni");
@@ -9241,7 +9251,8 @@ let allQueens = [
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
-    pangina, mayam, dahli, argennis,amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivanna, ivory, ritaMenu,
+    pangina, mayam, dahli, amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivanna, ivory, ritaMenu,argennis,
+    cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha,
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];

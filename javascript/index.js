@@ -8945,17 +8945,17 @@ let pixie = new Queen("Pixie Polite", 7, 5, 9, 8, 8, 9, 9, "PixiePolite");
 let sminty = new Queen("Sminty Drop", 5, 6, 5, 9, 4, 14, 8, "Sminty");
 let starlet = new Queen("Starlet", 4, 4, 4, 4, 4, 13, 5, "Starlet");
 let uk_season4 = [baby, black, cheddar, copper, dakota, danny, jonbers, just, leFil, pixie, sminty, starlet];
-//DRUK SEASON 5
-let alexisuk = new Queen("Alexis Saint-Pete", 13, 12, 5, 5, 13, 8, 7, "AlexisSaintPete");
-let banksie = new Queen("Banksie", 5, 9, 8, 10, 10, 12, 9, "Banksie");
-let cara = new Queen("Cara Melle", 5, 5, 9, 5, 7, 7, 9, "Cara");
-let dede = new Queen("DeDeLicious", 6, 5, 6, 9, 4, 8, 6, "DeDe");
-let gingeruk = new Queen("Ginger Johnson", 11, 6, 9, 12, 9, 9, 9, "GingerUK");
-let kateb = new Queen("Kate Butch", 4, 5, 4, 3, 5, 6, 4, "KateB");
-let michael = new Queen("Michael Marouli", 3, 5, 6, 4, 4, 7, 4, "Michael");
-let naomiuk = new Queen("Miss Naomi Carter", 8, 6, 6, 7, 6, 9, 8, "NaomiUK");
-let tomara = new Queen("Tomara Thomas", 12, 13, 8, 10, 14, 11, 12, "Tomara");
-let vicki = new Queen("Vicki Vivacious", 7, 6, 6, 4, 4, 6, 6, "Vicki");
+//DRUK SEASON 5  acting, comedy, dance, design, improv, runway, lipsync
+let alexisuk = new Queen("Alexis Saint-Pete", 4, 4, 4, 4, 4, 8, 7, "AlexisSaintPete");
+let banksie = new Queen("Banksie", 6, 6, 6, 11, 7, 12, 7, "Banksie");
+let cara = new Queen("Cara Melle", 5, 5, 12, 8, 7, 11, 12, "Cara");
+let dede = new Queen("DeDeLicious", 8, 5, 8, 13, 6, 10, 12, "DeDe");
+let gingeruk = new Queen("Ginger Johnson", 11, 12, 11, 9, 13, 10, 8, "GingerUK");
+let kateb = new Queen("Kate Butch", 10, 9, 9, 8, 9, 8, 8, "KateB");
+let michael = new Queen("Michael Marouli", 6, 10, 9, 8, 10, 12, 10, "Michael");
+let naomiuk = new Queen("Miss Naomi Carter", 6, 6, 8, 4, 6, 9, 9, "NaomiUK");
+let tomara = new Queen("Tomara Thomas", 8, 8, 15, 7, 10, 9, 12, "Tomara");
+let vicki = new Queen("Vicki Vivacious", 7, 6, 7, 10, 5, 11, 7, "Vicki");
 let uk_season5 = [alexisuk, banksie, cara, dede, gingeruk, kateb, michael, naomiuk, tomara, vicki];
 //CAN SEASON 1 
 let anastarzia = new Queen("Anastarzia Anaquway", 7, 6, 4, 13, 6, 8, 9, "Starzy");

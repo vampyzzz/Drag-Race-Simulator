@@ -9227,6 +9227,7 @@ let mayam = new Queen("Maya Mengoni", 8, 10, 13, 8, 11, 13, 13, "MayaMengoni");
 let dahli = new Queen("Dahli", 7, 10, 8, 12, 8, 15, 10, "Dahli");
 let ukvstw = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
 let canvstw = [anita, icesis, kendall, rajah, rita, silky, stephanie, victoriaS, vanity];
+let ukvstw_season2 = [arantxa, choriza, gothy, grandedame, hannah, jonbers, keta, marinaSummers, mayhem, scarlet, tia];
 //all possible queens:
 let allCustomQueens = [];
 if (localStorage.getItem("customQueens") != null)

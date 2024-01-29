@@ -8985,7 +8985,7 @@ let stephanie = new Queen("Stephanie Prince", 9, 9, 11, 12, 5, 11, 10, "Stephani
 let suki = new Queen("Suki Doll", 8, 10, 6, 15, 5, 10, 5, "Suki");
 let synthia = new Queen("Synthia Kiss", 9, 9, 11, 7, 9, 6, 12, "Synthia");
 let can_season2 = [adriana, beth, eve, giametric, icesis, kendall, kimoraA, oceane, pythia, stephanie, suki, synthia];
-//CAN SEASON 2
+//CAN SEASON 3
 let bombae = new Queen("Bombae", 5, 7, 6, 8, 6, 7, 7, "Bombae");
 let chelazon = new Queen("Chelazon Leroux", 4, 10, 4, 7, 5, 7, 8, "Chelazon");
 let gisele = new Queen("Gisèle Lullaby", 9, 12, 8, 12, 10, 12, 9, "Gisele");
@@ -8999,6 +8999,19 @@ let fiercalicious = new Queen("Miss Fiercalicious", 11, 13, 9, 8, 7, 11, 9, "Fie
 let moco = new Queen("Miss Moço", 5, 4, 6, 4, 4, 7, 9, "Moco");
 let vanderpuss = new Queen("Vivian Vanderpuss", 9, 9, 9, 9, 9, 9, 7, "Vanderpuss");
 let can_season3 = [bombae, chelazon, gisele, halal, irma, jadashada, kaos, kimmy, boomboom, fiercalicious, moco, vanderpuss];
+//CAN SEASON 4 acting, comedy, dance, design, improv, runway, lipsync
+let aimee = new Queen("Aimee Yonce Shennel", 8, 6, 7, 6, 6, 11, 8, "AimeeYonce");
+let aurora = new Queen("Aurora Matrix", 8, 7, 12, 8, 6, 12, 13, "AuroraMatrix");
+let denim = new Queen("Denim", 6, 7, 6, 10, 5, 12, 6, "Denim");
+let kikicoe = new Queen("Kiki Coe", 6, 6, 7, 15, 4, 15, 11, "Kiki");
+let kitten = new Queen("Kitten Kaboodle", 10, 10, 6, 10, 10, 9, 7, "Kitten");
+let luna = new Queen("Luna DuBois", 5, 6, 8, 9, 6, 10, 7, "Luna");
+let melinda = new Queen("Melinda Verga", 9, 10, 10, 7, 8, 7, 10, "Melinda");
+let nearah = new Queen("Nearah Nuff", 7, 6, 15, 7, 6, 9, 15, "Nearah");
+let sisi = new Queen("Sisi Superstar", 4, 4, 4, 4, 4, 4, 4, "Sisi");
+let girlfriend = new Queen("The Girlfriend Experience", 5, 5, 5, 6, 6, 9, 8, "Girlfriend");
+let venus = new Queen("Venus", 10, 10, 10, 9, 10, 12, 9, "Venus");
+let can_season4 = [aimee, aurora, denim, kikicoe, kitten, luna, melinda, nearah, sisi, girlfriend, venus];
 //DRAG RACE HOLLAND SEASON 1
 let chelsea = new Queen("Chelsea Boy", 9, 10, 15, 7, 8, 15, 9, "Chelsea");
 let envy = new Queen("Envy Peru", 11, 11, 11, 8, 11, 13, 8, "Envy");

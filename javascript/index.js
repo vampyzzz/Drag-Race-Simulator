@@ -9177,7 +9177,6 @@ let drph = [brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, pre
 let arizona = new Queen("Arizona Brandy", 5, 5, 4, 5, 5, 6, 7, "Arizona");
 let astrid = new Queen("Astrid Mercury", 6, 8, 8, 10, 8, 11, 7, "Astrid");
 let bernie = new Queen("Bernie", 4, 5, 4, 3, 4, 7, 5, "Bernie");
-let katkat = new Queen("Captivating KatKat", 6, 5, 8, 8, 4, 9, 10, "KatKat");
 let deedee = new Queen("DeeDee Marié Holliday", 6, 5, 4, 12, 4, 11, 9, "DeeDee");
 let hana = new Queen("Hana Beshie", 6, 9, 12, 9, 10, 12, 10, "Hana");
 let jadeso = new Queen("M1ss Jade So", 6, 6, 7, 7, 5, 8, 11, "JadeSo");
@@ -9186,7 +9185,7 @@ let nicoleP = new Queen("Nicole Pardaux", 6, 10, 6, 8, 11, 10, 8, "NicoleP");
 let cunt = new Queen("OV Cünt", 6, 9, 8, 7, 8, 10, 8, "Cunt");
 let tiny = new Queen("Tiny Deluxe", 6, 6, 9, 6, 6, 7, 9, "Tiny");
 let veruschka = new Queen("Veruschka Levels", 8, 8, 10, 7, 9, 9, 9, "Veruschka");
-let drph2 = [arizona, astrid, bernie, katkat, deedee, hana, jadeso, matilduh, nicoleP, cunt, tiny, veruschka];
+let drph2 = [arizona, astrid, bernie, deedee, hana, jadeso, matilduh, nicoleP, cunt, tiny, veruschka];
 //DRAG RACE BELGIQUE
 let amanda = new Queen("Amanda Tears", 5, 5, 3, 5, 4, 5, 6, "AmandaTears");
 let athena = new Queen("Athena Sorgelikis", 8, 8, 7, 8, 6, 15, 7, "AthenaSorgelikis");
@@ -9307,7 +9306,7 @@ let allQueens = [
     pangina, mayam, dahli, amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivanna, ivory, ritaMenu,argennis,
     cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha, barbieQ, kellyH, leleC, loreley, 
     metamorkid, nikitaV, pandoraN, tessaT, naomy, victoriaSH, yvonne, alexisuk, banksie, cara, dede, gingeruk, kateb, michael, naomiuk,
-    aimee, aurora, denim, kikicoe, kitten, luna, melinda, nearah, sisi, girlfriend, venuscan, tomara, vicki, arizona, astrid, bernie, katkat, deedee, hana, jadeso, 
+    aimee, aurora, denim, kikicoe, kitten, luna, melinda, nearah, sisi, girlfriend, venuscan, tomara, vicki, arizona, astrid, bernie, deedee, hana, jadeso, 
     matilduh, nicoleP, cunt, tiny, veruschka,
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];

@@ -9174,16 +9174,16 @@ let vinas = new Queen("Viñas DeLuxe", 6, 8, 8, 10, 8, 11, 7, "VinasDeLuxe");
 let xilhouete = new Queen("Xilhouete", 6, 10, 6, 8, 11, 10, 8, "Xilhouete");
 let drph = [brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete];
 //DRAG RACE PHILIPPINES
-let arizona = new Queen("Arizona Brandy", 5, 5, 4, 5, 5, 6, 7, "Arizona");
-let astrid = new Queen("Astrid Mercury", 6, 8, 8, 10, 8, 11, 7, "Astrid");
-let bernie = new Queen("Bernie", 4, 5, 4, 3, 4, 7, 5, "Bernie");
-let deedee = new Queen("DeeDee Marié Holliday", 6, 5, 4, 12, 4, 11, 9, "DeeDee");
-let hana = new Queen("Hana Beshie", 6, 9, 12, 9, 10, 12, 10, "Hana");
-let jadeso = new Queen("M1ss Jade So", 6, 6, 7, 7, 5, 8, 11, "JadeSo");
-let matilduh = new Queen("Matilduh", 4, 4, 4, 4, 4, 7, 4, "Matilduh");
-let nicoleP = new Queen("Nicole Pardaux", 6, 10, 6, 8, 11, 10, 8, "NicoleP");
-let cunt = new Queen("OV Cünt", 6, 9, 8, 7, 8, 10, 8, "Cunt");
-let tiny = new Queen("Tiny Deluxe", 6, 6, 9, 6, 6, 7, 9, "Tiny");
+let arizona = new Queen("Arizona Brandy", 8, 9, 9, 6, 10, 8, 11, "Arizona");
+let astrid = new Queen("Astrid Mercury", 4, 4, 4, 4, 4, 4, 4, "Astrid");
+let bernie = new Queen("Bernie", 8, 7, 11, 9, 10, 13, 11, "Bernie");
+let deedee = new Queen("DeeDee Marié Holliday", 6, 6, 10, 9, 6, 9, 8, "DeeDee");
+let hana = new Queen("Hana Beshie", 9, 9, 6, 9, 9, 10, 9, "Hana");
+let jadeso = new Queen("M1ss Jade So", 7, 9, 9, 9, 8, 11, 10, "JadeSo");
+let matilduh = new Queen("Matilduh", 6, 6, 9, 9, 6, 9, 9, "Matilduh");
+let nicoleP = new Queen("Nicole Pardaux", 4, 4, 4, 4, 4, 4, 8, "NicoleP");
+let cunt = new Queen("OV Cünt", 10, 10, 8, 7, 9, 9, 7, "Cunt");
+let tiny = new Queen("Tiny Deluxe", 6, 6, 6, 6, 6, 7, 8, "Tiny");
 let drph2 = [arizona, astrid, bernie, deedee, hana, jadeso, matilduh, nicoleP, cunt, tiny];
 //DRAG RACE BELGIQUE
 let amanda = new Queen("Amanda Tears", 5, 5, 3, 5, 4, 5, 6, "AmandaTears");

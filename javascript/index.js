@@ -8887,6 +8887,22 @@ let sashaColby = new Queen("Sasha Colby", 9, 10, 15, 13, 9, 15, 15, "SashaColby"
 let spice = new Queen("Spice", 8, 6, 5, 8, 5, 10, 5, "Spice");
 let sugar = new Queen("Sugar", 9, 7, 5, 6, 5, 12, 5, "Sugar");
 let us_season15 = [amethyst, anetra, auraMayari, irene, jax, loosey, luxx, malaysia, marcia, mistress, robin, salina, sashaColby, spice, sugar];
+//SEASON 16 
+let amandatori = new Queen("Amanda Tori Meating", 4, 9, 8, 5, 10, 7, 9, "AmandaTori");
+let dawn = new Queen("Dawn", 8, 9, 12, 10, 8, 9, 14, "Dawn");
+let geneva = new Queen("Geneva Karr", 5, 5, 6, 7, 6, 9, 7, "Geneva");
+let hershii = new Queen("Hershii LiqCour-Jeté", 4, 5, 4, 4, 4, 8, 6, "Hershii");
+let megami = new Queen("Megami", 5, 7, 15, 9, 6, 8, 15, "Megami");
+let mhiya = new Queen("Mhi'ya Iman Le'Paige", 11, 13, 6, 8, 13, 8, 6, "Mhiya");
+let mirage = new Queen("Mirage", 10, 11, 9, 15, 9, 14, 10, "Mirage");
+let morphine = new Queen("Morphine Love Dion", 9, 7, 7, 8, 7, 9, 8, "Morphine");
+let nymphia = new Queen("Nymphia", 9, 9, 8, 8, 9, 8, 9, "Nymphia");
+let plane = new Queen("Plane Jane", 10, 13, 6, 13, 11, 13, 9, "Plane");
+let plasma = new Queen("Plasma", 7, 7, 11, 10, 8, 10, 11, "Plasma");
+let q = new Queen("Q", 9, 8, 8, 8, 8, 6, 11, "Q");
+let sapphira = new Queen("Sapphira Cristál", 9, 10, 15, 13, 9, 15, 15, "Sapphira");
+let xunami = new Queen("Xunami Muse", 8, 6, 5, 8, 5, 10, 5, "Xunami");
+let us_season16 = [amandatori, dawn, geneva, hershii, megami, mhiya, mirage, morphine, nymphia, plane, plasma, q, sapphira, xunami];
 //DRUK SEASON 1 
 let baga = new Queen("Baga Chipz", 13, 12, 5, 5, 13, 8, 7, "Baga");
 let blu = new Queen("Blu Hydrangea", 5, 9, 8, 10, 10, 12, 9, "Blu");
@@ -9306,7 +9322,7 @@ let allQueens = [
     cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha, barbieQ, kellyH, leleC, loreley, 
     metamorkid, nikitaV, pandoraN, tessaT, naomy, victoriaSH, yvonne, alexisuk, banksie, cara, dede, gingeruk, kateb, michael, naomiuk,
     aimee, aurora, denim, kikicoe, kitten, luna, melinda, nearah, sisi, girlfriend, venuscan, tomara, vicki, arizona, astrid, bernie, deedee, hana, jadeso, 
-    matilduh, nicoleP, cunt, tiny,
+    matilduh, nicoleP, cunt, tiny,amandatori, dawn, geneva, hershii, megami, mhiya, mirage, morphine, nymphia, plane, plasma, q, sapphira, xunami, 
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];

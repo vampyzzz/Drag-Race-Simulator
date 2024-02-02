@@ -9221,6 +9221,9 @@ let vermelha = new Queen("Vermelha Noir", 7, 7, 7, 7, 7, 7, 7, "VermelhaNoir");
 let drmx = [argennis, cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha];
 //SPECIAL 
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
+let darby = new Queen("Darby Lynn Cartwright", 9, 7, 14, 11, 8, 13, 14, "Darby");
+let alexispb = new Queen("Alexis P Bevels", 9, 7, 14, 11, 8, 13, 14, "AlexisPB");
+let chan = new Queen("Aunty Chan", 9, 7, 14, 11, 8, 13, 14, "Chan");
 let ukvstw = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
 let canvstw = [anita, icesis, kendall, rajah, rita, silky, stephanie, victoriaS, vanity];
 //all possible queens:
@@ -9274,7 +9277,7 @@ let allQueens = [
     brigiding, corazon, eva, gigiEra, morgana, marinaSummers, minty, precious, prince, turing, vinas, xilhouete,
     amanda, athena, brittany, dragCouenne, edna, mademoiselle, moca, peach, susan, valenciaga,
     admira, almighty, antonina, elecktra, endigo, fontana, imaa, santana, vanityVain,
-    argennis, cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha,
+    argennis, cristian, gala, kero, margaret, matraka, vallarta, pixiePixie, regina, serenaM, vermelha, darby, alexispb, alexispb,
     pangina
 let Assassins = [yvie, alyssa, monet, morgan, vanessa, roxxxy, kennedy, coco, brooke, laganja, jessica, mayhem, manila, alexis, heidi,
     kameron, jaida, aja, pangina, rajah, shannel, jasmineK, angeria, jorgeous, nicky, silky]

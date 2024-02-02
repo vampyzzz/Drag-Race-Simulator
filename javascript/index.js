@@ -9279,6 +9279,9 @@ let drge = [barbieQ, kellyH, leleC, loreley, metamorkid, nikitaV, pandoraN, tess
 let pangina = new Queen("Pangina Heals", 9, 7, 14, 11, 8, 13, 14, "Pangina");
 let mayam = new Queen("Maya Mengoni", 8, 10, 13, 8, 11, 13, 13, "MayaMengoni");
 let dahli = new Queen("Dahli", 7, 10, 8, 12, 8, 15, 10, "Dahli");
+let darby = new Queen("Darby Lynn Cartwright", 9, 7, 14, 11, 8, 13, 14, "Darby");
+let alexispb = new Queen("Alexis P Bevels", 9, 7, 14, 11, 8, 13, 14, "AlexisPB");
+let chan = new Queen("Aunty Chan", 9, 7, 14, 11, 8, 13, 14, "Chan");
 let ukvstw = [baga, blu, cheryl, janey, jimbo, jujubee, lemon, monique, pangina];
 let canvstw = [anita, icesis, kendall, rajah, rita, silky, stephanie, victoriaS, vanity];
 let ukvstw_season2 = [arantxa, choriza, gothy, grandedame, hannah, jonbers, keta, marinaSummers, mayhem, scarlet, tia];
@@ -9336,7 +9339,7 @@ let allQueens = [
     metamorkid, nikitaV, pandoraN, tessaT, naomy, victoriaSH, yvonne, alexisuk, banksie, cara, dede, gingeruk, kateb, michael, naomiuk,
     aimee, aurora, denim, kikicoe, kitten, luna, melinda, nearah, sisi, girlfriend, venuscan, tomara, vicki, arizona, astrid, bernie, deedee, hana, jadeso, 
     matilduh, nicoleP, cunt, tiny,amandatori, dawn, geneva, hershii, megami, mhiya, mirage, morphine, nymphia, plane, plasma, q, sapphira, xunami, 
-    cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, roses, sara, vespi
+    cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, roses, sara, vespi, darby, alexispb, chan
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];

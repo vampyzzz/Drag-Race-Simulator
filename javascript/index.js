@@ -9187,7 +9187,7 @@ let punani = new Queen("Punani", 8, 10, 8, 9, 10, 10, 10, "Punani");
 let roses = new Queen("Rose", 4, 4, 4, 4, 4, 4, 4, "RoseS");
 let sara = new Queen("Sara Forever", 8, 7, 11, 6, 10, 10, 10, "SaraForever");
 let vespi = new Queen("Vespi", 6, 6, 5, 6, 6, 10, 7, "Vespi");
-let drfr2 = [cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, rose, sara, vespi];
+let drfr2 = [cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, roses, sara, vespi];
 //DRAG RACE PHILIPPINES
 let brigiding = new Queen("Brigiding", 6, 5, 8, 8, 4, 9, 10, "Brigiding");
 let corazon = new Queen("Corazon", 4, 5, 4, 3, 4, 7, 5, "Corazon");
@@ -9336,7 +9336,7 @@ let allQueens = [
     metamorkid, nikitaV, pandoraN, tessaT, naomy, victoriaSH, yvonne, alexisuk, banksie, cara, dede, gingeruk, kateb, michael, naomiuk,
     aimee, aurora, denim, kikicoe, kitten, luna, melinda, nearah, sisi, girlfriend, venuscan, tomara, vicki, arizona, astrid, bernie, deedee, hana, jadeso, 
     matilduh, nicoleP, cunt, tiny,amandatori, dawn, geneva, hershii, megami, mhiya, mirage, morphine, nymphia, plane, plasma, q, sapphira, xunami, 
-    cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, rose, sara, vespi
+    cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, roses, sara, vespi
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];

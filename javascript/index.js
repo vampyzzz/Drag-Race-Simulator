@@ -9175,6 +9175,19 @@ let lova = new Queen("Lova Ladiva", 5, 5, 6, 4, 6, 6, 5, "Lova");
 let paloma = new Queen("Paloma", 11, 11, 6, 7, 9, 9, 8, "Paloma");
 let soa = new Queen("Soa de Muse", 9, 10, 10, 8, 8, 9, 10, "Soa");
 let drfr = [elips, kam, bigbertha, briochee, grandedame, kahena, lolita, lova, paloma, soa];
+//DRAG RACE FRANCE
+let cookie = new Queen("Cookie Kunty", 8, 6, 8, 10, 5, 11, 10, "CookieKunty");
+let gingerb = new Queen("Ginger Bitch", 7, 6, 7, 6, 8, 8, 9, "GingerBitch");
+let keiona = new Queen("Keiona", 11, 10, 15, 11, 11, 13, 13, "Keiona");
+let kittyspace = new Queen("Kitty Space", 6, 6, 6, 5, 6, 9, 9, "KittySpace");
+let mami = new Queen("Mami Watta", 9, 7, 9, 9, 8, 10, 9, "MamiWatta");
+let moon = new Queen("Moon", 9, 9, 9, 6, 8, 10, 8, "Moon");
+let piche = new Queen("Piche", 7, 7, 11, 7, 8, 9, 11, "Piche");
+let punani = new Queen("Punani", 8, 10, 8, 9, 10, 10, 10, "Punani");
+let roses = new Queen("Rose", 4, 4, 4, 4, 4, 4, 4, "Rose");
+let sara = new Queen("Sara Forever", 8, 7, 11, 6, 10, 10, 10, "SaraForever");
+let vespi = new Queen("Vespi", 6, 6, 5, 6, 6, 10, 7, "Vespi");
+let drfr2 = [cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, rose, sara, vespi];
 //DRAG RACE PHILIPPINES
 let brigiding = new Queen("Brigiding", 6, 5, 8, 8, 4, 9, 10, "Brigiding");
 let corazon = new Queen("Corazon", 4, 5, 4, 3, 4, 7, 5, "Corazon");
@@ -9323,6 +9336,7 @@ let allQueens = [
     metamorkid, nikitaV, pandoraN, tessaT, naomy, victoriaSH, yvonne, alexisuk, banksie, cara, dede, gingeruk, kateb, michael, naomiuk,
     aimee, aurora, denim, kikicoe, kitten, luna, melinda, nearah, sisi, girlfriend, venuscan, tomara, vicki, arizona, astrid, bernie, deedee, hana, jadeso, 
     matilduh, nicoleP, cunt, tiny,amandatori, dawn, geneva, hershii, megami, mhiya, mirage, morphine, nymphia, plane, plasma, q, sapphira, xunami, 
+    cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, rose, sara, vespi
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];

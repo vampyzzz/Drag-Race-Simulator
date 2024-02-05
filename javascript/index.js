@@ -9102,7 +9102,7 @@ let pomara = new Queen("Pomara Fifth", 8, 5, 5, 7, 5, 9, 8, "Pomara");
 let spankie = new Queen("Spankie Jackzon", 11, 11, 8, 5, 8, 7, 9, "Spankie");
 let yuri = new Queen("Yuri Guaii", 6, 11, 6, 14, 9, 13, 9, "Yuri");
 let drdu_season2 = [aubrey, beverly, faux, hannah, kweenKong, minnie, molly, pomara, spankie, yuri];
-//DRAG RACE ESPAÑA 1
+//DRAG RACE ESPAÑA 1 acting, comedy, dance, design, improv, runway, lipsync
 let arantxa = new Queen("Arantxa Castilla La Mancha", 6, 8, 6, 7, 8, 9, 7, "Arantxa");
 let carmenf = new Queen("Carmen Farala", 10, 10, 10, 14, 8, 13, 10, "CarmenF");
 let dovima = new Queen("Dovima Nurmi", 8, 7, 5, 7, 8, 10, 6, "Dovima");
@@ -9111,20 +9111,20 @@ let hugaceo = new Queen("Hugáceo Crujiente", 5, 5, 5, 12, 6, 12, 8, "Hugaceo");
 let inti = new Queen("Inti", 6, 6, 6, 7, 5, 11, 6, "Inti");
 let killer = new Queen("Killer Queen", 6, 10, 8, 9, 11, 9, 8, "Killer");
 let pupi = new Queen("Pupi Poisson", 10, 11, 7, 5, 11, 6, 7, "Puppy");
-let sagittaria = new Queen("Sagittaria", 7, 8, 8, 9, 7, 10, 8, "Sagittaria");
+let sagittaria = new Queen("Sagittaria", 7, 8, 8, 9, 7, 10, 9, "Sagittaria");
 let macarena = new Queen("The Macarena", 5, 5, 6, 4, 5, 5, 5, "Macarena");
 let dres_season1 = [arantxa, carmenf, dovima, drag, hugaceo, inti, killer, pupi, sagittaria, macarena];
-// DRAG RACE ESPAÑA 2
+// DRAG RACE ESPAÑA 2 acting, comedy, dance, design, improv, runway, lipsync
 let arielRec = new Queen("Ariel Rec", 5, 5, 7, 4, 5, 9, 5, "ArielRec");
 let diamante = new Queen("Diamante Merybrown", 7, 6, 10, 5, 5, 8, 11, "Diamante");
-let sethlas = new Queen("Drag Sethlas", 7, 5, 9, 10, 5, 11, 7, "DragSethlas");
+let sethlas = new Queen("Drag Sethlas", 7, 5, 12, 10, 5, 11, 9, "DragSethlas");
 let estrella = new Queen("Estrella Xtravaganza", 10, 7, 7, 5, 9, 8, 8, "Estrella");
 let jota = new Queen("Jota Carajota", 4, 5, 6, 4, 4, 8, 7, "Jota");
 let juriji = new Queen("Juriji Der Klee", 8, 9, 7, 9, 10, 10, 9, "Juriji");
 let marina = new Queen("Marina", 6, 10, 8, 7, 7, 8, 11, "Marina");
 let marisa = new Queen("Marisa Prisa", 4, 4, 3, 2, 4, 4, 4, "Marisa");
-let onyx = new Queen("Onyx", 6, 6, 7, 7, 6, 13, 7, "Onyx");
-let samantha = new Queen("Samantha Ballentines", 1, 1, 1, 1, 1, 1, 3, "Samantha");
+let onyx = new Queen("Onyx", 6, 6, 6, 7, 6, 13, 7, "Onyx");
+let samantha = new Queen("Samantha Ballentines", 6, 8, 1, 1, 5, 6, 3, "Samantha");
 let venedita = new Queen("Venedita Von Däsh", 9, 9, 9, 9, 9, 10, 9, "Venedita");
 let dres_season2 = [arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, venedita];
 //DRAG RACE ESPAÑA S3

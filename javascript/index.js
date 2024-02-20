@@ -9141,6 +9141,8 @@ let pitita = new Queen("Pitita", 11, 6, 8, 13, 10, 11, 8, "Pitita");
 let vania = new Queen("Vania Vainilla", 8, 12, 8, 10, 8, 9, 9, "VaniaVainilla");
 let visa = new Queen("Visa", 7, 8, 8, 9, 9, 12, 12, "Visa");
 let dres_season3 = [bestiah, chanel, clover, chuchi, hornella, maria, kellyRoller, pakita, pink, pitita, vania, macarena, visa];
+//DRAG RACE ESPAÑA S1
+let dresas_1 = [pupi, sagittaria, sethlas, juriji, onyx, samantha, hornella, pakita, pink];
 //DRAG RACE ITALIA S1
 let ava = new Queen("Ava Hangar", 8, 7, 5, 5, 6, 6, 6, "Ava");
 let divinity = new Queen("Divinity", 9, 6, 8, 7, 6, 8, 7, "Divinity");

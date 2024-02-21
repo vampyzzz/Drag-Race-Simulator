@@ -8931,7 +8931,7 @@ let joe = new Queen("Joe Black", 5, 5, 4, 5, 4, 8, 5, "Joe");
 let lawrence = new Queen("Lawrence Chaney", 13, 12, 5, 12, 9, 11, 10, "Lawrence");
 let sister = new Queen("Sister Sister", 6, 8, 6, 4, 7, 8, 9, "Sister");
 let tayce = new Queen("Tayce", 10, 9, 10, 5, 9, 12, 14, "Tayce");
-let tia = new Queen("Tia Kofi", 7, 13, 9, 5, 9, 5, 12, "Tia");
+let tia = new Queen("Tia Kofi", 7, 13, 9, 6, 9, 8, 12, "Tia");
 let veronica = new Queen("Veronica Green", 10, 9, 6, 8, 9, 7, 9, "Veronica");
 let uk_season2 = [awhora, asttina, bimini, cherry, ellie, ginny, joe, lawrence, sister, tayce, tia, veronica];
 //DRUK SEASON 3  acting, comedy, dance, design, improv, runway, lipsync
@@ -9040,10 +9040,10 @@ let patty = new Queen("Patty Pam-Pam", 5, 6, 6, 6, 5, 9, 7, "Patty");
 let roem = new Queen("Roem", 6, 6, 5, 5, 5, 6, 5, "Roem");
 let sederginne = new Queen("Sederginne", 7, 6, 6, 7, 5, 13, 5, "Sederginne");
 let hol_season1 = [chelsea, envy, janey, madamem, mama, megan, abby, patty, roem, sederginne];
-//DRAG RACE HOLLAND SEASON 2
+//DRAG RACE HOLLAND SEASON 2 acting, comedy, dance, design, improv, runway, lipsync
 let ivyelise = new Queen("Ivy-Elyse", 6, 8, 5, 4, 8, 5, 10, "IvyE");
 let juicy = new Queen("Juicy Kouture", 5, 6, 5, 5, 4, 4, 5, "Juicy");
-let keta = new Queen("Keta Minaj", 9, 12, 9, 7, 12, 11, 9, "Keta");
+let keta = new Queen("Keta Minaj", 9, 12, 9, 10, 12, 12, 9, "Keta");
 let love = new Queen("Love Masisi", 6, 5, 6, 8, 5, 10, 7, "Love");
 let mlp = new Queen("My Little Puny", 10, 10, 10, 7, 9, 10, 10, "MLP");
 let reggy = new Queen("Reggy B", 6, 6, 6, 5, 6, 8, 8, "Reggy");
@@ -9170,7 +9170,7 @@ let elips = new Queen("Elips", 7, 9, 8, 8, 8, 8, 7, "Elips");
 let kam = new Queen("Kam Hugh", 7, 5, 6, 9, 4, 13, 7, "Kam");
 let bigbertha = new Queen("La Big Bertha", 7, 6, 7, 6, 6, 8, 9, "BigBertha");
 let briochee = new Queen("La Briochée", 6, 6, 6, 5, 6, 8, 5, "LaBriochee");
-let grandedame = new Queen("La Grande Dame", 11, 10, 8, 12, 8, 11, 8, "GrandeDame");
+let grandedame = new Queen("La Grande Dame", 11, 12, 7, 12, 9, 13, 8, "GrandeDame");
 let kahena = new Queen("La Kahena", 5, 6, 5, 3, 5, 6, 5, "Kahena");
 let lolita = new Queen("Lolita Banana", 9, 7, 13, 11, 6, 9, 12, "LolitaBanana");
 let lova = new Queen("Lova Ladiva", 5, 5, 6, 4, 6, 6, 5, "Lova");

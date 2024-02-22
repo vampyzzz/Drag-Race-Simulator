@@ -812,8 +812,12 @@ class Rusical {
             desc[desc["Lairy Poppins: The Rusical."] = 20] = "Lairy Poppins: The Rusical.";
             desc[desc["Hairspray: The Rusical."] = 21] = "Hairspray: The Rusical.";
             desc[desc["Burlesque: The Rusical."] = 22] = "Burlesque: The Rusical.";
+            desc[desc["Moulin Ru: The Rusical"] = 23] = "Moulin Ru: The Rusical.";
+            desc[desc["Wigloose: The Rusical"] = 24] = "Wigloose: The Rusical.";
+            desc[desc["The Sound of Rusic: The Rusical"] = 25] = "The Sound of Rusic: The Rusical.";
+            
         })(desc || (desc = {}));
-        description.innerHTML = "Today's challenge is... THE RUSICAL!! The queens were tasked to take part in " + desc[randomNumber(0, 22)];
+        description.innerHTML = "Today's challenge is... THE RUSICAL!! The queens were tasked to take part in " + desc[randomNumber(0, 25)];
     }
     rankPerformances() {
         for (let i = 0; i < currentCast.length; i++)

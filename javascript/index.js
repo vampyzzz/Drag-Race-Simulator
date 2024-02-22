@@ -626,7 +626,7 @@ function improvChallenge() {
 //SPECIAL CHALLENGES:
 class SnatchGame {
     generateDescription() {
-        let description = document.querySelector("b#Description");
+        let description = document.querySelector("p#Description");
         description.innerHTML = "Today's challenge is... SNATCH GAME!! The queens will do funny celebrity impersonations!";
         if (randomNumber(0, 100) >= 95) {
             episodeChallenges.push("Snatch Game of Love");
@@ -634,6 +634,137 @@ class SnatchGame {
             episodeChallenges.push("Snatch Game");
         }
     }
+
+    GenerateCharacters(screenToAdd)
+    {
+        let characters =
+        [
+            "Beyoncé",
+            "Carol Channing",
+            "Lady Gaga",
+            "Joan Crawford",
+            "Jennifer Lopez",
+            "Mo'Nique",
+            "Cher",
+            "Diana Ross",
+            "Marilyn Monroe",
+            "Taylor Swift",
+            "Fran Drescher",
+            "Lucille Ball",
+            "Maggie Smith",
+            "Raven-Symoné",
+            "Eartha Kitt",
+            "Uzo Aduba",
+            "Mae West",
+            "Naomi Campbell",
+            "Marlene Dietrich",
+            "Gigi Gorgeous",
+            "NeNe Leakes",
+            "Liza Minnelli",
+            "Ariadna Gutiérrez",
+            "Sofía Vergara",
+            "Grace Jones",
+            "Paul Lynde",
+            "Jenifer Lewis",
+            "Metinee \"Lukkade\" Kingpayom",
+            "Blue Ivy Carter",
+            "Barbra Streisand",
+            "Della Reese",
+            "Tiffany Haddish",
+            "Sophia La",
+            "Harvey Fierstein",
+            "Jo Anne Worley",
+            "Whoopi Goldburg",
+            "Rue McClanahan",
+            "Leslie Jones",
+            "Bernadette Peters",
+            "Katherine Hepbur",
+            "Lisa Rinna",
+            "Patricia Quinn",
+            "Edith Piaf",
+            "Mariah Carey",
+            "Rebecca More",
+            "Raven van Dorst",
+            "Walter Mercado",
+            "Matt Lucas",
+            "Miriam Margolyes",
+            "Jane Turner",
+            "Dolly Parton",
+            "Bindi Irwin",
+            "Lizzo",
+            "Jennifer Coolidge",
+            "Catherine O'Hara",
+            "Magda Szubanski",
+            "Encarnita Rojas",
+            "Phyllis Diller",
+            "Divine",
+            "Kim Catrall",
+            "La Toya Jackson",
+            "Sophie Anderson",
+            "Nikkie Plessen",
+            "Kim Holland",
+            "Selina Mosinski",
+            "Macaulay Culkin",
+            "Jocelyn Jee Esien",
+            "Jim Carrey",
+            "La Veneno",
+            "Valeria Marini",
+            "Francesca Cipriani",
+            "Alice Kessler",
+            "Ellen Kessler",
+            "Belén Rodríguez",
+            "Mike Myers",
+            "Kathy Bates",
+            "Billy Porter",
+            "Ilana Glazer",
+            "Drew Barrymore",
+            "Gwyneth Paltrow",
+            "Verónica Forqué",
+            "Miguel Bosé",
+            "Paquita Sala"
+        ];
+        let played = [];
+        let playedby = [];
+        for (let i = 0; i < currentCast.length; i++)
+        {
+            let who = randomNumber(0,characters.length-1);
+            if(played.indexOf(characters[who])!=-1)
+            {
+                let number = played.indexOf(characters[who]);
+                let changed = 0
+                screenToAdd.createImage(currentCast[i].image);
+                screenToAdd.createImage(playedby[number].image);
+                let unplayed = false;
+                while(unplayed==false)
+                {
+                    changed = randomNumber(0,characters.length-1);
+                    if(played.indexOf(characters[changed])!=-1)
+                    {
+                        unplayed = false;
+                    }
+                    else
+                    {
+                        unplayed = true;
+                    }
+                }
+
+                screenToAdd.createBold(currentCast[i].getName()+" wanted to play "+played[number]+" originally but due to "+playedby[number].getName()+" already playing them, they choose to play "+characters[changed]+".");
+
+                played.push(characters[changed]);
+                playedby.push(currentCast[i]);
+            }
+            else
+            {
+                screenToAdd.createImage(currentCast[i].image);
+
+                screenToAdd.createBold(currentCast[i].getName()+" will play "+characters[who]+".");
+
+                played.push(characters[who]);
+                playedby.push(currentCast[i]);
+            } 
+        }
+    }
+
     rankPerformances() {
         for (let i = 0; i < currentCast.length; i++)
             currentCast[i].getSnatch();
@@ -644,13 +775,14 @@ function snatchGame() {
     let challengeScreen = new Scene();
     challengeScreen.clean();
     challengeScreen.createHeader("Maxi-challenge!");
-    challengeScreen.createBold("", "Description");
+    challengeScreen.createParagraph("", "Description");
     let challenge = new SnatchGame();
     challenge.generateDescription();
+    challenge.GenerateCharacters(challengeScreen);
     challenge.rankPerformances();
+    queensPerformances();
     isDesignChallenge = false;
     snatchCounter = true;
-    queensPerformances();
 }
 class Rusical {
     generateDescription() {

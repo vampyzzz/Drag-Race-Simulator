@@ -8919,7 +8919,8 @@ let uk_season1 = [baga, blu, cheryl, crystaluk, divina, gothy, scaredy, sumting,
 let allstars_7 = [raja, jinkx, yvie, jaida, trinity, monet, shea, viv];
 // ALL STARS 8
 let allstars_8 = [alexism, darienne, heidi, jaymes, jessica, kahanna, kandym, kasha, lala, monica, naysha];
-
+// ALL STARS 9
+let allstars_9 = [angeria, plastique, jorgeous, shannel, roxxxy, vanessa, gottmik, ninaw];
 //DRUK SEASON 2            acting, comedy, dance, design, improv, runway, lipsync
 let awhora = new Queen("A'Whora", 7, 5, 8, 15, 10, 10, 8, "Awhora");
 let asttina = new Queen("Asttina Mandella", 6, 6, 13, 8, 6, 10, 12, "Asttina");

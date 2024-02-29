@@ -722,7 +722,6 @@ class SnatchGame {
             "Madea",
             "Cupid",
             "Santa Claus"
-            "Shrek"
 
         ];
         let played = [];

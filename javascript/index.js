@@ -722,7 +722,6 @@ class SnatchGame {
             "Madea",
             "Cupid",
             "Santa Claus"
-            "Mario"
             "Dr Phil"
             "Shrek"
             "Bob Belcher"

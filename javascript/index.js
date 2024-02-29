@@ -723,7 +723,7 @@ class SnatchGame {
             "Cupid",
             "Santa Claus"
             "Mario"
-            "Dr. Phil"
+            "Dr Phil"
             "Shrek"
             "Bob Belcher"
             "Queen Elizabeth"

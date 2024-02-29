@@ -723,7 +723,7 @@ class SnatchGame {
             "Cupid",
             "Santa Claus"
             "Mario"
-            "Dr. Phil"
+            "Dr Phil"
             "Shrek"
             "Bob Belcher"
             "Queen Elizabeth"
@@ -736,6 +736,7 @@ class SnatchGame {
             "ET"
             "Jack Black"
             "Joe Biden"
+        
         ];
         let played = [];
         let playedby = [];

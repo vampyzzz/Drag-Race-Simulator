@@ -736,7 +736,7 @@ class SnatchGame {
             "ET"
             "Jack Black"
             "Joe Biden"
-        
+
         ];
         let played = [];
         let playedby = [];

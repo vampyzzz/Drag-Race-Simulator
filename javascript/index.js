@@ -723,17 +723,6 @@ class SnatchGame {
             "Cupid",
             "Santa Claus"
             "Shrek"
-            "Bob Belcher"
-            "Queen Elizabeth"
-            "Freddie Mercury"
-            "Yoda"
-            "Lois Griffin"
-            "Marge Simpsons"
-            "Michelle Visage"
-            "Barbie"
-            "ET"
-            "Jack Black"
-            "Joe Biden"
 
         ];
         let played = [];

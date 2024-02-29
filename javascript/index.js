@@ -722,6 +722,20 @@ class SnatchGame {
             "Madea",
             "Cupid",
             "Santa Claus"
+            "Mario"
+            "Dr. Phil"
+            "Shrek"
+            "Bob Belcher"
+            "Queen Elizabeth"
+            "Freddie Mercury"
+            "Yoda"
+            "Lois Griffin"
+            "Marge Simpsons"
+            "Michelle Visage"
+            "Barbie"
+            "ET"
+            "Jack Black"
+            "Joe Biden"
 
         ];
         let played = [];

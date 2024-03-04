@@ -9258,11 +9258,11 @@ let diamante = new Queen("Diamante Merybrown", 7, 6, 10, 5, 5, 8, 10, "Diamante"
 let sethlas = new Queen("Drag Sethlas", 8, 10, 12, 9, 8, 12, 10, "DragSethlas");
 let estrella = new Queen("Estrella Xtravaganza", 10, 7, 7, 5, 9, 8, 8, "Estrella");
 let jota = new Queen("Jota Carajota", 4, 5, 6, 4, 4, 8, 7, "Jota");
-let juriji = new Queen("Juriji Der Klee", 8, 9, 7, 9, 10, 10, 9, "Juriji");
+let juriji = new Queen("Juriji Der Klee", 8, 9, 7, 11, 10, 10, 9, "Juriji");
 let marina = new Queen("Marina", 6, 10, 8, 7, 7, 8, 11, "Marina");
 let marisa = new Queen("Marisa Prisa", 4, 4, 3, 2, 4, 4, 4, "Marisa");
 let onyx = new Queen("Onyx", 6, 6, 6, 7, 6, 13, 7, "Onyx");
-let samantha = new Queen("Samantha Ballentines", 6, 8, 6, 5, 5, 8, 6, "Samantha");
+let samantha = new Queen("Samantha Ballentines", 6, 10, 6, 5, 8, 8, 6, "Samantha");
 let venedita = new Queen("Venedita Von Däsh", 9, 9, 9, 9, 9, 10, 9, "Venedita");
 let dres_season2 = [arielRec, diamante, sethlas, estrella, jota, juriji, marina, marisa, onyx, samantha, venedita];
 //DRAG RACE ESPAÑA S3            acting, comedy, dance, design, improv, runway, lipsync

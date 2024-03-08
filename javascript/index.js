@@ -8801,7 +8801,7 @@ let ninaf = new Queen("Nina Flowers", 7, 5, 5, 11, 6, 12, 6, "NinaFlowers");
 let ongina = new Queen("Ongina", 9, 8, 7, 9, 10, 9, 8, "Ongina");
 let rebecca = new Queen("Rebecca Glasscock", 3, 3, 6, 4, 2, 6, 5, "Rebecca");
 let shannel = new Queen("Shannel", 5, 5, 5, 9, 4, 11, 8, "Shannel");
-let tammie = new Queen("Tammie Brown", 12, 15, 3, 7, 15, 7, 3, "Tammie");
+let tammie = new Queen("Tammie Brown", 15, 15, 5, 7, 15, 7, 6, "Tammie");
 let victoria = new Queen("Victoria 'Porkchop' Parker", 3, 6, 4, 3, 6, 5, 4, "Victoria");
 let us_season1 = [akashia, bebe, jade, ninaf, ongina, rebecca, shannel, tammie, victoria];
 //SEASON 2:       acting, comedy, dance, design, improv, runway, lipsync

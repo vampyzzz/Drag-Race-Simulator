@@ -8855,7 +8855,7 @@ let detox = new Queen("Detox", 10, 12, 9, 9, 8, 12, 11, "Detox");
 let honey = new Queen("Honey Mahogany", 10, 3, 3, 6, 6, 8, 4, "Honey");
 let ivy = new Queen("Ivy Winters", 11, 4, 8, 12, 7, 10, 7, "Ivy");
 let jadejolie = new Queen("Jade Jolie", 5, 7, 8, 7, 8, 10, 8, "JadeJ");
-let jinkx = new Queen("Jinkx Monsoon", 15, 15, 9, 8, 15, 9, 8, "Jinkx");
+let jinkx = new Queen("Jinkx Monsoon", 15, 15, 7, 6, 15, 9, 8, "Jinkx");
 let lineysha = new Queen("Lineysha Sparx", 10, 4, 7, 12, 5, 10, 8, "Lineysha");
 let monica = new Queen("Monica Beverly Hillz", 4, 4, 7, 6, 3, 8, 8, "Monica");
 let penny = new Queen("Penny Tration", 4, 5, 4, 5, 5, 5, 4, "Penny");
@@ -8866,8 +8866,8 @@ let us_season5 = [alaska, alyssa, coco, detox, honey, ivy, jadejolie, jinkx, lin
 //SEASON 6: acting, comedy, dance, design, improv, runway, lipsync
 let adore = new Queen("Adore Delano", 9, 11, 9, 6, 9, 8, 11, "Adore");
 let april = new Queen("April Carrión", 5, 5, 6, 9, 5, 9, 8, "April");
-let bendelacreme = new Queen("BenDeLaCreme", 12, 12, 11, 10, 15, 10, 9, "Bendelacreme");
-let bianca = new Queen("Bianca Del Rio", 11, 15, 7, 13, 15, 10, 5, "Bianca");
+let bendelacreme = new Queen("BenDeLaCreme", 12, 12, 8, 10, 15, 10, 9, "Bendelacreme");
+let bianca = new Queen("Bianca Del Rio", 11, 15, 6, 13, 15, 10, 5, "Bianca");
 let courtney = new Queen("Courtney Act", 11, 8, 10, 10, 10, 12, 9, "Courtney");
 let darienne = new Queen("Darienne Lake", 11, 8, 7, 4, 9, 8, 13, "Darienne");
 let gia = new Queen("Gia Gunn", 10, 4, 12, 8, 4, 10, 12, "Gia");
@@ -8880,7 +8880,7 @@ let trinityk = new Queen("Trinity K. Bonet", 9, 9, 13, 12, 4, 10, 15, "TrinityKB
 let vivacious = new Queen("Vivacious", 4, 5, 10, 4, 4, 7, 12, "Vivacious");
 let us_season6 = [adore, april, bendelacreme, bianca, courtney, darienne, gia, joslyn, kelly, laganja, magnolia, milk, trinityk, vivacious];
 //SEASON 7: 
-let ginger = new Queen("Ginger Minj", 14, 12, 8, 9, 15, 7, 12, "Ginger");
+let ginger = new Queen("Ginger Minj", 14, 12, 8, 9, 15, 7, 9, "Ginger");
 let jaidynn = new Queen("Jaidynn Diore Fierce", 9, 9, 12, 6, 6, 7, 13, "Jaidynn");
 let jasmine = new Queen("Jasmine Masters", 3, 10, 6, 5, 2, 7, 9, "Jasmine");
 let kandy = new Queen("Kandy Ho", 4, 4, 12, 5, 4, 7, 10, "KandyH");
@@ -8897,7 +8897,7 @@ let violet = new Queen("Violet Chachki", 6, 7, 8, 15, 8, 13, 8, "Violet");
 let us_season7 = [ginger, jaidynn, jasmine, kandy, katya, kennedy, max, fame, kasha, pearl, sashab, tempest, trixie, violet];
 //SEASON 8:  acting, comedy, dance, design, improv, runway, lipsync
 let acid = new Queen("Acid Betty", 10, 5, 8, 15, 5, 13, 7, "Acid");
-let bob = new Queen("Bob The Drag Queen", 15, 15, 8, 9, 15, 8, 10, "Bob");
+let bob = new Queen("Bob The Drag Queen", 15, 15, 8, 8, 15, 8, 10, "Bob");
 let chichi = new Queen("Chi Chi DeVayne", 8, 4, 13, 8, 6, 8, 13, "ChiChi");
 let cynthia = new Queen("Cynthia Lee Fontaine", 4, 4, 7, 6, 4, 7, 6, "Cynthia");
 let dax = new Queen("Dax ExclamationPoint", 5, 6, 6, 5, 6, 5, 4, "Dax");
@@ -8921,7 +8921,7 @@ let kimora = new Queen("Kimora Blac", 5, 5, 4, 6, 5, 8, 7, "Kimora");
 let ninab = new Queen("Nina Bo'Nina Brown", 4, 10, 10, 15, 10, 10, 11, "NinaBB");
 let peppermint = new Queen("Peppermint", 11, 9, 10, 9, 4, 8, 13, "Peppermint");
 let sasha = new Queen("Sasha Velour", 9, 10, 8, 10, 11, 15, 11, "Sasha");
-let shea = new Queen("Shea Couleé", 11, 12, 15, 12, 11, 15, 15, "Shea");
+let shea = new Queen("Shea Couleé", 10, 12, 15, 13, 11, 15, 15, "Shea");
 let trinity = new Queen("Trinity The Tuck", 13, 11, 9, 15, 10, 13, 11, "TrinityTT");
 let valentina = new Queen("Valentina", 11, 7, 10, 9, 9, 9, 10, "Valentina");
 let us_season9 = [aja, alexism, cynthia, eureka, farrah, jaymes, kimora, ninab, peppermint, sasha, shea, trinity, valentina];
@@ -8936,7 +8936,7 @@ let kalorie = new Queen("Kalorie K. Williams", 6, 6, 6, 5, 7, 7, 8, "Kalorie");
 let kameron = new Queen("Kameron Michaels", 5, 8, 14, 10, 8, 8, 15, "Kameron");
 let mayhem = new Queen("Mayhem Miller", 6, 8, 9, 13, 7, 9, 10, "Mayhem");
 let miz = new Queen("Miz Cracker", 11, 11, 5, 10, 9, 9, 8, "Miz");
-let monet = new Queen("Monét X Change", 11, 11, 14, 9, 10, 10, 15, "Monet");
+let monet = new Queen("Monét X Change", 13, 13, 14, 9, 11, 11, 15, "Monet");
 let monique = new Queen("Mo Heart", 12, 10, 9, 12, 13, 12, 11, "Monique");
 let vanessa = new Queen("Vanessa 'Vanjie' Mateo", 9, 11, 9, 8, 9, 7, 11, "Vanjie");
 let vixen = new Queen("The Vixen", 5, 4, 12, 9, 3, 8, 12, "Vixen");
@@ -9066,10 +9066,10 @@ let cherry = new Queen("Cherry Valentine", 5, 6, 5, 7, 6, 11, 4, "Cherry");
 let ellie = new Queen("Hellie Diamond", 10, 6, 7, 11, 8, 9, 8, "Ellie");
 let ginny = new Queen("Ginny Lemon", 6, 6, 5, 5, 5, 8, 4, "Ginny");
 let joe = new Queen("Joe Black", 5, 5, 4, 5, 4, 8, 5, "Joe");
-let lawrence = new Queen("Lawrence Chaney", 13, 12, 5, 12, 9, 11, 10, "Lawrence");
+let lawrence = new Queen("Lawrence Chaney", 13, 12, 7, 12, 9, 11, 10, "Lawrence");
 let sister = new Queen("Sister Sister", 6, 8, 6, 4, 7, 8, 9, "Sister");
-let tayce = new Queen("Tayce", 10, 9, 10, 5, 9, 12, 14, "Tayce");
-let tia = new Queen("Tia Kofi", 9, 13, 9, 6, 10, 8, 10, "Tia");
+let tayce = new Queen("Tayce", 10, 9, 10, 5, 9, 12, 11, "Tayce");
+let tia = new Queen("Tia Kofi", 9, 13, 9, 6, 11, 8, 10, "Tia");
 let veronica = new Queen("Veronica Green", 10, 9, 6, 8, 9, 7, 9, "Veronica");
 let uk_season2 = [awhora, asttina, bimini, cherry, ellie, ginny, joe, lawrence, sister, tayce, tia, veronica];
 //DRUK SEASON 3  acting, comedy, dance, design, improv, runway, lipsync
@@ -9077,7 +9077,7 @@ let anubis = new Queen("Anubis", 5, 5, 5, 4, 5, 4, 4, "Anubis");
 let charity = new Queen("Charity Kase", 8, 6, 4, 12, 6, 13, 8, "Charity");
 let choriza = new Queen("Choriza May", 9, 10, 6, 7, 6, 10, 7, "Choriza");
 let elektraF = new Queen("Elektra Fence", 5, 6, 10, 4, 5, 8, 10, "ElektraF");
-let ella = new Queen("Ella Vaday", 10, 12, 6, 10, 12, 9, 5, "Ella");
+let ella = new Queen("Ella Vaday", 9, 12, 6, 10, 12, 9, 5, "Ella");
 let kitty = new Queen("Kitty Scott-Claus", 12, 13, 7, 8, 10, 9, 7, "Kitty");
 let krystal = new Queen("Krystal Versace", 8, 6, 11, 9, 7, 15, 12, "Krystal");
 let river = new Queen("River Medway", 8, 9, 5, 9, 5, 7, 6, "River");
@@ -9102,7 +9102,7 @@ let uk_season4 = [baby, black, cheddar, copper, dakota, danny, jonbers, just, le
 //DRUK SEASON 5  
 let alexisuk = new Queen("Alexis Saint-Pete", 4, 4, 4, 4, 4, 8, 7, "AlexisSaintPete");
 let banksie = new Queen("Banksie", 6, 6, 6, 11, 7, 12, 7, "Banksie");
-let cara = new Queen("Cara Melle", 5, 5, 12, 8, 7, 11, 12, "Cara");
+let cara = new Queen("Cara Melle", 5, 5, 12, 8, 7, 13, 12, "Cara");
 let dede = new Queen("DeDeLicious", 8, 5, 8, 13, 6, 10, 12, "DeDe");
 let gingeruk = new Queen("Ginger Johnson", 11, 12, 11, 9, 13, 10, 8, "GingerUK");
 let kateb = new Queen("Kate Butch", 10, 9, 9, 8, 9, 8, 8, "KateB");
@@ -12974,7 +12974,7 @@ let queensReads = [
     {queen: "Alyssa Edwards", reads: ["Alyssa Edwards, overbites are very in this season. Too bad your performance here is so underwhelming.", "Alyssa Edwards, your performance as Katy Perry was less than satisfactory. When you go home, get on wikipedia.com and look the bitch up, do you know anything about her!?", "Alyssa Edwards, you can't sing worth a damn, but you dance a great ballet. Darling with only one skill, it's time you sashay away.", "Alyssa Edwards, never mind.", "Alyssa Edwards, Miss US- oh wait.", "Alyssa, you are like the Abby Lee Miller of drag. Except when Abby Lee Miller dresses her body, she can cover her backrolls.", "Alyssa Edwards, my darling dear. I can't stand it when you're near.", "Alyssa Edwards, you've often been referred to as the dancing fool. I just wanna know, when did the dancing part get added?", "Alyssa Edwards, you are so talented and you haven't let it go to your head. Nothing has changed you, or your overbite!", "Alyssa Edwards, whoever said everything's bigger in Texas has obviously never seen your D. But you know what they have seen? Your body."]},
     {queen: "Ivy Winters", reads: ["I-veeeee Wintersss! You're very soft and beautiful...for a hard clown.", "Ivy Winters, you got read down for your performance in Snatch Game, but I however thought your impression of Mrs. Doubtfire was spot on.", "Ivy Winters, you're such a cute twink, but as a drag queen, you stink.", "Ivy Winters... I can't do it, because reading you is like reading a Walt Disney book, it's simply too easy.", ]},
     {queen: "Serena ChaCha", reads: ["And to my dear, dear Serena: I would read you but it does appear life already has.", "Serena ChaCha, who cancelled and you booked this gig?"]},
-    {queen: "Bianca Del Rio", reads: ["Miss Bianca, you're such an old c*** if I fisted you, I would bring out some cobwebs and dust on my hand.", "Bianca Del Taco Trio, your style is as old and bitter as you. You've even got the crypt keeper crying 'BOO HOO HOO!'"]},
+    {queen: "Bianca Del Rio", reads: ["Miss Bianca, you're such an old cunt if I fisted you, I would bring out some cobwebs and dust on my hand.", "Bianca Del Taco Trio, your style is as old and bitter as you. You've even got the crypt keeper crying 'BOO HOO HOO!'"]},
     {queen: "Adore Delano", reads: ["Then we have Adore. I know what you got on your SAT's. Ketchup.", "Adore, I wish someone would show you a door. Any door.", "Adore, you know you're from the west coast because it's a three hour delay before you finally get a joke.",  "A-bore De-lameo, is that a hog on your body, or are you excited to see me?", "Do you know what Adore and the value menu have in common? They're both cheap and full of fat.", "Adore Delano, do you know what makes you the number one fan favorite of all the time? Neither do I.", "And Adore Delano, uhm... really?", "Adore Delano, these other girls are gonna say you have terrible makeup skills, you have no fashion sense, and you're dumb as a rock. But they're wrong! You don't have terrible makeup skills."]},
     {queen: "Courtney Act", reads: ["Courtney Act, what were you caught in the act of? Putting your face on, because you always look unfinished.", "Pretty little Courtney Act, her real beauty is on the inside. I guess that's why you've let so many men inside you. Courtney Act, Australian for whore."]},
     {queen: "Darienne Lake", reads: ["MIss Darienne Lake, you should be arrested for animal cruelty. The way you abused those kitten heels on the runway is absolutely criminal!", "Darienne Lake, this is the girl who probably sits reverse cowgirl on the toilet just so she has a flat surface to eat off of.", "Miss Darienne Lake, you have a lot of jokes, but to me, they're more like UFO's. I mean, they are way out there and I've never seen one land."]},

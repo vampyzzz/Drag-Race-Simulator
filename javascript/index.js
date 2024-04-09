@@ -9026,18 +9026,18 @@ let sugar = new Queen("Sugar", 9, 7, 5, 6, 5, 12, 5, "Sugar");
 let us_season15 = [amethyst, anetra, auraMayari, irene, jax, loosey, luxx, malaysia, marcia, mistress, robin, salina, sashaColby, spice, sugar];
 //SEASON 16            acting, comedy, dance, design, improv, runway, lipsync
 let amandatori = new Queen("Amanda Tori Meating", 7, 9, 9, 6, 8, 5, 8, "AmandaTori");
-let dawn = new Queen("Dawn", 6, 7, 8, 10, 5, 10, 7, "Dawn");
+let dawn = new Queen("Dawn", 6, 6, 6, 10, 5, 10, 6, "Dawn");
 let geneva = new Queen("Geneva Karr", 6, 6, 9, 5, 6, 8, 8, "Geneva");
-let hershii = new Queen("Hershii LiqCour-Jeté", 4, 8, 6, 6, 6, 7, 6, "Hershii");
+let hershii = new Queen("Hershii LiqCour-Jeté", 4, 10, 7, 6, 8, 7, 6, "Hershii");
 let megami = new Queen("Megami", 7, 6, 9, 10, 6, 8, 8, "Megami");
 let mhiya = new Queen("Mhi'ya Iman Le'Paige", 6, 7, 11, 6, 7, 8, 13, "Mhiya");
 let mirage = new Queen("Mirage", 5, 6, 12, 7, 6, 6, 10, "Mirage");
-let morphine = new Queen("Morphine Love Dion", 6, 6, 10, 8, 6, 10, 10, "Morphine");
+let morphine = new Queen("Morphine Love Dion", 6, 6, 10, 8, 6, 10, 12, "Morphine");
 let nymphia = new Queen("Nymphia Wind", 7, 8, 9, 15, 5, 13, 8, "Nymphia");
-let plane = new Queen("Plane Jane", 10, 11, 9, 9, 10, 11, 9, "Plane");
+let plane = new Queen("Plane Jane", 10, 11, 9, 9, 12, 11, 10, "Plane");
 let plasma = new Queen("Plasma", 11, 9, 8, 6, 9, 9, 8, "Plasma");
-let q = new Queen("Q", 10, 8, 4, 15, 8, 12, 5, "Q");
-let sapphira = new Queen("Sapphira Cristál", 10, 11, 9, 11, 11, 12, 9, "Sapphira");
+let q = new Queen("Q", 9, 8, 4, 15, 8, 12, 5, "Q");
+let sapphira = new Queen("Sapphira Cristál", 11, 11, 8, 11, 11, 12, 9, "Sapphira");
 let xunami = new Queen("Xunami Muse", 6, 5, 8, 7, 5, 10, 8, "Xunami");
 let us_season16 = [amandatori, dawn, geneva, hershii, megami, mhiya, mirage, morphine, nymphia, plane, plasma, q, sapphira, xunami];
 //DRUK SEASON 1 acting, comedy, dance, design, improv, runway, lipsync

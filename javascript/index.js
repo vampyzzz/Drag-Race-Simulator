@@ -9297,7 +9297,7 @@ let gioffre = new Queen("Gioffré", 6, 8, 5, 7, 5, 8, 8, "Gioffre");
 let diamond = new Queen("La Diamond", 10, 12, 8, 12, 11, 13, 9, "LaDiamond");
 let petite = new Queen("La Petite Noire", 10, 5, 10, 8, 7, 11, 11, "Petite");
 let narciso = new Queen("Narciso", 4, 4, 4, 4, 4, 4, 4, "Narciso");
-let nehellenia = new Queen("Nehellenia", 8, 10, 10, 8, 10, 12, 9, "Nehellenia");
+let nehellenia = new Queen("Nehellenia", 11, 12, 12, 9, 11, 13, 10, "Nehellenia");
 let obama = new Queen("Obama", 5, 9, 6, 8, 9, 8, 8, "Obama");
 let panthera = new Queen("Panthera Virus", 7, 5, 6, 6, 5, 8, 9, "Panthera");
 let skandalove = new Queen("Skandalove", 9, 7, 8, 8, 7, 9, 9, "Skandalove");
@@ -9313,7 +9313,7 @@ let kahena = new Queen("La Kahena", 5, 6, 3, 3, 5, 4, 5, "Kahena");
 let lolita = new Queen("Lolita Banana", 9, 7, 13, 11, 6, 9, 12, "LolitaBanana");
 let lova = new Queen("Lova Ladiva", 5, 5, 6, 4, 6, 6, 5, "Lova");
 let paloma = new Queen("Paloma", 11, 11, 6, 7, 9, 9, 8, "Paloma");
-let soa = new Queen("Soa de Muse", 9, 10, 10, 8, 8, 9, 10, "Soa");
+let soa = new Queen("Soa de Muse", 9, 8, 10, 8, 8, 9, 11, "Soa");
 let drfr = [elips, kam, bigbertha, briochee, grandedame, kahena, lolita, lova, paloma, soa];
 //DRAG RACE FRANCE
 let cookie = new Queen("Cookie Kunty", 8, 6, 8, 10, 5, 11, 10, "CookieKunty");
@@ -9369,7 +9369,7 @@ let zymba = new Queen("Zymba Ding", 10, 6, 13, 10, 7, 10, 13, "Zymba");
 let drph3 = [angel, jquinn, john, khianna, myx, maxie, popstar, tita, versex, yudipota, zymba];
 //DRAG RACE BELGIQUE
 let amanda = new Queen("Amanda Tears", 5, 5, 3, 5, 4, 5, 6, "AmandaTears");
-let athena = new Queen("Athena Sorgelikis", 8, 8, 7, 8, 6, 15, 7, "AthenaSorgelikis");
+let athena = new Queen("Athena Sorgelikis", 8, 8, 7, 9, 6, 15, 9, "AthenaSorgelikis");
 let brittany = new Queen("Brittany Von Bottoks", 5, 3, 5, 4, 5, 4, 5, "BrittanyVonBottoks");
 let dragCouenne = new Queen("Drag Couenne", 12, 12, 7, 10, 10, 13, 9, "DragCouenne");
 let edna = new Queen("Edna Sorgelsen", 6, 7, 8, 6, 6, 5, 8, "EdnaSorgelsen");
@@ -9405,7 +9405,7 @@ let drdu_season3 = [amyl, ashley, bumpa, flor, gabriella, hollywould, isis, ivan
 //DRAG RACE MEXICO
 let argennis = new Queen("Argennis", 9, 7, 5, 10, 6, 9, 12, "Argennis");
 let cristian = new Queen("Cristian Peralta", 9, 12, 11, 12, 11, 11, 9, "CristianPeralta");
-let gala = new Queen("Gala Varo", 9, 5, 10, 9, 6, 11, 13, "GalaVaro");
+let gala = new Queen("Gala Varo", 9, 7, 10, 9, 6, 11, 13, "GalaVaro");
 let kero = new Queen("Lady Kero", 7, 7, 7, 9, 9, 11, 9, "LadyKero");
 let margaret = new Queen("Margaret Y Ya", 5, 6, 9, 9, 6, 9, 9, "MargaretYYa");
 let matraka = new Queen("Matraka", 10, 8, 10, 10, 9, 12, 11, "Matraka");

@@ -9354,6 +9354,19 @@ let nicoleP = new Queen("Nicole Pardaux", 4, 4, 4, 4, 4, 4, 8, "NicoleP");
 let cunt = new Queen("OV Cünt", 10, 10, 8, 7, 9, 9, 7, "Cunt");
 let tiny = new Queen("Tiny Deluxe", 6, 6, 6, 6, 6, 7, 8, "Tiny");
 let drph2 = [arizona, astrid, bernie, deedee, hana, jadeso, matilduh, nicoleP, cunt, tiny];
+//DRAG RACE PHILIPPINES
+let angel = new Queen("Angel", 8, 12, 9, 6, 11, 11, 8, "Angel");
+let jquinn = new Queen("J Quinn", 7, 6, 6, 8, 5, 10, 8, "JQuinn");
+let john = new Queen("John Fedellaga", 8, 9, 8, 8, 10, 12, 8, "John");
+let khianna = new Queen("Khianna", 10, 8, 11, 10, 9, 12, 10, "Khianna");
+let maxie = new Queen("Maxie", 10, 9, 12, 9, 11, 11, 12, "Maxie");
+let myx = new Queen("Myx Chanel", 9, 7, 7, 10, 7, 11, 10, "MyxChanel");
+let popstar = new Queen("Popstar Bench", 8, 7, 10, 8, 7, 9, 11, "Popstar");
+let tita = new Queen("Tita Bench", 9, 12, 9, 7, 10, 9, 12, "Tita");
+let versex = new Queen("Versex", 6, 5, 5, 5, 5, 8, 5, "Versex");
+let yudipota = new Queen("Yudipota", 9, 7, 6, 10, 6, 8, 5, "Yudipota");
+let zymba = new Queen("Zymba Ding", 10, 6, 13, 10, 7, 10, 13, "Zymba");
+let drph3 = [angel, jquinn, john, khianna, myx, maxie, popstar, tita, versex, yudipota, zymba];
 //DRAG RACE BELGIQUE
 let amanda = new Queen("Amanda Tears", 5, 5, 3, 5, 4, 5, 6, "AmandaTears");
 let athena = new Queen("Athena Sorgelikis", 8, 8, 7, 8, 6, 15, 7, "AthenaSorgelikis");
@@ -9479,7 +9492,8 @@ let allQueens = [
     metamorkid, nikitaV, pandoraN, tessaT, naomy, victoriaSH, yvonne, alexisuk, banksie, cara, dede, gingeruk, kateb, michael, naomiuk,
     aimee, aurora, denim, kikicoe, kitten, luna, melinda, nearah, sisi, girlfriend, venuscan, tomara, vicki, arizona, astrid, bernie, deedee, hana, jadeso, 
     matilduh, nicoleP, cunt, tiny,amandatori, dawn, geneva, hershii, megami, mhiya, mirage, morphine, nymphia, plane, plasma, q, sapphira, xunami, 
-    cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, roses, sara, vespi, darby, alexispb, chan
+    cookie, gingerb, keiona, kittyspace, mami, moon, piche, punani, roses, sara, vespi, darby, alexispb, chan, angel, jquinn, john, khianna, myx, maxie, 
+    popstar, tita, versex, yudipota, zymba 
 ].concat(allCustomQueens).sort((a, b) => a.getName().toLowerCase().localeCompare(b.getName().toLowerCase()));
 let allQueensCopy = [];
 let allQueensCopy2 = [];
